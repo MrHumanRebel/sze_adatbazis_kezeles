@@ -42,6 +42,6 @@ _A megoldások nem feltétlenül helyesek, ha igen akkor is lehet, hogy nem a le
 
 SQL Felület: [MSSQL Management Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
 
-SQL Server: [MSSQL Management Studio](https://www.microsoft.com/en-us/sql-server/sql-server-downloads?SilentAuth=1&f=255&MSPPError=-2147217396)
+SQL Server: [MSSQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads?SilentAuth=1&f=255&MSPPError=-2147217396)
 
 SZE tananyag és vizsgasorok: [Gyakorlatok](http://rs1.sze.hu/~szibr/Adatbaziskezeles/)
