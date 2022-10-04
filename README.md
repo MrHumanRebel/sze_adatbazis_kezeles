@@ -1,6 +1,6 @@
 # Adatbázis kezelés
 
-** Széchenyi István Egyetem // Győr // Adatbázis kezelés // GKNB_INTM086 **
+**Széchenyi István Egyetem // Győr // Adatbázis kezelés // GKNB_INTM086**
 
 <img src="docs/mssql.jpg" alt="AB" width="200" height="144">
 
@@ -44,4 +44,4 @@ SQL Felület: [MSSQL Management Studio](https://learn.microsoft.com/en-us/sql/ss
 
 SQL Server: [MSSQL Management Studio](https://www.microsoft.com/en-us/sql-server/sql-server-downloads?SilentAuth=1&f=255&MSPPError=-2147217396)
 
-SZE tananyag és vizsgasorok: [Gyakorlatok](http://rs1.sze.hu/~szibr/Adatbaziskezeles/))
+SZE tananyag és vizsgasorok: [Gyakorlatok](http://rs1.sze.hu/~szibr/Adatbaziskezeles/)
