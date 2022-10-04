@@ -1,8 +1,8 @@
 # Adatbazis kezeles
 
-**Széchenyi István Egyetem // Győr // Adatbazis kezeles // **
+**Széchenyi István Egyetem // Győr // Adatbazis kezeles // GKNB_INTM086 **
 
-<img src="docs/c++.jpg" alt="Programozás" width="200" height="177">
+<img src="docs/mssql.jpg" alt="AB" width="200" height="177">
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/MrHumanRebel/sze_adatbazis_kezeles)
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/MrHumanRebel/sze_adatbazis_kezeles)
