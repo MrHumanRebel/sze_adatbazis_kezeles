@@ -1,0 +1,1 @@
+# sze_adatbazis_kezeles
