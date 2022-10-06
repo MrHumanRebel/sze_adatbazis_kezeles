@@ -83,7 +83,7 @@ CREATE TABLE Formula_1.dbo.futamok(
 	szezon_id char(3) NOT NULL,
 	helyszin_id char(3) NOT NULL,
 	datum date NOT NULL,
-	ido time(7) NOT NULL,
+	ido time(7),
 	idojarasi_korulmeny_id char(3) NOT NULL,
 	--Add Primary Key
 	CONSTRAINT PK_futamok PRIMARY KEY (futam_id ASC)
