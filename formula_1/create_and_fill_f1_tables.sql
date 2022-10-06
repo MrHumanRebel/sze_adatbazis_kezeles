@@ -4,7 +4,7 @@ GO
 -- Create Table versenyzok
 CREATE TABLE Formula_1.dbo.versenyzok
 (
-	 versenyzo_id char(3) NOT NULL,
+	 versenyzo_id char(4) NOT NULL,
 	 keresztnev nvarchar(50) NOT NULL,
 	 vezeteknev nvarchar(50) NOT NULL,
 	 orszag nvarchar(56) NOT NULL,
@@ -90,7 +90,7 @@ GO
 -- Create Table helyezesek
 CREATE TABLE Formula_1.dbo.helyezesek(
 	helyezes_id char(5) NOT NULL,
-	versenyzo_id char(3) NOT NULL,
+	versenyzo_id char(4) NOT NULL,
 	elert_helyezes char(3),
 	pole_poz bit NOT NULL,
 	verseny_ido time(7),
