@@ -1,6 +1,12 @@
 USE Formula_1
 GO
 
+-- Set CSV dataset location folder
+DECLARE @Directory VARCHAR(256);
+SET @Directory = 'C:\some\directory\name\';
+
+GO
+
 -- Create Table versenyzok
 CREATE TABLE Formula_1.dbo.versenyzok
 (
@@ -109,9 +115,10 @@ CREATE TABLE Formula_1.dbo.helyezesek(
  )
 GO
 
+
 -- Fill Table versenyzok
 BULK INSERT Formula_1.dbo.versenyzok
-FROM 'f1_versenyzok.csv'
+FROM @Directory + 'f1_versenyzok.csv'
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -123,7 +130,7 @@ GO
 
 -- Fill Table konstruktorok
 BULK INSERT Formula_1.dbo.konstruktorok
-FROM 'f1_konstruktorok.csv'
+FROM @Directory + 'f1_konstruktorok.csv'
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -135,7 +142,7 @@ GO
 
 -- Fill Table helyszin
 BULK INSERT Formula_1.dbo.helyszin
-FROM 'f1_helyszin.csv'
+FROM @Directory + 'f1_helyszin.csv'
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -147,7 +154,7 @@ GO
 
 -- Fill Table idojarasi_korulmenyek
 BULK INSERT Formula_1.dbo.idojarasi_korulmenyek
-FROM 'f1_idojarasi_korulmenyek.csv'
+FROM @Directory + 'f1_idojarasi_korulmenyek.csv'
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -159,7 +166,7 @@ GO
 
 -- Fill Table autok
 BULK INSERT Formula_1.dbo.autok
-FROM 'f1_autok.csv'
+FROM @Directory + 'f1_autok.csv'
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -171,7 +178,7 @@ GO
 
 -- Fill Table szezon
 BULK INSERT Formula_1.dbo.szezon
-FROM 'f1_szezon.csv'
+FROM @Directory + 'f1_szezon.csv'
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -183,7 +190,7 @@ GO
 
 -- Fill Table futamok
 BULK INSERT Formula_1.dbo.futamok
-FROM 'f1_futamok.csv'
+FROM @Directory + 'f1_futamok.csv'
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -195,7 +202,7 @@ GO
 
 -- Fill Table helyezesek
 BULK INSERT Formula_1.dbo.helyezesek
-FROM 'f1_helyezesek.csv'
+FROM @Directory + 'f1_helyezesek.csv'
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
