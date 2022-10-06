@@ -106,3 +106,99 @@ CONSTRAINT FK3_helyezesek FOREIGN KEY (auto_id ASC) REFERENCES autok(auto_id)
 CONSTRAINT FK4_helyezesek FOREIGN KEY (konstruktor_id ASC) REFERENCES konstruktorok(konstruktor_id)
  )
 GO
+
+-- Fill Table versenyzok
+BULK INSERT Formula_1.dbo.versenyzok
+FROM 'f1_versenyzok.csv'
+WITH
+(
+    FIRSTROW = 2, -- As 1st one is header
+    FIELDTERMINATOR = ',',  --CSV field delimiter
+    ROWTERMINATOR = '\n',   --Use to shift the control to next row
+    TABLOCK
+)
+GO
+
+-- Fill Table konstruktorok
+BULK INSERT Formula_1.dbo.konstruktorok
+FROM 'f1_konstruktorok.csv'
+WITH
+(
+    FIRSTROW = 2, -- As 1st one is header
+    FIELDTERMINATOR = ',',  --CSV field delimiter
+    ROWTERMINATOR = '\n',   --Use to shift the control to next row
+    TABLOCK
+)
+GO
+
+-- Fill Table helyszin
+BULK INSERT Formula_1.dbo.helyszin
+FROM 'f1_helyszin.csv'
+WITH
+(
+    FIRSTROW = 2, -- As 1st one is header
+    FIELDTERMINATOR = ',',  --CSV field delimiter
+    ROWTERMINATOR = '\n',   --Use to shift the control to next row
+    TABLOCK
+)
+GO
+
+-- Fill Table idojarasi_korulmenyek
+BULK INSERT Formula_1.dbo.idojarasi_korulmenyek
+FROM 'f1_idojarasi_korulmenyek.csv'
+WITH
+(
+    FIRSTROW = 2, -- As 1st one is header
+    FIELDTERMINATOR = ',',  --CSV field delimiter
+    ROWTERMINATOR = '\n',   --Use to shift the control to next row
+    TABLOCK
+)
+GO
+
+-- Fill Table autok
+BULK INSERT Formula_1.dbo.autok
+FROM 'f1_autok.csv'
+WITH
+(
+    FIRSTROW = 2, -- As 1st one is header
+    FIELDTERMINATOR = ',',  --CSV field delimiter
+    ROWTERMINATOR = '\n',   --Use to shift the control to next row
+    TABLOCK
+)
+GO
+
+-- Fill Table szezon
+BULK INSERT Formula_1.dbo.szezon
+FROM 'f1_szezon.csv'
+WITH
+(
+    FIRSTROW = 2, -- As 1st one is header
+    FIELDTERMINATOR = ',',  --CSV field delimiter
+    ROWTERMINATOR = '\n',   --Use to shift the control to next row
+    TABLOCK
+)
+GO
+
+-- Fill Table futamok
+BULK INSERT Formula_1.dbo.futamok
+FROM 'f1_futamok.csv'
+WITH
+(
+    FIRSTROW = 2, -- As 1st one is header
+    FIELDTERMINATOR = ',',  --CSV field delimiter
+    ROWTERMINATOR = '\n',   --Use to shift the control to next row
+    TABLOCK
+)
+GO
+
+-- Fill Table helyezesek
+BULK INSERT Formula_1.dbo.helyezesek
+FROM 'f1_helyezesek.csv'
+WITH
+(
+    FIRSTROW = 2, -- As 1st one is header
+    FIELDTERMINATOR = ',',  --CSV field delimiter
+    ROWTERMINATOR = '\n',   --Use to shift the control to next row
+    TABLOCK
+)
+GO
