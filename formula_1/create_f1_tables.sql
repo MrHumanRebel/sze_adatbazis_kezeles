@@ -77,7 +77,7 @@ futam_id char(2) NOT NULL
 szezon_id char(2) NOT NULL
 helyszin_id char(2) NOT NULL
 datum date NOT NULL
-ido time(7( NOT NULL
+ido time(7) NOT NULL
 idojarasi_korulmeny_id char(2) NOT NULL
 --Add Primary Key
 CONSTRAINT PK_futamok PRIMARY KEY (futam_id ASC)
