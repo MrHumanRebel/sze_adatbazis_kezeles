@@ -89,17 +89,18 @@ GO
 
 -- Create Table helyezesek
 CREATE TABLE Formula_1.dbo.helyezesek(
+	helyezes_id char(2) NOT NULL,
 	versenyzo_id char(2) NOT NULL,
-	elert_helyezes char(2) NOT NULL,
-	pole_poz bit,
-	verseny_ido time(7) NOT NULL,
+	elert_helyezes char(2),
+	pole_poz bit NOT NULL,
+	verseny_ido time(7),
 	szezon_id char(2) NOT NULL,
 	futam_id char(2) NOT NULL,
 	auto_id char(2) NOT NULL,
 	konstruktor_id char(2) NOT NULL,
 	korok_szama char(2) NOT NULL,
 	--Add Primary Key
-	CONSTRAINT PK_helyezesek PRIMARY KEY (versenyzo_id ASC)
+	CONSTRAINT PK_helyezesek PRIMARY KEY (helyezes_id ASC)
 	--Add Foreign Keys
 	CONSTRAINT FK_helyezesek FOREIGN KEY (szezon_id ASC) REFERENCES szezon(szezon_id)
 	CONSTRAINT FK2_helyezesek FOREIGN KEY (futam_id ASC) REFERENCES futamok(futam_id)
