@@ -4,12 +4,12 @@ GO
 -- Create Table versenyzok
 CREATE TABLE Formula_1.dbo.versenyzok
 (
-	 versenyzo_id char(2) NOT NULL,
+	 versenyzo_id char(3) NOT NULL,
 	 keresztnev nvarchar(50) NOT NULL,
 	 vezeteknev nvarchar(50) NOT NULL,
 	 orszag nvarchar(56) NOT NULL,
 	 beszelt_nyelv nvarchar(50) NOT NULL,
-	 konstruktor_id char(2) NOT NULL,
+	 konstruktor_id char(3) NOT NULL,
 	 szuletesi_datum date NOT NULL,
 	 kod char(3),
 	 --Add Primary Key
@@ -20,7 +20,7 @@ GO
 -- Create Table konstruktorok
 CREATE TABLE Formula_1.dbo.konstruktorok
 (
-	 konstruktor_id char(2) NOT NULL,
+	 konstruktor_id char(3) NOT NULL,
 	 nev nvarchar(50) NOT NULL,
 	 csapatvezeto nvarchar(70) NOT NULL,
 	 orszag nvarchar(56) NOT NULL,
@@ -31,7 +31,7 @@ GO
 
 -- Create Table helyszin
 CREATE TABLE Formula_1.dbo.helyszin(
-	helyszin_id char(2) NOT NULL,
+	helyszin_id char(3) NOT NULL,
 	palyanev nvarchar(50) NOT NULL,
 	telepules nvarchar(50) NOT NULL,
 	orszag nvarchar(56) NOT NULL,
@@ -42,7 +42,7 @@ GO
 
 -- Create Table idojarasi_korulmenyek
 CREATE TABLE Formula_1.dbo.idojarasi_korulmenyek(
-	idojarasi_korulmeny_id char(2) NOT NULL,
+	idojarasi_korulmeny_id char(3) NOT NULL,
 	nev nvarchar(50) NOT NULL,
 	--Add Primary Key
 	CONSTRAINT PK_idojarasi_korulmenyek PRIMARY KEY (idojarasi_korulmeny_id ASC)
@@ -51,10 +51,10 @@ GO
 
 -- Create Table autok
 CREATE TABLE Formula_1.dbo.autok(
-	auto_id char(2) NOT NULL,
+	auto_id char(3) NOT NULL,
 	nev nvarchar(50) NOT NULL,
-	karosszeria_tervezo_id char(2) NOT NULL,
-	motor_tervezo_id char(2) NOT NULL,
+	karosszeria_tervezo_id char(3) NOT NULL,
+	motor_tervezo_id char(3) NOT NULL,
 	teljesitmeny char(4) NOT NULL,
 	tömeg char(4) NOT NULL,
 	--Add Primary Key
@@ -64,7 +64,7 @@ GO
 
 -- Create Table szezon
 CREATE TABLE Formula_1.dbo.szezon(
-	szezon_id char(2) NOT NULL,
+	szezon_id char(3) NOT NULL,
 	ev date NOT NULL,
 	--Add Primary Key
 	CONSTRAINT PK_szezon PRIMARY KEY (szezon_id ASC)
@@ -73,12 +73,12 @@ GO
 
 -- Create Table futamok
 CREATE TABLE Formula_1.dbo.futamok(
-	futam_id char(2) NOT NULL,
-	szezon_id char(2) NOT NULL,
-	helyszin_id char(2) NOT NULL,
+	futam_id char(3) NOT NULL,
+	szezon_id char(3) NOT NULL,
+	helyszin_id char(3) NOT NULL,
 	datum date NOT NULL,
 	ido time(7) NOT NULL,
-	idojarasi_korulmeny_id char(2) NOT NULL,
+	idojarasi_korulmeny_id char(3) NOT NULL,
 	--Add Primary Key
 	CONSTRAINT PK_futamok PRIMARY KEY (futam_id ASC)
 	--Add Foreign Keys
@@ -89,16 +89,16 @@ GO
 
 -- Create Table helyezesek
 CREATE TABLE Formula_1.dbo.helyezesek(
-	helyezes_id char(2) NOT NULL,
-	versenyzo_id char(2) NOT NULL,
-	elert_helyezes char(2),
+	helyezes_id char(5) NOT NULL,
+	versenyzo_id char(3) NOT NULL,
+	elert_helyezes char(3),
 	pole_poz bit NOT NULL,
 	verseny_ido time(7),
-	szezon_id char(2) NOT NULL,
-	futam_id char(2) NOT NULL,
-	auto_id char(2) NOT NULL,
-	konstruktor_id char(2) NOT NULL,
-	korok_szama char(2) NOT NULL,
+	szezon_id char(3) NOT NULL,
+	futam_id char(4) NOT NULL,
+	auto_id char(3) NOT NULL,
+	konstruktor_id char(3) NOT NULL,
+	korok_szama char(3) NOT NULL,
 	--Add Primary Key
 	CONSTRAINT PK_helyezesek PRIMARY KEY (helyezes_id ASC)
 	--Add Foreign Keys
