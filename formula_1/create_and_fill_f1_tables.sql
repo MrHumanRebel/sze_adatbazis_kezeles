@@ -3,7 +3,7 @@ GO
 
 -- Set CSV dataset location folder
 DECLARE @Directory VARCHAR(256);
-SET @Directory = 'C:\some\directory\name\';
+SET @Directory = 'F:\Data\Google Drive\University\AB Kezelés\F1 CSV\';
 
 GO
 
@@ -118,7 +118,7 @@ GO
 
 -- Fill Table versenyzok
 BULK INSERT Formula_1.dbo.versenyzok
-FROM @Directory + 'f1_versenyzok.csv'
+FROM @Directory + 'f1_dataset.xlsx - versenyzok.csv'
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -130,7 +130,7 @@ GO
 
 -- Fill Table konstruktorok
 BULK INSERT Formula_1.dbo.konstruktorok
-FROM @Directory + 'f1_konstruktorok.csv'
+FROM @Directory + 'f1_dataset.xlsx - konstruktorok.csv'
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -142,7 +142,7 @@ GO
 
 -- Fill Table helyszin
 BULK INSERT Formula_1.dbo.helyszin
-FROM @Directory + 'f1_helyszin.csv'
+FROM @Directory + 'f1_dataset.xlsx - helyszin.csv'
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -154,7 +154,7 @@ GO
 
 -- Fill Table idojarasi_korulmenyek
 BULK INSERT Formula_1.dbo.idojarasi_korulmenyek
-FROM @Directory + 'f1_idojarasi_korulmenyek.csv'
+FROM @Directory + 'f1_dataset.xlsx - idojarasi_korulmenyek.csv'
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -166,7 +166,7 @@ GO
 
 -- Fill Table autok
 BULK INSERT Formula_1.dbo.autok
-FROM @Directory + 'f1_autok.csv'
+FROM @Directory + 'f1_dataset.xlsx - autok.csv'
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -178,7 +178,7 @@ GO
 
 -- Fill Table szezon
 BULK INSERT Formula_1.dbo.szezon
-FROM @Directory + 'f1_szezon.csv'
+FROM @Directory + 'f1_dataset.xlsx - szezon.csv'
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -190,7 +190,7 @@ GO
 
 -- Fill Table futamok
 BULK INSERT Formula_1.dbo.futamok
-FROM @Directory + 'f1_futamok.csv'
+FROM @Directory + 'f1_dataset.xlsx - futamok.csv'
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -202,7 +202,7 @@ GO
 
 -- Fill Table helyezesek
 BULK INSERT Formula_1.dbo.helyezesek
-FROM @Directory + 'f1_helyezesek.csv'
+FROM @Directory + 'f1_dataset.xlsx - helyezesek.csv'
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
