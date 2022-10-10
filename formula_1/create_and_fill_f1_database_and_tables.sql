@@ -1,5 +1,10 @@
 USE master
 GO
+GRANT ADMINISTER BULK OPERATIONS TO [G14\G14]
+GO
+ALTER SERVER ROLE [BULKADMIN] ADD MEMBER [G14\G14]
+GO
+
 
 IF  EXISTS (
 	SELECT name 
@@ -329,7 +334,6 @@ WITH
     TABLOCK
 )
 PRINT 'Successfully filled table helyezesek...'
-GO
 PRINT 'Successfully done all tasks...'
 PRINT 'Exiting...'
 GO
