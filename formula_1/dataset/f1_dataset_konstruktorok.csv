@@ -1,0 +1,213 @@
+konstruktor_id,nev,csapatvezeto,orszag
+1,McLaren,Rimsha Begum,Egyesult Kiralysag
+2,BMW Sauber,Ainsley Vu,Nemetorszag
+3,Williams,Kourtney Curran,Egyesult Kiralysag
+4,Renault,Cory Adamson,Franciaorszag
+5,Toro Rosso,Olivia-Rose Washington,Olaszorszag
+6,Ferrari,Thea Beach,Olaszorszag
+7,Toyota,Maliha Marquez,Japan
+8,Super Aguri,Axel Arroyo,Japan
+9,Red Bull,Colleen Bone,Ausztria
+10,Force India,Saim Battle,India
+11,Honda,Eleri Shaw,Japan
+12,Spyker,Tamanna Hayden,Hollandia
+13,MF1,Emily-Jane Caldwell,Oroszorszag
+14,Spyker MF1,Brenna Espinoza,Hollandia
+15,Sauber,Ammarah Haney,Svajc
+16,BAR,Lesley Chester,Egyesult Kiralysag
+17,Jordan,Yasmine Alfaro,Irorszag
+18,Minardi,Reo Burn,Olaszorszag
+19,Jaguar,Andy Little,Egyesult Kiralysag
+20,Prost,Beatrix Wade,Franciaorszag
+21,Arrows,Michael Dalton,Egyesult Kiralysag
+22,Benetton,Jamel Lamb,Olaszorszag
+23,Brawn,Lee Reynolds,Egyesult Kiralysag
+24,Stewart,Garry Galloway,Egyesult Kiralysag
+25,Tyrrell,Darragh Bean,Egyesult Kiralysag
+26,Lola,Owais Findlay,Egyesult Kiralysag
+27,Ligier,Aysha Dalby,Franciaorszag
+28,Forti,Taiba Watkins,Olaszorszag
+29,Footwork,Alishia Rasmussen,Egyesult Kiralysag
+30,Pacific,Rhyley Parker,Egyesult Kiralysag
+31,Simtek,April Sharples,Egyesult Kiralysag
+32,Team Lotus,Shona Johnson,Egyesult Kiralysag
+33,Larrousse,Israel Carpenter,Franciaorszag
+34,Brabham,Jarrod Weiss,Egyesult Kiralysag
+35,Dallara,Stacy Santana,Olaszorszag
+36,Fondmetal,Corben Garcia,Olaszorszag
+37,March,Alicia Scott,Egyesult Kiralysag
+38,Andrea Moda,Mason Mckeown,Olaszorszag
+39,AGS,Breanna Bowers,Franciaorszag
+40,Lambo,Aras Fitzpatrick,Olaszorszag
+41,Leyton House,Afsana Colley,Egyesult Kiralysag
+42,Coloni,Nick Logan,Olaszorszag
+44,Euro Brun,Sanah Kim,Olaszorszag
+45,Osella,Kelsie Franco,Olaszorszag
+46,Onyx,Hettie Greig,Egyesult Kiralysag
+47,Life,Francis Cook,Olaszorszag
+48,Rial,Shanaya Bains,Nemetorszag
+49,Zakspeed,Grant Hogan,Nemetorszag
+50,RAM,Peggy Jones,Egyesult Kiralysag
+51,Alfa Romeo,Doris Cousins,Svajc
+52,Spirit,Josiah Odom,Egyesult Kiralysag
+53,Toleman,Natalie Stuart,Egyesult Kiralysag
+54,ATS,Cristina Timms,Olaszorszag
+55,Theodore,Clayton Bolton,Hong Kong
+56,Fittipaldi,Yuvaan Levy,Brazilia
+57,Ensign,Hoorain Miller,Egyesult Kiralysag
+58,Shadow,Elias Chung,Egyesult Kiralysag
+59,Wolf,Iqrah Whyte,Kanada
+60,Merzario,Yazmin Chamberlain,Olaszorszag
+61,Kauhsen,Persephone Farmer,Nemetorszag
+62,Rebaque,Tudor Hayes,Mexiko
+63,Surtees,Cohen Sanderson,Egyesult Kiralysag
+64,Hesketh,Ziva Burgess,Egyesult Kiralysag
+65,Martini,Meg Clayton,Franciaorszag
+66,BRM,Angel Ibarra,Egyesult Kiralysag
+67,Penske,Kade Velazquez,Egyesult Allamok
+68,LEC,Alisha Camacho,Egyesult Kiralysag
+69,McGuire,Corban Chen,Ausztralia
+70,Boro,Dianne Holloway,Hollandia
+71,Apollon,Amiya Chavez,Svajc
+72,Kojima,Katharine Ryder,Japan
+73,Parnelli,Ayla Blackmore,Egyesult Allamok
+74,Maki,Kiefer Whiteley,Japan
+75,Embassy Hill,Harriet Macdonald,Egyesult Kiralysag
+76,Lyncar,Rose Christie,Egyesult Kiralysag
+77,Trojan,Aarush Fields,Egyesult Kiralysag
+78,Amon,Kie Burton,New Zealander
+79,Token,Ollie Lucero,Egyesult Kiralysag
+80,Iso Marlboro,Halimah Mayo,Egyesult Kiralysag
+81,Tecno,Fearne Kendall,Olaszorszag
+82,Matra,Caolan Ward,Franciaorszag
+83,Politoys,Brenda Frost,Egyesult Kiralysag
+84,Connew,Helen Montgomery,Egyesult Kiralysag
+85,Bellasi,Sofia Mcloughlin,Svajc
+86,De Tomaso,Marissa Meadows,Olaszorszag
+87,Cooper,Abbi Ellison,Egyesult Kiralysag
+88,Eagle,Riaz Barclay,Egyesult Allamok
+89,LDS,Savannah Rasmussen,Del-Afrika
+90,Protos,Rogan Thornton,Egyesult Kiralysag
+91,Shannon,Luella Vaughn,Egyesult Kiralysag
+92,Scirocco,Sumaya Welsh,Egyesult Kiralysag
+93,RE,Leila Martin,Zimbabwe
+94,BRP,Tiago Stewart,Egyesult Kiralysag
+95,Porsche,Harlee Cobb,Nemetorszag
+96,Derrington,Alanna Downes,Egyesult Kiralysag
+97,Gilby,Jaheim Lam,Egyesult Kiralysag
+98,Stebro,Reya Kline,Kanada
+99,Emeryson,Chance Cordova,Egyesult Kiralysag
+100,ENB,Charlie Stokes,Belgium
+101,JBW,Nasir Cline,Egyesult Kiralysag
+102,Ferguson,Rahul Correa,Egyesult Kiralysag
+103,MBM,Nur Burch,Svajc
+104,Behra-Porsche,Sinead Padilla,Olaszorszag
+105,Maserati,Arielle Petty,Olaszorszag
+106,Scarab,Andrei Bull,Egyesult Allamok
+107,Watson,Aryaan Clifford,Egyesult Allamok
+108,Epperly,Kathleen Parkinson,Egyesult Allamok
+109,Phillips,Lennon Stark,Egyesult Allamok
+110,Lesovsky,Ellise Meyers,Egyesult Allamok
+111,Trevis,Ismaeel Hirst,Egyesult Allamok
+112,Meskowski,Russell Graves,Egyesult Allamok
+113,Kurtis Kraft,Dillan Cohen,Egyesult Allamok
+114,Kuzma,Winston Ayala,Egyesult Allamok
+115,Christensen,Andreas Wade,Egyesult Allamok
+116,Ewing,Fiza Hogan,Egyesult Allamok
+117,Aston Martin,Scarlett-Rose Dunlop,Egyesult Kiralysag
+118,Vanwall,Mica Price,Egyesult Kiralysag
+119,Moore,Ariyan Dupont,Egyesult Allamok
+120,Dunn,Rohit Harvey,Egyesult Allamok
+121,Elder,Bianka Holland,Egyesult Allamok
+122,Sutton,Marianne Rossi,Egyesult Allamok
+123,Fry,Fabio Gardiner,Egyesult Kiralysag
+124,Tec-Mec,Ellen Prentice,Olaszorszag
+125,Connaught,Siraj Cornish,Egyesult Kiralysag
+126,Alta,Jodi Whelan,Egyesult Kiralysag
+127,OSCA,Karishma Andersen,Olaszorszag
+128,Gordini,Abul Jordan,Franciaorszag
+129,Stevens,Dahlia Tanner,Egyesult Allamok
+130,Bugatti,Samantha Love,Franciaorszag
+131,Mercedes,Ananya Larson,Nemetorszag
+132,Lancia,Usama Schneider,Olaszorszag
+133,HWM,Ayub Hurst,Egyesult Kiralysag
+134,Schroeder,Diya Dalby,Egyesult Allamok
+135,Pawl,Kaja Durham,Egyesult Allamok
+136,Pankratz,Cassius Mcculloch,Egyesult Allamok
+137,Arzani-Volpini,Darrell Reese,Olaszorszag
+138,Nichels,Ammaarah Hodgson,Egyesult Allamok
+139,Bromme,Tiya Hooper,Egyesult Allamok
+140,Klenk,Taybah Osborn,Nemetorszag
+141,Simca,Luther Owen,Franciaorszag
+142,Turner,Steve Brooks,Egyesult Allamok
+143,Del Roy,Norma Cervantes,Egyesult Allamok
+144,Veritas,Faheem Crowther,Nemetorszag
+145,BMW,Wilson Soto,Nemetorszag
+146,EMW,Star Adkins,East Nemetorszag
+147,AFM,Xena Vance,Nemetorszag
+148,Frazer Nash,Benito Lynch,Egyesult Kiralysag
+149,Sherman,Esme Bostock,Egyesult Allamok
+150,Deidt,Aysha Colon,Egyesult Allamok
+151,ERA,Sonia Kent,Egyesult Kiralysag
+152,Aston Butterworth,Nicola Rasmussen,Egyesult Kiralysag
+153,Cisitalia,Elouise Forbes,Olaszorszag
+154,Talbot-Lago,Rome Bellamy,Franciaorszag
+155,Hall,Farrah Miranda,Egyesult Allamok
+156,Marchese,Charles Corbett,Egyesult Allamok
+157,Langley,Bernice Nieves,Egyesult Allamok
+158,Rae,Miranda Vargas,Egyesult Allamok
+159,Olson,Corban Odonnell,Egyesult Allamok
+160,Wetteroth,Shaan Monaghan,Egyesult Allamok
+161,Adams,Andrei Munro,Egyesult Allamok
+162,Snowberger,Maleeha Ayers,Egyesult Allamok
+163,Milano,Leticia O'Moore,Olaszorszag
+164,HRT,Garrett Sargent,Spanyolorszag
+167,Cooper-Maserati,Elmer Mack,Egyesult Kiralysag
+166,Virgin,Mayson Montgomery,Egyesult Kiralysag
+168,Cooper-OSCA,Blanka Manning,Egyesult Kiralysag
+169,Cooper-Borgward,Brennan Brett,Egyesult Kiralysag
+170,Cooper-Climax,Anita Decker,Egyesult Kiralysag
+171,Cooper-Castellotti,Montel Mellor,Egyesult Kiralysag
+172,Lotus-Climax,Iqrah Ratliff,Egyesult Kiralysag
+173,Lotus-Maserati,Eshaal Galvan,Egyesult Kiralysag
+174,De Tomaso-Osca,Courteney Woodley,Olaszorszag
+175,De Tomaso-Alfa Romeo,Eloisa Oakley,Olaszorszag
+176,Lotus-BRM,Kris Koch,Egyesult Kiralysag
+177,Lotus-Borgward,Connah Weaver,Egyesult Kiralysag
+178,Cooper-Alfa Romeo,Maheen Stevens,Egyesult Kiralysag
+179,De Tomaso-Ferrari,Maverick Wheeler,Olaszorszag
+180,Lotus-Ford,Faraz Ramsey,Egyesult Kiralysag
+181,Brabham-BRM,Virginia Kaiser,Egyesult Kiralysag
+182,Brabham-Ford,Minnie Fenton,Egyesult Kiralysag
+183,Brabham-Climax,Pablo Hansen,Egyesult Kiralysag
+184,LDS-Climax,Mai Paterson,Del-Afrika
+185,LDS-Alfa Romeo,Caleb Bassett,Del-Afrika
+186,Cooper-Ford,Erik Russo,Egyesult Kiralysag
+187,McLaren-Ford,Prince Barry,Egyesult Kiralysag
+188,McLaren-Serenissima,Kirandeep Stark,Egyesult Kiralysag
+189,Eagle-Climax,Callen Griffiths,Egyesult Allamok
+190,Eagle-Weslake,Adrian Brandt,Egyesult Allamok
+191,Brabham-Repco,Lee Mcdonnell,Egyesult Kiralysag
+192,Cooper-Ferrari,Regan Garcia,Egyesult Kiralysag
+193,Cooper-ATS,Myla Charles,Egyesult Kiralysag
+194,McLaren-BRM,Cecil Phelps,Egyesult Kiralysag
+195,Cooper-BRM,Gabriel Maynard,Egyesult Kiralysag
+196,Matra-Ford,Joely Whittaker,Franciaorszag
+197,BRM-Ford,Amalie Mac,Egyesult Kiralysag
+198,McLaren-Alfa Romeo,Evie Clarkson,Egyesult Kiralysag
+199,March-Alfa Romeo,Joy Sweeney,Egyesult Kiralysag
+200,March-Ford,Ellie-Mai Freeman,Egyesult Kiralysag
+201,Lotus-Pratt Whitney,Elsie-Mae Waller,Egyesult Kiralysag
+202,Shadow-Ford,Payton Calhoun,Egyesult Kiralysag
+203,Shadow-Matra,Landon Pugh,Egyesult Kiralysag
+204,Brabham-Alfa Romeo,Aniqa Barber,Egyesult Kiralysag
+205,Lotus,Kamile Bautista,Malajzia
+206,Marussia,Jasmine Bannister,Oroszorszag
+207,Caterham,Dotty Oneil,Malajzia
+208,Lotus F1,Humzah Rose,Egyesult Kiralysag
+209,Manor Marussia,Tamanna Duke,Egyesult Kiralysag
+210,Haas F1 Team,Molly Holding,Egyesult Allamok
+211,Racing Point,Connor Whitehead,Egyesult Kiralysag
+213,AlphaTauri,Lula Perkins,Olaszorszag
+214,Alpine F1 Team,Aurora Bryan,Franciaorszag
+215,Cosworth,Jason Robertson,Egyesult Kiralysag
