@@ -96,8 +96,8 @@ CREATE TABLE Formula_1.dbo.futamok(
 	--Add Primary Key
 	CONSTRAINT PK_futamok PRIMARY KEY (futam_id ASC)
 	--Add Foreign Keys
-	CONSTRAINT FK_futamok FOREIGN KEY (szezon_id ASC) REFERENCES szezon(szezon_id)
-	CONSTRAINT FK2_futamok FOREIGN KEY (helyszin_id ASC) REFERENCES helyszin(helyszin_id)
+	ALTER TABLE szezon ADD CONSTRAINT FK_futamok FOREIGN KEY (szezon_id) REFERENCES szezon(szezon_id);
+	ALTER TABLE helyszin ADD CONSTRAINT FK2_futamok FOREIGN KEY (helyszin_id) REFERENCES helyszin(helyszin_id);
  )
 GO
 
@@ -116,10 +116,10 @@ CREATE TABLE Formula_1.dbo.helyezesek(
 	--Add Primary Key
 	CONSTRAINT PK_helyezesek PRIMARY KEY (helyezes_id ASC)
 	--Add Foreign Keys
-	CONSTRAINT FK_helyezesek FOREIGN KEY (szezon_id ASC) REFERENCES szezon(szezon_id)
-	CONSTRAINT FK2_helyezesek FOREIGN KEY (futam_id ASC) REFERENCES futamok(futam_id)
-	CONSTRAINT FK3_helyezesek FOREIGN KEY (auto_id ASC) REFERENCES autok(auto_id)
-	CONSTRAINT FK4_helyezesek FOREIGN KEY (konstruktor_id ASC) REFERENCES konstruktorok(konstruktor_id)
+	ALTER TABLE szezon ADD CONSTRAINT FK_helyezesek FOREIGN KEY (szezon_id) REFERENCES szezon(szezon_id);
+	ALTER TABLE futamok ADD CONSTRAINT FK2_helyezesek FOREIGN KEY (futam_id) REFERENCES futamok(futam_id);
+	ALTER TABLE autok ADD CONSTRAINT FK3_helyezesek FOREIGN KEY (auto_id) REFERENCES autok(auto_id);
+	ALTER TABLE konstruktor ADD CONSTRAINT FK4_helyezesek FOREIGN KEY (konstruktor_id) REFERENCES konstruktorok(konstruktor_id);
  )
 GO
 
