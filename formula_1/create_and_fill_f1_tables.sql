@@ -111,12 +111,8 @@ GO
 
 
 -- Set CSV dataset location folder
-DECLARE @Directory VARCHAR(256);
 DECLARE @FullDirectory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\';
-DECLARE @Versenyzo VARCHAR(256);
-SET @Versenyzo = 'f1_dataset.xlsx - versenyzok.csv';
-SET @FullDirectory = @Directory + @Versenyzo;
+SET @FullDirectory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - versenyek.csv';
 -- Fill Table versenyzok
 BULK INSERT Formula_1.dbo.versenyzok
 FROM FullDirectory
@@ -130,12 +126,8 @@ WITH
 GO
 
 -- Set CSV dataset location folder
-DECLARE @Directory VARCHAR(256);
 DECLARE @FullDirectory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\';
-DECLARE @Konst VARCHAR(256);
-SET @Konst = 'f1_dataset.xlsx - konstruktorok.csv';
-SET @FullDirectory = @Directory + @Konst;
+SET @FullDirectory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - konstruktorok.csv';
 -- Fill Table konstruktorok
 BULK INSERT Formula_1.dbo.konstruktorok
 FROM FullDirectory
@@ -149,12 +141,8 @@ WITH
 GO
 
 -- Set CSV dataset location folder
-DECLARE @Directory VARCHAR(256);
 DECLARE @FullDirectory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\';
-DECLARE @Hely VARCHAR(256);
-SET @Hely = 'f1_dataset.xlsx - helyszin.csv';
-SET @FullDirectory = @Directory + @Hely;
+SET @FullDirectory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - helyszin.csv';
 -- Fill Table helyszin
 BULK INSERT Formula_1.dbo.helyszin
 FROM FullDirectory
@@ -168,12 +156,8 @@ WITH
 GO
 
 -- Set CSV dataset location folder
-DECLARE @Directory VARCHAR(256);
 DECLARE @FullDirectory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\';
-DECLARE @Idoj VARCHAR(256);
-SET @Idoj = 'f1_dataset.xlsx - idojarasi_korulmenyek.csv';
-SET @FullDirectory = @Directory + @Idoj;
+SET @FullDirectory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - idojarasi_korulmenyek.csv';
 -- Fill Table idojarasi_korulmenyek
 BULK INSERT Formula_1.dbo.idojarasi_korulmenyek
 FROM FullDirectory
@@ -187,12 +171,8 @@ WITH
 GO
 
 -- Set CSV dataset location folder
-DECLARE @Directory VARCHAR(256);
 DECLARE @FullDirectory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\';
-DECLARE @Auto VARCHAR(256);
-SET @Auto = 'f1_dataset.xlsx - autok.csv';
-SET @FullDirectory = @Directory + @Auto;
+SET @FullDirectory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - autok.csv';
 -- Fill Table autok
 BULK INSERT Formula_1.dbo.autok
 FROM FullDirectory
@@ -206,12 +186,8 @@ WITH
 GO
 
 -- Set CSV dataset location folder
-DECLARE @Directory VARCHAR(256);
 DECLARE @FullDirectory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\';
-DECLARE @Szezon VARCHAR(256);
-SET @Szezon = 'f1_dataset.xlsx - szezon.csv';
-SET @FullDirectory = @Directory + @Szezon;
+SET @FullDirectory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - szezon.csv';
 -- Fill Table szezon
 BULK INSERT Formula_1.dbo.szezon
 FROM FullDirectory
@@ -225,12 +201,8 @@ WITH
 GO
 
 -- Set CSV dataset location folder
-DECLARE @Directory VARCHAR(256);
 DECLARE @FullDirectory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\';
-DECLARE @Fut VARCHAR(256);
-SET @Fut = 'f1_dataset.xlsx - futamok.csv';
-SET @FullDirectory = @Directory + @Fut;
+SET @FullDirectory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - futamok.csv';
 -- Fill Table futamok
 BULK INSERT Formula_1.dbo.futamok
 FROM FullDirectory
@@ -244,12 +216,8 @@ WITH
 GO
 
 -- Set CSV dataset location folder
-DECLARE @Directory VARCHAR(256);
 DECLARE @FullDirectory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\';
-DECLARE @Helyez VARCHAR(256);
-SET @Helyez = 'f1_dataset.xlsx - helyezesek.csv';
-SET @FullDirectory = @Directory + @Helyez;
+SET @FullDirectory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - helyezesek.csv';
 -- Fill Table helyezesek
 BULK INSERT Formula_1.dbo.helyezesek
 FROM FullDirectory
