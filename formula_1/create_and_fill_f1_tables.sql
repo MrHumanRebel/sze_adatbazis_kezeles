@@ -3,7 +3,7 @@ GO
 
 -- Set CSV dataset location folder
 DECLARE @Directory VARCHAR(256);
-SET @Directory = 'F:\Data\Google Drive\University\AB Kezelés\F1 CSV\';
+SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV';
 
 GO
 
