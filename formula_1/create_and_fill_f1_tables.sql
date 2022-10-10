@@ -3,6 +3,7 @@ GO
 
 -- Set CSV dataset location folder
 DECLARE @Directory VARCHAR(256);
+DECLARE @FullDirectory VARCHAR(256);
 SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV';
 
 GO
@@ -117,8 +118,11 @@ GO
 
 
 -- Fill Table versenyzok
+DECLARE @Versenyzo VARCHAR(256);
+SET @Versenyzo = 'f1_dataset.xlsx - versenyzok.csv';
+SET @FullDirectory = @Directory + @Versenyzo;
 BULK INSERT Formula_1.dbo.versenyzok
-FROM @Directory + 'f1_dataset.xlsx - versenyzok.csv'
+FROM FullDirectory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -129,8 +133,11 @@ WITH
 GO
 
 -- Fill Table konstruktorok
+DECLARE @Konts VARCHAR(256);
+SET @Konst = 'f1_dataset.xlsx - konstruktorok.csv';
+SET @FullDirectory = @Directory + @Konst;
 BULK INSERT Formula_1.dbo.konstruktorok
-FROM @Directory + 'f1_dataset.xlsx - konstruktorok.csv'
+FROM FullDirectory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -141,8 +148,11 @@ WITH
 GO
 
 -- Fill Table helyszin
+DECLARE @Hely VARCHAR(256);
+SET @Hely = 'f1_dataset.xlsx - helyszin.csv';
+SET @FullDirectory = @Directory + @Hely;
 BULK INSERT Formula_1.dbo.helyszin
-FROM @Directory + 'f1_dataset.xlsx - helyszin.csv'
+FROM FullDirectory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -153,8 +163,11 @@ WITH
 GO
 
 -- Fill Table idojarasi_korulmenyek
+DECLARE @Idoj VARCHAR(256);
+SET @Idoj = 'f1_dataset.xlsx - idojarasi_korulmenyek.csv';
+SET @FullDirectory = @Directory + @Idoj;
 BULK INSERT Formula_1.dbo.idojarasi_korulmenyek
-FROM @Directory + 'f1_dataset.xlsx - idojarasi_korulmenyek.csv'
+FROM FullDirectory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -165,8 +178,11 @@ WITH
 GO
 
 -- Fill Table autok
+DECLARE @Auto VARCHAR(256);
+SET @Auto = 'f1_dataset.xlsx - autok.csv';
+SET @FullDirectory = @Directory + @Auto;
 BULK INSERT Formula_1.dbo.autok
-FROM @Directory + 'f1_dataset.xlsx - autok.csv'
+FROM FullDirectory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -177,8 +193,11 @@ WITH
 GO
 
 -- Fill Table szezon
+DECLARE @Szezon VARCHAR(256);
+SET @Szezon = 'f1_dataset.xlsx - szezon.csv';
+SET @FullDirectory = @Directory + @Szezon;
 BULK INSERT Formula_1.dbo.szezon
-FROM @Directory + 'f1_dataset.xlsx - szezon.csv'
+FROM FullDirectory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -189,8 +208,11 @@ WITH
 GO
 
 -- Fill Table futamok
+DECLARE @Fut VARCHAR(256);
+SET @Fut = 'f1_dataset.xlsx - futamok.csv';
+SET @FullDirectory = @Directory + @Fut;
 BULK INSERT Formula_1.dbo.futamok
-FROM @Directory + 'f1_dataset.xlsx - futamok.csv'
+FROM FullDirectory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -201,8 +223,11 @@ WITH
 GO
 
 -- Fill Table helyezesek
+DECLARE @Helyez VARCHAR(256);
+SET @Helyez = 'f1_dataset.xlsx - helyezesek.csv';
+SET @FullDirectory = @Directory + @Helyez;
 BULK INSERT Formula_1.dbo.helyezesek
-FROM @Directory + 'f1_dataset.xlsx - helyezesek.csv'
+FROM FullDirectory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
