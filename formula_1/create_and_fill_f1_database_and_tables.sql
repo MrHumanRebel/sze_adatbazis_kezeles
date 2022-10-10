@@ -10,6 +10,7 @@ DROP DATABASE Formula_1
 GO
 
 CREATE DATABASE Formula_1
+PRINT 'Succesfully created database...'
 GO
 
 USE Formula_1
@@ -27,8 +28,9 @@ CREATE TABLE Formula_1.dbo.versenyzok
 	 szuletesi_datum date NOT NULL,
 	 kod char(3),
 	 --Add Primary Key
-	 CONSTRAINT PK_versenyzok PRIMARY KEY (versenyzo_id ASC)
+	 CONSTRAINT PK_versenyzok PRIMARY KEY (versenyzo_id ASC)	 
  )
+PRINT 'Succesfully created table versenyzok...'
 GO
 
 -- Create Table konstruktorok
@@ -41,6 +43,7 @@ CREATE TABLE Formula_1.dbo.konstruktorok
 	 --Add Primary Key
 	 CONSTRAINT PK_konstruktorok PRIMARY KEY (konstruktor_id ASC)
  )
+ PRINT 'Succesfully created table konstruktorok...'
 GO
 
 -- Create Table helyszin
@@ -52,6 +55,7 @@ CREATE TABLE Formula_1.dbo.helyszin(
 	--Add Primary Key
 	CONSTRAINT PK_helyszin PRIMARY KEY (helyszin_id ASC)
  )
+ PRINT 'Succesfully created table helyszin...'
 GO
 
 -- Create Table idojarasi_korulmenyek
@@ -61,6 +65,7 @@ CREATE TABLE Formula_1.dbo.idojarasi_korulmenyek(
 	--Add Primary Key
 	CONSTRAINT PK_idojarasi_korulmenyek PRIMARY KEY (idojarasi_korulmeny_id ASC)
  )
+ PRINT 'Succesfully created table idojarasi_korulmenyek...'
 GO
 
 -- Create Table autok
@@ -74,6 +79,7 @@ CREATE TABLE Formula_1.dbo.autok(
 	--Add Primary Key
 	CONSTRAINT PK_autok PRIMARY KEY (auto_id ASC)
  )
+ PRINT 'Succesfully created table autok...'
 GO
 
 -- Create Table szezon
@@ -83,6 +89,7 @@ CREATE TABLE Formula_1.dbo.szezon(
 	--Add Primary Key
 	CONSTRAINT PK_szezon PRIMARY KEY (szezon_id ASC)
  )
+ PRINT 'Succesfully created table szezon...'
 GO
 
 -- Create Table futamok
@@ -98,7 +105,7 @@ CREATE TABLE Formula_1.dbo.futamok(
 	--Add Foreign Keys
 	ALTER TABLE szezon ADD CONSTRAINT FK_futamok FOREIGN KEY (szezon_id) REFERENCES szezon(szezon_id);
 	ALTER TABLE helyszin ADD CONSTRAINT FK2_futamok FOREIGN KEY (helyszin_id) REFERENCES helyszin(helyszin_id);
- 
+ PRINT 'Succesfully created table futamok...'
 GO
 
 -- Create Table helyezesek
@@ -120,7 +127,7 @@ CREATE TABLE Formula_1.dbo.helyezesek(
 	ALTER TABLE futamok ADD CONSTRAINT FK2_helyezesek FOREIGN KEY (futam_id) REFERENCES futamok(futam_id);
 	ALTER TABLE autok ADD CONSTRAINT FK3_helyezesek FOREIGN KEY (auto_id) REFERENCES autok(auto_id);
 	ALTER TABLE konstruktorok ADD CONSTRAINT FK4_helyezesek FOREIGN KEY (konstruktor_id) REFERENCES konstruktorok(konstruktor_id);
- 
+ PRINT 'Succesfully created table helyezesek...'
 GO
 
 /*
@@ -197,11 +204,11 @@ GO
 */
 
 -- Set CSV dataset location folder
-DECLARE @FullDirectory VARCHAR(256);
-SET @FullDirectory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - versenyek.csv';
+DECLARE @Directory VARCHAR(256);
+SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - versenyek.csv';
 -- Fill Table versenyzok
 BULK INSERT Formula_1.dbo.versenyzok
-FROM FullDirectory
+FROM Directory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -209,14 +216,15 @@ WITH
     ROWTERMINATOR = '\n',   --Use to shift the control to next row
     TABLOCK
 )
+PRINT 'Succesfully filled table versenyzok...'
 GO
 
 -- Set CSV dataset location folder
-DECLARE @FullDirectory VARCHAR(256);
-SET @FullDirectory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - konstruktorok.csv';
+DECLARE @Directory VARCHAR(256);
+SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - konstruktorok.csv';
 -- Fill Table konstruktorok
 BULK INSERT Formula_1.dbo.konstruktorok
-FROM FullDirectory
+FROM Directory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -224,14 +232,15 @@ WITH
     ROWTERMINATOR = '\n',   --Use to shift the control to next row
     TABLOCK
 )
+ PRINT 'Succesfully filled table konstruktorok...'
 GO
 
 -- Set CSV dataset location folder
-DECLARE @FullDirectory VARCHAR(256);
-SET @FullDirectory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - helyszin.csv';
+DECLARE @Directory VARCHAR(256);
+SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - helyszin.csv';
 -- Fill Table helyszin
 BULK INSERT Formula_1.dbo.helyszin
-FROM FullDirectory
+FROM Directory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -239,14 +248,15 @@ WITH
     ROWTERMINATOR = '\n',   --Use to shift the control to next row
     TABLOCK
 )
+PRINT 'Succesfully filled table helyszin...'
 GO
 
 -- Set CSV dataset location folder
-DECLARE @FullDirectory VARCHAR(256);
-SET @FullDirectory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - idojarasi_korulmenyek.csv';
+DECLARE @Directory VARCHAR(256);
+SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - idojarasi_korulmenyek.csv';
 -- Fill Table idojarasi_korulmenyek
 BULK INSERT Formula_1.dbo.idojarasi_korulmenyek
-FROM FullDirectory
+FROM Directory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -254,14 +264,15 @@ WITH
     ROWTERMINATOR = '\n',   --Use to shift the control to next row
     TABLOCK
 )
+PRINT 'Succesfully filled table idojarasi_korulmenyek...'
 GO
 
 -- Set CSV dataset location folder
-DECLARE @FullDirectory VARCHAR(256);
-SET @FullDirectory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - autok.csv';
+DECLARE @Directory VARCHAR(256);
+SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - autok.csv';
 -- Fill Table autok
 BULK INSERT Formula_1.dbo.autok
-FROM FullDirectory
+FROM Directory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -269,14 +280,15 @@ WITH
     ROWTERMINATOR = '\n',   --Use to shift the control to next row
     TABLOCK
 )
+PRINT 'Succesfully filled table autok...'
 GO
 
 -- Set CSV dataset location folder
-DECLARE @FullDirectory VARCHAR(256);
-SET @FullDirectory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - szezon.csv';
+DECLARE @Directory VARCHAR(256);
+SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - szezon.csv';
 -- Fill Table szezon
 BULK INSERT Formula_1.dbo.szezon
-FROM FullDirectory
+FROM Directory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -284,14 +296,15 @@ WITH
     ROWTERMINATOR = '\n',   --Use to shift the control to next row
     TABLOCK
 )
+PRINT 'Succesfully filled table szezon...'
 GO
 
 -- Set CSV dataset location folder
-DECLARE @FullDirectory VARCHAR(256);
-SET @FullDirectory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - futamok.csv';
+DECLARE @Directory VARCHAR(256);
+SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - futamok.csv';
 -- Fill Table futamok
 BULK INSERT Formula_1.dbo.futamok
-FROM FullDirectory
+FROM Directory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -299,14 +312,15 @@ WITH
     ROWTERMINATOR = '\n',   --Use to shift the control to next row
     TABLOCK
 )
+PRINT 'Succesfully filled table futamok...'
 GO
 
 -- Set CSV dataset location folder
-DECLARE @FullDirectory VARCHAR(256);
-SET @FullDirectory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - helyezesek.csv';
+DECLARE @Directory VARCHAR(256);
+SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - helyezesek.csv';
 -- Fill Table helyezesek
 BULK INSERT Formula_1.dbo.helyezesek
-FROM FullDirectory
+FROM Directory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -314,4 +328,5 @@ WITH
     ROWTERMINATOR = '\n',   --Use to shift the control to next row
     TABLOCK
 )
+PRINT 'Succesfully filled table helyezesek...'
 GO
