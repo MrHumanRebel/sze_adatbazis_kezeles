@@ -330,3 +330,6 @@ WITH
 )
 PRINT 'Successfully filled table helyezesek...'
 GO
+PRINT 'Successfully done all tasks...'
+PRINT 'Exiting...'
+GO
