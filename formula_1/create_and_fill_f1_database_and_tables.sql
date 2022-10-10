@@ -123,11 +123,10 @@ CREATE TABLE Formula_1.dbo.helyezesek(
  
 GO
 
+/*
 --Add files to have permission to read them
-
 USE master
 GO
-
 ALTER DATABASE Formula_1
 ADD FILEGROUP f1_dataset_group;
 GO
@@ -195,6 +194,7 @@ GO
 
 USE Formula_1
 GO
+*/
 
 -- Set CSV dataset location folder
 DECLARE @FullDirectory VARCHAR(256);
