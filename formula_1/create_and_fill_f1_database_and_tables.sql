@@ -123,6 +123,82 @@ CREATE TABLE Formula_1.dbo.helyezesek(
  )
 GO
 
+--Add files to have permission to read them
+USE master
+GO
+ALTER DATABASE Formula_1
+ADD FILEGROUP f1_dataset_group;
+GO
+ALTER DATABASE Formula_1 
+ADD FILE 
+(
+    NAME = versenyek,
+    FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - versenyek.csv',
+	SIZE = 1MB,
+    MAXSIZE = 2MB,
+    FILEGROWTH = 1MB
+),
+(
+    NAME = konstruktorok,
+    FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - konstruktorok.csv',
+	SIZE = 1MB,
+    MAXSIZE = 2MB,
+    FILEGROWTH = 1MB
+)
+
+,
+(
+    NAME = helyszin,
+    FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - helyszin.csv',
+	SIZE = 1MB,
+    MAXSIZE = 2MB,
+    FILEGROWTH = 1MB
+)
+,
+(
+    NAME = idojarasi_korulmenyek,
+    FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - idojarasi_korulmenyek.csv',
+	SIZE = 1MB,
+    MAXSIZE = 2MB,
+    FILEGROWTH = 1MB
+)
+,
+(
+    NAME = autok,
+    FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - autok.csv',
+	SIZE = 1MB,
+    MAXSIZE = 2MB,
+    FILEGROWTH = 1MB
+)
+,
+(
+    NAME = szezon,
+    FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - szezon.csv',
+	SIZE = 1MB,
+    MAXSIZE = 2MB,
+    FILEGROWTH = 1MB
+)
+,
+(
+    NAME = futamok,
+    FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - futamok.csv',
+	SIZE = 1MB,
+    MAXSIZE = 2MB,
+    FILEGROWTH = 1MB
+)
+,
+(
+    NAME = helyezesek,
+    FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - helyezesek.csv',
+	SIZE = 1MB,
+    MAXSIZE = 2MB,
+    FILEGROWTH = 1MB
+)
+TO FILEGROUP f1_dataset_group;
+GO
+
+USE Formula_1
+GO
 
 -- Set CSV dataset location folder
 DECLARE @FullDirectory VARCHAR(256);
