@@ -1,10 +1,11 @@
 USE master
 GO
-GRANT ADMINISTER BULK OPERATIONS TO [G14\G14]
+--GRANT ADMINISTER BULK OPERATIONS TO [G14\G14]
+ALTER SERVER ROLE [bulkadmin] ADD MEMBER [G14\G14]
+ALTER SERVER ROLE [sysadmin] ADD MEMBER [G14\G14]
+PRINT 'Successfully given admin rights to use bulk insert...'
 GO
-ALTER SERVER ROLE [BULKADMIN] ADD MEMBER [G14\G14]
-GO
-
+/*------------------------------------------------------------------------------------------------------------------------------------*/
 
 IF  EXISTS (
 	SELECT name 
@@ -13,13 +14,13 @@ IF  EXISTS (
 )
 DROP DATABASE Formula_1
 GO
-
 CREATE DATABASE Formula_1
 PRINT 'Successfully created database...'
 GO
-
 USE Formula_1
 GO
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
 
 -- Create Table versenyzok
 CREATE TABLE Formula_1.dbo.versenyzok
@@ -135,78 +136,7 @@ CREATE TABLE Formula_1.dbo.helyezesek(
 PRINT 'Successfully created table helyezesek...'
 GO
 
-/*
---Add files to have permission to read them
-USE master
-GO
-ALTER DATABASE Formula_1
-ADD FILEGROUP f1_dataset_group;
-GO
-
-ALTER DATABASE Formula_1 
-ADD FILE 
-(
-    NAME = dataset_versenyek,
-    FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - versenyek.csv',
-	SIZE = 1MB,
-    MAXSIZE = 2MB,
-    FILEGROWTH = 1MB
-),
-(
-    NAME = dataset_konstruktorok,
-    FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - konstruktorok.csv',
-	SIZE = 1MB,
-    MAXSIZE = 2MB,
-    FILEGROWTH = 1MB
-),
-(
-    NAME = dataset_helyszin,
-    FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - helyszin.csv',
-	SIZE = 1MB,
-    MAXSIZE = 2MB,
-    FILEGROWTH = 1MB
-),
-(
-    NAME = dataset_idojarasi_korulmenyek,
-    FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - idojarasi_korulmenyek.csv',
-	SIZE = 1MB,
-    MAXSIZE = 2MB,
-    FILEGROWTH = 1MB
-),
-(
-    NAME = dataset_autok,
-    FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - autok.csv',
-	SIZE = 1MB,
-    MAXSIZE = 2MB,
-    FILEGROWTH = 1MB
-),
-(
-    NAME = dataset_szezon,
-    FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - szezon.csv',
-	SIZE = 1MB,
-    MAXSIZE = 2MB,
-    FILEGROWTH = 1MB
-),
-(
-    NAME = dataset_futamok,
-    FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - futamok.csv',
-	SIZE = 1MB,
-    MAXSIZE = 2MB,
-    FILEGROWTH = 1MB
-),
-(
-    NAME = dataset_helyezesek,
-    FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - helyezesek.csv',
-	SIZE = 1MB,
-    MAXSIZE = 2MB,
-    FILEGROWTH = 1MB
-)
-TO FILEGROUP f1_dataset_group;
-GO
-
-USE Formula_1
-GO
-*/
+/*------------------------------------------------------------------------------------------------------------------------------------*/
 
 -- Set CSV dataset location folder
 DECLARE @Directory VARCHAR(256);
@@ -337,3 +267,4 @@ PRINT 'Successfully filled table helyezesek...'
 PRINT 'Successfully done all tasks...'
 PRINT 'Exiting...'
 GO
+/*------------------------------------------------------------------------------------------------------------------------------------*/
