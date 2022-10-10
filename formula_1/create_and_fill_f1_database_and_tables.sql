@@ -10,7 +10,7 @@ DROP DATABASE Formula_1
 GO
 
 CREATE DATABASE Formula_1
-PRINT 'Succesfully created database...'
+PRINT 'Successfully created database...'
 GO
 
 USE Formula_1
@@ -30,7 +30,7 @@ CREATE TABLE Formula_1.dbo.versenyzok
 	 --Add Primary Key
 	 CONSTRAINT PK_versenyzok PRIMARY KEY (versenyzo_id ASC)	 
  )
-PRINT 'Succesfully created table versenyzok...'
+PRINT 'Successfully created table versenyzok...'
 GO
 
 -- Create Table konstruktorok
@@ -43,7 +43,7 @@ CREATE TABLE Formula_1.dbo.konstruktorok
 	 --Add Primary Key
 	 CONSTRAINT PK_konstruktorok PRIMARY KEY (konstruktor_id ASC)
  )
- PRINT 'Succesfully created table konstruktorok...'
+PRINT 'Successfully created table konstruktorok...'
 GO
 
 -- Create Table helyszin
@@ -55,7 +55,7 @@ CREATE TABLE Formula_1.dbo.helyszin(
 	--Add Primary Key
 	CONSTRAINT PK_helyszin PRIMARY KEY (helyszin_id ASC)
  )
- PRINT 'Succesfully created table helyszin...'
+PRINT 'Successfully created table helyszin...'
 GO
 
 -- Create Table idojarasi_korulmenyek
@@ -65,7 +65,7 @@ CREATE TABLE Formula_1.dbo.idojarasi_korulmenyek(
 	--Add Primary Key
 	CONSTRAINT PK_idojarasi_korulmenyek PRIMARY KEY (idojarasi_korulmeny_id ASC)
  )
- PRINT 'Succesfully created table idojarasi_korulmenyek...'
+PRINT 'Successfully created table idojarasi_korulmenyek...'
 GO
 
 -- Create Table autok
@@ -79,7 +79,7 @@ CREATE TABLE Formula_1.dbo.autok(
 	--Add Primary Key
 	CONSTRAINT PK_autok PRIMARY KEY (auto_id ASC)
  )
- PRINT 'Succesfully created table autok...'
+PRINT 'Successfully created table autok...'
 GO
 
 -- Create Table szezon
@@ -89,7 +89,7 @@ CREATE TABLE Formula_1.dbo.szezon(
 	--Add Primary Key
 	CONSTRAINT PK_szezon PRIMARY KEY (szezon_id ASC)
  )
- PRINT 'Succesfully created table szezon...'
+PRINT 'Successfully created table szezon...'
 GO
 
 -- Create Table futamok
@@ -105,7 +105,7 @@ CREATE TABLE Formula_1.dbo.futamok(
 	--Add Foreign Keys
 	ALTER TABLE szezon ADD CONSTRAINT FK_futamok FOREIGN KEY (szezon_id) REFERENCES szezon(szezon_id);
 	ALTER TABLE helyszin ADD CONSTRAINT FK2_futamok FOREIGN KEY (helyszin_id) REFERENCES helyszin(helyszin_id);
- PRINT 'Succesfully created table futamok...'
+PRINT 'Successfully created table futamok...'
 GO
 
 -- Create Table helyezesek
@@ -127,7 +127,7 @@ CREATE TABLE Formula_1.dbo.helyezesek(
 	ALTER TABLE futamok ADD CONSTRAINT FK2_helyezesek FOREIGN KEY (futam_id) REFERENCES futamok(futam_id);
 	ALTER TABLE autok ADD CONSTRAINT FK3_helyezesek FOREIGN KEY (auto_id) REFERENCES autok(auto_id);
 	ALTER TABLE konstruktorok ADD CONSTRAINT FK4_helyezesek FOREIGN KEY (konstruktor_id) REFERENCES konstruktorok(konstruktor_id);
- PRINT 'Succesfully created table helyezesek...'
+PRINT 'Successfully created table helyezesek...'
 GO
 
 /*
@@ -216,7 +216,7 @@ WITH
     ROWTERMINATOR = '\n',   --Use to shift the control to next row
     TABLOCK
 )
-PRINT 'Succesfully filled table versenyzok...'
+PRINT 'Successfully filled table versenyzok...'
 GO
 
 -- Set CSV dataset location folder
@@ -232,7 +232,7 @@ WITH
     ROWTERMINATOR = '\n',   --Use to shift the control to next row
     TABLOCK
 )
- PRINT 'Succesfully filled table konstruktorok...'
+PRINT 'Successfully filled table konstruktorok...'
 GO
 
 -- Set CSV dataset location folder
@@ -248,7 +248,7 @@ WITH
     ROWTERMINATOR = '\n',   --Use to shift the control to next row
     TABLOCK
 )
-PRINT 'Succesfully filled table helyszin...'
+PRINT 'Successfully filled table helyszin...'
 GO
 
 -- Set CSV dataset location folder
@@ -264,7 +264,7 @@ WITH
     ROWTERMINATOR = '\n',   --Use to shift the control to next row
     TABLOCK
 )
-PRINT 'Succesfully filled table idojarasi_korulmenyek...'
+PRINT 'Successfully filled table idojarasi_korulmenyek...'
 GO
 
 -- Set CSV dataset location folder
@@ -280,7 +280,7 @@ WITH
     ROWTERMINATOR = '\n',   --Use to shift the control to next row
     TABLOCK
 )
-PRINT 'Succesfully filled table autok...'
+PRINT 'Successfully filled table autok...'
 GO
 
 -- Set CSV dataset location folder
@@ -296,7 +296,7 @@ WITH
     ROWTERMINATOR = '\n',   --Use to shift the control to next row
     TABLOCK
 )
-PRINT 'Succesfully filled table szezon...'
+PRINT 'Successfully filled table szezon...'
 GO
 
 -- Set CSV dataset location folder
@@ -312,7 +312,7 @@ WITH
     ROWTERMINATOR = '\n',   --Use to shift the control to next row
     TABLOCK
 )
-PRINT 'Succesfully filled table futamok...'
+PRINT 'Successfully filled table futamok...'
 GO
 
 -- Set CSV dataset location folder
@@ -328,5 +328,5 @@ WITH
     ROWTERMINATOR = '\n',   --Use to shift the control to next row
     TABLOCK
 )
-PRINT 'Succesfully filled table helyezesek...'
+PRINT 'Successfully filled table helyezesek...'
 GO
