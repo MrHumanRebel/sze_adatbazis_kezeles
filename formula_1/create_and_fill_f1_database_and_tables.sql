@@ -126,69 +126,64 @@ GO
 --Add files to have permission to read them
 USE master
 GO
+
 ALTER DATABASE Formula_1
 ADD FILEGROUP f1_dataset_group;
 GO
+
 ALTER DATABASE Formula_1 
 ADD FILE 
 (
-    NAME = versenyek,
+    NAME = dataset_versenyek,
     FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - versenyek.csv',
 	SIZE = 1MB,
     MAXSIZE = 2MB,
     FILEGROWTH = 1MB
 ),
 (
-    NAME = konstruktorok,
+    NAME = dataset_konstruktorok,
     FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - konstruktorok.csv',
 	SIZE = 1MB,
     MAXSIZE = 2MB,
     FILEGROWTH = 1MB
-)
-
-,
+),
 (
-    NAME = helyszin,
+    NAME = dataset_helyszin,
     FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - helyszin.csv',
 	SIZE = 1MB,
     MAXSIZE = 2MB,
     FILEGROWTH = 1MB
-)
-,
+),
 (
-    NAME = idojarasi_korulmenyek,
+    NAME = dataset_idojarasi_korulmenyek,
     FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - idojarasi_korulmenyek.csv',
 	SIZE = 1MB,
     MAXSIZE = 2MB,
     FILEGROWTH = 1MB
-)
-,
+),
 (
-    NAME = autok,
+    NAME = dataset_autok,
     FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - autok.csv',
 	SIZE = 1MB,
     MAXSIZE = 2MB,
     FILEGROWTH = 1MB
-)
-,
+),
 (
-    NAME = szezon,
+    NAME = dataset_szezon,
     FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - szezon.csv',
 	SIZE = 1MB,
     MAXSIZE = 2MB,
     FILEGROWTH = 1MB
-)
-,
+),
 (
-    NAME = futamok,
+    NAME = dataset_futamok,
     FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - futamok.csv',
 	SIZE = 1MB,
     MAXSIZE = 2MB,
     FILEGROWTH = 1MB
-)
-,
+),
 (
-    NAME = helyezesek,
+    NAME = dataset_helyezesek,
     FILENAME = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - helyezesek.csv',
 	SIZE = 1MB,
     MAXSIZE = 2MB,
