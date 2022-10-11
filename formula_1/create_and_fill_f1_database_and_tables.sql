@@ -1,10 +1,14 @@
 USE master
 GO
---GRANT ADMINISTER BULK OPERATIONS TO [G14\G14]
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+GRANT ADMINISTER BULK OPERATIONS TO [G14\G14]
 ALTER SERVER ROLE [bulkadmin] ADD MEMBER [G14\G14]
 ALTER SERVER ROLE [sysadmin] ADD MEMBER [G14\G14]
-PRINT 'Successfully given admin rights to use bulk insert...'
+--PRINT 'Successfully given admin rights to use bulk insert...'
 GO
+
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 
 IF  EXISTS (
