@@ -17,9 +17,6 @@
 ** **
 **⚠️ Figyelmeztetés: A repo a 2022/2023/1 őszi félévben készült, és azóta nem frissül! ⚠️**
 
-Ha szeretnéd, hogy ez a projekt gyorsabban haladjon, vagy bővebb C++ tapasztalattal rendelkezel,
-[segítsd a projektet](https://github.com/login?return_to=%2FMrHumanRebel%2Fsze_adatbazis_kezeles)! 
-
 ** **
 
 **Csak oktatási célokra használd, saját felelősségre!**
@@ -35,8 +32,6 @@ _A megoldások nem feltétlenül helyesek, ha igen akkor is lehet, hogy nem a le
 ### MrHumanRebel
 
 - [Discord](https://discord.com/users/283988657851990017)
-- [Replit](https://replit.com/@MrHumanRebel)
-
 
 ## Linkek
 
