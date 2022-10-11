@@ -144,8 +144,8 @@ GO
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 
 -- Set CSV dataset location folder
-DECLARE @Directory VARCHAR(256);
-DECLARE @Filename VARCHAR(256);
+DECLARE @Directory VARCHAR(128);
+DECLARE @Filename VARCHAR(64);
 DECLARE @FullDirectory VARCHAR(256);
 SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\';
 
