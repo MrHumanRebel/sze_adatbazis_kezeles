@@ -145,10 +145,17 @@ GO
 
 -- Set CSV dataset location folder
 DECLARE @Directory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_versenyek.csv';
+DECLARE @Filename VARCHAR(256);
+DECLARE @FullDirectory VARCHAR(256);
+SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\';
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+SET @Filename = 'f1_dataset_versenyek.csv';
+SET @FullDirectory = @Directory+@Filename;
 -- Fill Table versenyzok
 BULK INSERT Formula_1.dbo.versenyzok
-FROM Directory
+FROM FullDirectory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -157,14 +164,14 @@ WITH
     TABLOCK
 )
 PRINT 'Successfully filled table versenyzok...'
-GO
+
 
 -- Set CSV dataset location folder
-DECLARE @Directory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_konstruktorok.csv';
+SET @Filename = 'f1_dataset_konstruktorok.csv';
+SET @FullDirectory = @Directory+@Filename;
 -- Fill Table konstruktorok
 BULK INSERT Formula_1.dbo.konstruktorok
-FROM Directory
+FROM FullDirectory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -173,14 +180,14 @@ WITH
     TABLOCK
 )
 PRINT 'Successfully filled table konstruktorok...'
-GO
+
 
 -- Set CSV dataset location folder
-DECLARE @Directory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_helyszin.csv';
+SET @Filename = 'f1_dataset_helyszin.csv';
+SET @FullDirectory = @Directory+@Filename;
 -- Fill Table helyszin
 BULK INSERT Formula_1.dbo.helyszin
-FROM Directory
+FROM FullDirectory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -189,14 +196,14 @@ WITH
     TABLOCK
 )
 PRINT 'Successfully filled table helyszin...'
-GO
+
 
 -- Set CSV dataset location folder
-DECLARE @Directory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_idojarasi_korulmenyek.csv';
+SET @Filename =  'f1_dataset_idojarasi_korulmenyek.csv';
+SET @FullDirectory = @Directory+@Filename;
 -- Fill Table idojarasi_korulmenyek
 BULK INSERT Formula_1.dbo.idojarasi_korulmenyek
-FROM Directory
+FROM FullDirectory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -205,14 +212,14 @@ WITH
     TABLOCK
 )
 PRINT 'Successfully filled table idojarasi_korulmenyek...'
-GO
+
 
 -- Set CSV dataset location folder
-DECLARE @Directory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_autok.csv';
+SET @Filename =  'f1_dataset_autok.csv';
+SET @FullDirectory = @Directory+@Filename;
 -- Fill Table autok
 BULK INSERT Formula_1.dbo.autok
-FROM Directory
+FROM FullDirectory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -221,14 +228,14 @@ WITH
     TABLOCK
 )
 PRINT 'Successfully filled table autok...'
-GO
+
 
 -- Set CSV dataset location folder
-DECLARE @Directory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_szezon.csv';
+SET @Filename =  'f1_dataset_szezon.csv';
+SET @FullDirectory = @Directory+@Filename;
 -- Fill Table szezon
 BULK INSERT Formula_1.dbo.szezon
-FROM Directory
+FROM FullDirectory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -237,14 +244,14 @@ WITH
     TABLOCK
 )
 PRINT 'Successfully filled table szezon...'
-GO
+
 
 -- Set CSV dataset location folder
-DECLARE @Directory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_futamok.csv';
+SET @Filename = 'f1_dataset_futamok.csv';
+SET @FullDirectory = @Directory+@Filename;
 -- Fill Table futamok
 BULK INSERT Formula_1.dbo.futamok
-FROM Directory
+FROM FullDirectory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
@@ -253,14 +260,14 @@ WITH
     TABLOCK
 )
 PRINT 'Successfully filled table futamok...'
-GO
+
 
 -- Set CSV dataset location folder
-DECLARE @Directory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_helyezesek.csv';
+SET @Filename = 'f1_dataset_helyezesek.csv';
+SET @FullDirectory = @Directory+@Filename;
 -- Fill Table helyezesek
 BULK INSERT Formula_1.dbo.helyezesek
-FROM Directory
+FROM FullDirectory
 WITH
 (
     FIRSTROW = 2, -- As 1st one is header
