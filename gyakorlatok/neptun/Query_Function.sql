@@ -6,3 +6,5 @@ return
 (select neptun,vnev+' '+knev as 'Név', telepules
 from hallgatok
 where telepules = @telep)
+
+select * from TelepulesKeres ('Budapest')
