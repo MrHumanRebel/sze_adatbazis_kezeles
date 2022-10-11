@@ -144,7 +144,7 @@ GO
 
 -- Set CSV dataset location folder
 DECLARE @Directory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - versenyek.csv';
+SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_versenyek.csv';
 -- Fill Table versenyzok
 BULK INSERT Formula_1.dbo.versenyzok
 FROM Directory
@@ -160,7 +160,7 @@ GO
 
 -- Set CSV dataset location folder
 DECLARE @Directory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - konstruktorok.csv';
+SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_konstruktorok.csv';
 -- Fill Table konstruktorok
 BULK INSERT Formula_1.dbo.konstruktorok
 FROM Directory
@@ -176,7 +176,7 @@ GO
 
 -- Set CSV dataset location folder
 DECLARE @Directory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - helyszin.csv';
+SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_helyszin.csv';
 -- Fill Table helyszin
 BULK INSERT Formula_1.dbo.helyszin
 FROM Directory
@@ -192,7 +192,7 @@ GO
 
 -- Set CSV dataset location folder
 DECLARE @Directory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - idojarasi_korulmenyek.csv';
+SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_idojarasi_korulmenyek.csv';
 -- Fill Table idojarasi_korulmenyek
 BULK INSERT Formula_1.dbo.idojarasi_korulmenyek
 FROM Directory
@@ -208,7 +208,7 @@ GO
 
 -- Set CSV dataset location folder
 DECLARE @Directory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - autok.csv';
+SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_autok.csv';
 -- Fill Table autok
 BULK INSERT Formula_1.dbo.autok
 FROM Directory
@@ -224,7 +224,7 @@ GO
 
 -- Set CSV dataset location folder
 DECLARE @Directory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - szezon.csv';
+SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_szezon.csv';
 -- Fill Table szezon
 BULK INSERT Formula_1.dbo.szezon
 FROM Directory
@@ -240,7 +240,7 @@ GO
 
 -- Set CSV dataset location folder
 DECLARE @Directory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - futamok.csv';
+SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_futamok.csv';
 -- Fill Table futamok
 BULK INSERT Formula_1.dbo.futamok
 FROM Directory
@@ -256,7 +256,7 @@ GO
 
 -- Set CSV dataset location folder
 DECLARE @Directory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset.xlsx - helyezesek.csv';
+SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_helyezesek.csv';
 -- Fill Table helyezesek
 BULK INSERT Formula_1.dbo.helyezesek
 FROM Directory
