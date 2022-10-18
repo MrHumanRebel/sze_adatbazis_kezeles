@@ -6,7 +6,7 @@ GO
 GRANT ADMINISTER BULK OPERATIONS TO [G14\G14]
 ALTER SERVER ROLE [bulkadmin] ADD MEMBER [G14\G14]
 ALTER SERVER ROLE [sysadmin] ADD MEMBER [G14\G14]
---PRINT 'Successfully given admin rights to use bulk insert...'
+PRINT 'Successfully given admin rights to use bulk insert...'
 GO
 
 /*------------------------------------------------------------------------------------------------------------------------------------*/
@@ -154,6 +154,7 @@ WITH
 PRINT 'Successfully filled table versenyzok...'
 
 
+
 -- Fill Table konstruktorok
 BULK INSERT dbo.konstruktorok
 FROM 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_konstruktorok.csv'
@@ -166,7 +167,7 @@ PRINT 'Successfully filled table konstruktorok...'
 
 -- Fill Table helyszin
 BULK INSERT dbo.helyszin
-FROM 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_helyszin.csv'
+FROM 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_helyszinek.csv'
 WITH
 (
         FORMAT='CSV',
