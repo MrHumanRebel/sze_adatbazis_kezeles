@@ -28,7 +28,7 @@ GO
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 
 -- Create Table versenyzok
-CREATE TABLE Formula_1.dbo.versenyzok
+CREATE TABLE dbo.versenyzok
 (
 	 versenyzo_id char(4) NOT NULL,
 	 keresztnev nvarchar(50) NOT NULL,
@@ -45,7 +45,7 @@ PRINT 'Successfully created table versenyzok...'
 GO
 
 -- Create Table konstruktorok
-CREATE TABLE Formula_1.dbo.konstruktorok
+CREATE TABLE dbo.konstruktorok
 (
 	 konstruktor_id char(3) NOT NULL,
 	 nev nvarchar(50) NOT NULL,
@@ -58,7 +58,7 @@ PRINT 'Successfully created table konstruktorok...'
 GO
 
 -- Create Table helyszin
-CREATE TABLE Formula_1.dbo.helyszin(
+CREATE TABLE dbo.helyszin(
 	helyszin_id char(3) NOT NULL,
 	palyanev nvarchar(50) NOT NULL,
 	telepules nvarchar(50) NOT NULL,
@@ -70,7 +70,7 @@ PRINT 'Successfully created table helyszin...'
 GO
 
 -- Create Table idojarasi_korulmenyek
-CREATE TABLE Formula_1.dbo.idojarasi_korulmenyek(
+CREATE TABLE dbo.idojarasi_korulmenyek(
 	idojarasi_korulmeny_id char(3) NOT NULL,
 	nev nvarchar(50) NOT NULL,
 	--Add Primary Key
@@ -80,7 +80,7 @@ PRINT 'Successfully created table idojarasi_korulmenyek...'
 GO
 
 -- Create Table autok
-CREATE TABLE Formula_1.dbo.autok(
+CREATE TABLE dbo.autok(
 	auto_id char(3) NOT NULL,
 	nev nvarchar(50) NOT NULL,
 	karosszeria_tervezo_id char(3) NOT NULL,
@@ -94,7 +94,7 @@ PRINT 'Successfully created table autok...'
 GO
 
 -- Create Table szezon
-CREATE TABLE Formula_1.dbo.szezon(
+CREATE TABLE dbo.szezon(
 	szezon_id char(3) NOT NULL,
 	ev date NOT NULL,
 	--Add Primary Key
@@ -104,7 +104,7 @@ PRINT 'Successfully created table szezon...'
 GO
 
 -- Create Table futamok
-CREATE TABLE Formula_1.dbo.futamok(
+CREATE TABLE dbo.futamok(
 	futam_id char(4) NOT NULL,
 	szezon_id char(3) NOT NULL,
 	helyszin_id char(3) NOT NULL,
@@ -120,7 +120,7 @@ PRINT 'Successfully created table futamok...'
 GO
 
 -- Create Table helyezesek
-CREATE TABLE Formula_1.dbo.helyezesek(
+CREATE TABLE dbo.helyezesek(
 	helyezes_id char(5) NOT NULL,
 	versenyzo_id char(4) NOT NULL,
 	elert_helyezes char(3),
@@ -143,137 +143,88 @@ GO
 
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 
--- Set CSV dataset location folder
-DECLARE @Directory VARCHAR(128);
-DECLARE @Filename VARCHAR(64);
-DECLARE @FullDirectory VARCHAR(256);
-SET @Directory = 'D:\Google Drive\University\AB Kezelés\F1 CSV\';
-
-/*------------------------------------------------------------------------------------------------------------------------------------*/
-
-SET @Filename = 'f1_dataset_versenyek.csv';
-SET @FullDirectory = @Directory+@Filename;
 -- Fill Table versenyzok
-BULK INSERT Formula_1.dbo.versenyzok
-FROM FullDirectory
+BULK INSERT dbo.versenyzok
+FROM 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_versenyzok.csv'
 WITH
 (
-    FIRSTROW = 2, -- As 1st one is header
-    FIELDTERMINATOR = ',',  --CSV field delimiter
-    ROWTERMINATOR = '\n',   --Use to shift the control to next row
-    TABLOCK
+    FORMAT='CSV',
+    FIRSTROW=2
 )
 PRINT 'Successfully filled table versenyzok...'
 
 
--- Set CSV dataset location folder
-SET @Filename = 'f1_dataset_konstruktorok.csv';
-SET @FullDirectory = @Directory+@Filename;
 -- Fill Table konstruktorok
-BULK INSERT Formula_1.dbo.konstruktorok
-FROM FullDirectory
+BULK INSERT dbo.konstruktorok
+FROM 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_konstruktorok.csv'
 WITH
 (
-    FIRSTROW = 2, -- As 1st one is header
-    FIELDTERMINATOR = ',',  --CSV field delimiter
-    ROWTERMINATOR = '\n',   --Use to shift the control to next row
-    TABLOCK
+    FORMAT='CSV',
+    FIRSTROW=2
 )
 PRINT 'Successfully filled table konstruktorok...'
 
-
--- Set CSV dataset location folder
-SET @Filename = 'f1_dataset_helyszin.csv';
-SET @FullDirectory = @Directory+@Filename;
 -- Fill Table helyszin
-BULK INSERT Formula_1.dbo.helyszin
-FROM FullDirectory
+BULK INSERT dbo.helyszin
+FROM 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_helyszin.csv'
 WITH
 (
-    FIRSTROW = 2, -- As 1st one is header
-    FIELDTERMINATOR = ',',  --CSV field delimiter
-    ROWTERMINATOR = '\n',   --Use to shift the control to next row
-    TABLOCK
+        FORMAT='CSV',
+        FIRSTROW=2
 )
 PRINT 'Successfully filled table helyszin...'
 
 
--- Set CSV dataset location folder
-SET @Filename =  'f1_dataset_idojarasi_korulmenyek.csv';
-SET @FullDirectory = @Directory+@Filename;
 -- Fill Table idojarasi_korulmenyek
-BULK INSERT Formula_1.dbo.idojarasi_korulmenyek
-FROM FullDirectory
+BULK INSERT dbo.idojarasi_korulmenyek
+FROM 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_idojarasi_korulmenyek.csv'
 WITH
 (
-    FIRSTROW = 2, -- As 1st one is header
-    FIELDTERMINATOR = ',',  --CSV field delimiter
-    ROWTERMINATOR = '\n',   --Use to shift the control to next row
-    TABLOCK
+        FORMAT='CSV',
+        FIRSTROW=2
 )
 PRINT 'Successfully filled table idojarasi_korulmenyek...'
 
-
--- Set CSV dataset location folder
-SET @Filename =  'f1_dataset_autok.csv';
-SET @FullDirectory = @Directory+@Filename;
 -- Fill Table autok
-BULK INSERT Formula_1.dbo.autok
-FROM FullDirectory
+BULK INSERT dbo.autok
+FROM 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_autok.csv'
 WITH
 (
-    FIRSTROW = 2, -- As 1st one is header
-    FIELDTERMINATOR = ',',  --CSV field delimiter
-    ROWTERMINATOR = '\n',   --Use to shift the control to next row
-    TABLOCK
+        FORMAT='CSV',
+        FIRSTROW=2
 )
 PRINT 'Successfully filled table autok...'
 
 
--- Set CSV dataset location folder
-SET @Filename =  'f1_dataset_szezon.csv';
-SET @FullDirectory = @Directory+@Filename;
 -- Fill Table szezon
-BULK INSERT Formula_1.dbo.szezon
-FROM FullDirectory
+BULK INSERT dbo.szezon
+FROM 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_szezonok.csv'
 WITH
 (
-    FIRSTROW = 2, -- As 1st one is header
-    FIELDTERMINATOR = ',',  --CSV field delimiter
-    ROWTERMINATOR = '\n',   --Use to shift the control to next row
-    TABLOCK
+        FORMAT='CSV',
+        FIRSTROW=2
 )
 PRINT 'Successfully filled table szezon...'
 
 
--- Set CSV dataset location folder
-SET @Filename = 'f1_dataset_futamok.csv';
-SET @FullDirectory = @Directory+@Filename;
 -- Fill Table futamok
-BULK INSERT Formula_1.dbo.futamok
-FROM FullDirectory
+BULK INSERT dbo.futamok
+FROM 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_futamok.csv'
 WITH
 (
-    FIRSTROW = 2, -- As 1st one is header
-    FIELDTERMINATOR = ',',  --CSV field delimiter
-    ROWTERMINATOR = '\n',   --Use to shift the control to next row
-    TABLOCK
+        FORMAT='CSV',
+        FIRSTROW=2
 )
 PRINT 'Successfully filled table futamok...'
 
 
--- Set CSV dataset location folder
-SET @Filename = 'f1_dataset_helyezesek.csv';
-SET @FullDirectory = @Directory+@Filename;
 -- Fill Table helyezesek
-BULK INSERT Formula_1.dbo.helyezesek
-FROM FullDirectory
+BULK INSERT dbo.helyezesek
+FROM 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_helyezesek.csv'
 WITH
 (
-    FIRSTROW = 2, -- As 1st one is header
-    FIELDTERMINATOR = ',',  --CSV field delimiter
-    ROWTERMINATOR = '\n',   --Use to shift the control to next row
-    TABLOCK
+        FORMAT='CSV',
+        FIRSTROW=2
 )
 PRINT 'Successfully filled table helyezesek...'
 PRINT 'Successfully done all tasks...'
