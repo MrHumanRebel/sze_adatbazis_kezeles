@@ -36,7 +36,7 @@ CREATE TABLE dbo.versenyzok
 	 orszag nvarchar(56) NOT NULL,
 	 beszelt_nyelv nvarchar(50) NOT NULL,
 	 konstruktor_id char(3) NOT NULL,
-	 szuletesi_datum date NOT NULL,
+	 szuletesi_datum nvarchar(50) NOT NULL,
 	 kod char(3),
 	 --Add Primary Key
 	 CONSTRAINT PK_versenyzok PRIMARY KEY (versenyzo_id ASC)	 
@@ -81,7 +81,7 @@ GO
 
 -- Create Table autok
 CREATE TABLE dbo.autok(
-	auto_id char(3) NOT NULL,
+	auto_id char(5) NOT NULL,
 	nev nvarchar(50) NOT NULL,
 	karosszeria_tervezo_id char(3) NOT NULL,
 	motor_tervezo_id char(3) NOT NULL,
@@ -96,7 +96,7 @@ GO
 -- Create Table szezon
 CREATE TABLE dbo.szezon(
 	szezon_id char(3) NOT NULL,
-	ev date NOT NULL,
+	ev nvarchar(50) NOT NULL,
 	--Add Primary Key
 	CONSTRAINT PK_szezon PRIMARY KEY (szezon_id ASC)
  )
@@ -108,8 +108,8 @@ CREATE TABLE dbo.futamok(
 	futam_id char(4) NOT NULL,
 	szezon_id char(3) NOT NULL,
 	helyszin_id char(3) NOT NULL,
-	datum date NOT NULL,
-	ido time(7),
+	datum nvarchar(50) NOT NULL,
+	ido nvarchar(50),
 	idojarasi_korulmeny_id char(3) NOT NULL,
 	--Add Primary Key
 	CONSTRAINT PK_futamok PRIMARY KEY (futam_id ASC))
@@ -125,10 +125,10 @@ CREATE TABLE dbo.helyezesek(
 	versenyzo_id char(4) NOT NULL,
 	elert_helyezes char(3),
 	pole_poz bit NOT NULL,
-	verseny_ido time(7),
+	verseny_ido nvarchar(50),
 	szezon_id char(3) NOT NULL,
 	futam_id char(4) NOT NULL,
-	auto_id char(3) NOT NULL,
+	auto_id char(5) NOT NULL,
 	konstruktor_id char(3) NOT NULL,
 	korok_szama char(3) NOT NULL,
 	--Add Primary Key
@@ -216,6 +216,7 @@ WITH
         FORMAT='CSV',
         FIRSTROW=2
 )
+
 PRINT 'Successfully filled table futamok...'
 
 
@@ -228,7 +229,12 @@ WITH
         FIRSTROW=2
 )
 PRINT 'Successfully filled table helyezesek...'
+
+GO
+
+/*MISSING DATA CONVERSION FROM VARCHAR TO DATE AND TIME!*/
 PRINT 'Successfully done all tasks...'
 PRINT 'Exiting...'
+
 GO
 /*------------------------------------------------------------------------------------------------------------------------------------*/
