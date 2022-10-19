@@ -235,19 +235,24 @@ GO
 /*MISSING DATA CONVERSION FROM VARCHAR TO DATE AND TIME!*/
 SELECT CONVERT(datetime,versenyzok.szuletesi_datum, 103)
 FROM versenyzok
+PRINT 'Successfully converted versenyzok.szuletesi_datum...'
 GO
 SELECT CONVERT(datetime,futamok.datum, 103)
 FROM futamok
+PRINT 'Successfully converted futamok.datum...'
 GO
 SELECT CONVERT(datetime,szezon.ev, 103)
 FROM szezon
+PRINT 'Successfully converted szezon.ev...'
 GO
 SELECT CONVERT(time(7),helyezesek.verseny_ido, 103)
 FROM helyezesek
+PRINT 'Successfully converted helyezesek.verseny_ido...'
 GO
 SELECT CONVERT(time(7),futamok.ido, 103)
 FROM futamok
 WHERE futamok.ido !='\N'
+PRINT 'Successfully converted futamok.ido...'
 GO
 
 PRINT 'Successfully done all tasks...'
