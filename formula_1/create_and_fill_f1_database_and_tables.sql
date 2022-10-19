@@ -232,7 +232,7 @@ PRINT 'Successfully filled table helyezesek...'
 
 GO
 
-/*MISSING DATA CONVERSION FROM VARCHAR TO DATE AND TIME!*/
+/*DATA CONVERSION FROM VARCHAR TO DATE AND TIME!*/
 SELECT CONVERT(datetime,versenyzok.szuletesi_datum, 103)
 FROM versenyzok
 PRINT 'Successfully converted versenyzok.szuletesi_datum...'
