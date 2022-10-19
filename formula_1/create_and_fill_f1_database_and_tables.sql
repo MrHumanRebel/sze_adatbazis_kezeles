@@ -232,7 +232,23 @@ PRINT 'Successfully filled table helyezesek...'
 
 GO
 
-/*MISSING DATA CONVERSION FROM VARCHAR TO DATE AND TIME!*/
+/*DATA CONVERSION FROM VARCHAR TO DATE AND TIME*/
+SELECT CONVERT(datetime,versenyzok.szuletesi_datum, 103)
+FROM versenyzok
+GO
+SELECT CONVERT(datetime,futamok.datum, 103)
+FROM futamok
+GO
+SELECT CONVERT(datetime,szezon.ev, 103)
+FROM szezon
+GO
+SELECT CONVERT(time(7),helyezesek.verseny_ido, 103)
+FROM helyezesek
+GO
+SELECT CONVERT(time(7),futamok.ido, 103)
+FROM futamok
+GO
+
 PRINT 'Successfully done all tasks...'
 PRINT 'Exiting...'
 
