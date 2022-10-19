@@ -1,3 +1,4 @@
+/*Mely spanyolajkú versenyzők nyertek már futamot?*/
 USE Formula_1
 SELECT DISTINCT vezeteknev + ' ' + keresztnev AS 'Nev', beszelt_nyelv
 FROM versenyzok INNER JOIN helyezesek
