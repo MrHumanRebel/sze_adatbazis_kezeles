@@ -232,7 +232,7 @@ PRINT 'Successfully filled table helyezesek...'
 
 GO
 
-/*DATA CONVERSION FROM VARCHAR TO DATE AND TIME*/
+/*MISSING DATA CONVERSION FROM VARCHAR TO DATE AND TIME!*/
 SELECT CONVERT(datetime,versenyzok.szuletesi_datum, 103)
 FROM versenyzok
 GO
@@ -247,6 +247,7 @@ FROM helyezesek
 GO
 SELECT CONVERT(time(7),futamok.ido, 103)
 FROM futamok
+WHERE futamok.ido !='\N'
 GO
 
 PRINT 'Successfully done all tasks...'
