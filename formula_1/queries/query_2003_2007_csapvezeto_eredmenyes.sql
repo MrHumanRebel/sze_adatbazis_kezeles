@@ -1,3 +1,5 @@
+/*Ki volt a legeredményesebb konstruktőr csapatfőnöke a 2003 és 2007 közötti versenyszezonok intervallumában?*/
+
 USE Formula_1
 SELECT TOP 1 konstruktorok.csapatvezeto, count(helyezesek.elert_helyezes) AS 'db'
 FROM konstruktorok INNER JOIN helyezesek INNER JOIN szezon
