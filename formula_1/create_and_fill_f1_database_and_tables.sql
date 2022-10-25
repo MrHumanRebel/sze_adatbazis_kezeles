@@ -58,16 +58,16 @@ CREATE TABLE dbo.konstruktorok
 PRINT 'Successfully created table konstruktorok...'
 GO
 
--- Create Table helyszin
-CREATE TABLE dbo.helyszin(
+-- Create Table helyszinek
+CREATE TABLE dbo.helyszinek(
 	helyszin_id char(3) NOT NULL,
 	palyanev nvarchar(50) NOT NULL CONSTRAINT Only_Alphabets_PNEV CHECK (palyanev NOT LIKE '%[^A-Z ]%'),
 	telepules nvarchar(50) NOT NULL,
 	orszag nvarchar(56) NOT NULL CONSTRAINT Only_Alphabets_HORSZ CHECK (orszag NOT LIKE '%[^A-Z ]%'),
 	--Add Primary Key
-	CONSTRAINT PK_helyszin PRIMARY KEY (helyszin_id ASC)
+	CONSTRAINT PK_helyszinek PRIMARY KEY (helyszin_id ASC)
  )
-PRINT 'Successfully created table helyszin...'
+PRINT 'Successfully created table helyszinek...'
 GO
 
 -- Create Table idojarasi_korulmenyek
@@ -94,14 +94,14 @@ CREATE TABLE dbo.autok(
 PRINT 'Successfully created table autok...'
 GO
 
--- Create Table szezon
-CREATE TABLE dbo.szezon(
+-- Create Table szezonok
+CREATE TABLE dbo.szezonok(
 	szezon_id char(3) NOT NULL,
 	ev nvarchar(50) NOT NULL,
 	--Add Primary Key
-	CONSTRAINT PK_szezon PRIMARY KEY (szezon_id ASC)
+	CONSTRAINT PK_szezonok PRIMARY KEY (szezon_id ASC)
  )
-PRINT 'Successfully created table szezon...'
+PRINT 'Successfully created table szezonok...'
 GO
 
 -- Create Table futamok
@@ -115,8 +115,8 @@ CREATE TABLE dbo.futamok(
 	--Add Primary Key
 	CONSTRAINT PK_futamok PRIMARY KEY (futam_id ASC))
 	--Add Foreign Keys
-	ALTER TABLE futamok ADD CONSTRAINT FK_futamok FOREIGN KEY (szezon_id) REFERENCES szezon(szezon_id);
-	ALTER TABLE futamok ADD CONSTRAINT FK2_futamok FOREIGN KEY (helyszin_id) REFERENCES helyszin(helyszin_id);
+	ALTER TABLE futamok ADD CONSTRAINT FK_futamok FOREIGN KEY (szezon_id) REFERENCES szezonok(szezon_id);
+	ALTER TABLE futamok ADD CONSTRAINT FK2_futamok FOREIGN KEY (helyszin_id) REFERENCES helyszinek(helyszin_id);
 PRINT 'Successfully created table futamok...'
 GO
 
@@ -135,7 +135,7 @@ CREATE TABLE dbo.helyezesek(
 	--Add Primary Key
 	CONSTRAINT PK_helyezesek PRIMARY KEY (helyezes_id ASC))
 	--Add Foreign Keys
-	ALTER TABLE helyezesek ADD CONSTRAINT FK_helyezesek FOREIGN KEY (szezon_id) REFERENCES szezon(szezon_id);
+	ALTER TABLE helyezesek ADD CONSTRAINT FK_helyezesek FOREIGN KEY (szezon_id) REFERENCES szezonok(szezon_id);
 	ALTER TABLE helyezesek ADD CONSTRAINT FK2_helyezesek FOREIGN KEY (futam_id) REFERENCES futamok(futam_id);
 	ALTER TABLE helyezesek ADD CONSTRAINT FK3_helyezesek FOREIGN KEY (auto_id) REFERENCES autok(auto_id);
 	ALTER TABLE helyezesek ADD CONSTRAINT FK4_helyezesek FOREIGN KEY (konstruktor_id) REFERENCES konstruktorok(konstruktor_id);
@@ -166,15 +166,15 @@ WITH
 )
 PRINT 'Successfully filled table konstruktorok...'
 
--- Fill Table helyszin
-BULK INSERT dbo.helyszin
+-- Fill Table helyszinek
+BULK INSERT dbo.helyszinek
 FROM 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_helyszinek.csv'
 WITH
 (
         FORMAT='CSV',
         FIRSTROW=2
 )
-PRINT 'Successfully filled table helyszin...'
+PRINT 'Successfully filled table helyszinek...'
 
 
 -- Fill Table idojarasi_korulmenyek
@@ -198,15 +198,15 @@ WITH
 PRINT 'Successfully filled table autok...'
 
 
--- Fill Table szezon
-BULK INSERT dbo.szezon
+-- Fill Table szezonok
+BULK INSERT dbo.szezonok
 FROM 'D:\Google Drive\University\AB Kezelés\F1 CSV\f1_dataset_szezonok.csv'
 WITH
 (
         FORMAT='CSV',
         FIRSTROW=2
 )
-PRINT 'Successfully filled table szezon...'
+PRINT 'Successfully filled table szezonok...'
 
 
 -- Fill Table futamok
@@ -252,9 +252,9 @@ ALTER COLUMN datum date
 PRINT 'Successfully converted futamok.datum...'
 GO
 
-ALTER TABLE szezon
+ALTER TABLE szezonok
 ALTER COLUMN ev date
-PRINT 'Successfully converted szezon.ev...'
+PRINT 'Successfully converted szezonok.ev...'
 GO
 
 ALTER TABLE helyezesek
