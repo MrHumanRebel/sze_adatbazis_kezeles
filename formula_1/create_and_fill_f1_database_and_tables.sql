@@ -72,7 +72,7 @@ GO
 -- Create Table idojarasi_korulmenyek
 CREATE TABLE dbo.idojarasi_korulmenyek(
 	idojarasi_korulmeny_id char(3) NOT NULL,
-	nev nvarchar(50) NOT NULL,
+	nev nvarchar(50) NOT NULL CONSTRAINT Params CHECK(nev IN ('szaraz','esos','viharos','kodos','napos','paras')),
 	--Add Primary Key
 	CONSTRAINT PK_idojarasi_korulmenyek PRIMARY KEY (idojarasi_korulmeny_id ASC)
  )
@@ -85,8 +85,8 @@ CREATE TABLE dbo.autok(
 	nev nvarchar(50) NOT NULL,
 	karosszeria_tervezo_id char(3) NOT NULL,
 	motor_tervezo_id char(3) NOT NULL,
-	teljesitmeny char(4) NOT NULL,
-	tömeg char(4) NOT NULL,
+	teljesitmeny char(4) NOT NULL CONSTRAINT Params_Telj CHECK (teljesitmeny >= 100 AND teljesitmeny <= 800),
+	tömeg char(4) NOT NULL CONSTRAINT Params_Tom CHECK (tömeg >= 300 AND tömeg <= 1200),
 	--Add Primary Key
 	CONSTRAINT PK_autok PRIMARY KEY (auto_id ASC)
  )
@@ -123,7 +123,7 @@ GO
 CREATE TABLE dbo.helyezesek(
 	helyezes_id char(5) NOT NULL,
 	versenyzo_id char(4) NOT NULL,
-	elert_helyezes char(3),
+	elert_helyezes char(3) CONSTRAINT Params CHECK (elert_helyezes >= 1 AND elert_helyezes <= 25),
 	pole_poz bit NOT NULL,
 	verseny_ido nvarchar(50),
 	szezon_id char(3) NOT NULL,
