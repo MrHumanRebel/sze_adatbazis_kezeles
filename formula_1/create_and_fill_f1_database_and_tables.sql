@@ -108,7 +108,7 @@ CREATE TABLE dbo.futamok(
 	futam_id char(4) NOT NULL,
 	szezon_id char(3) NOT NULL,
 	helyszin_id char(3) NOT NULL,
-	datum nvarchar(50) NOT NULL,
+	datum nvarchar(50),
 	ido nvarchar(50),
 	idojarasi_korulmeny_id char(3) NOT NULL,
 	--Add Primary Key
@@ -233,6 +233,35 @@ PRINT 'Successfully filled table helyezesek...'
 GO
 
 /*DATA CONVERSION FROM VARCHAR TO DATE AND TIME!*/
+
+ALTER TABLE versenyzok
+ALTER COLUMN szuletesi_datum datetime
+PRINT 'Successfully converted versenyzok.szuletesi_datum...'
+
+GO
+
+ALTER TABLE futamok
+ALTER COLUMN ido time(7)
+PRINT 'Successfully converted futamok.ido...'
+
+GO
+
+ALTER TABLE futamok
+ALTER COLUMN datum datetime
+PRINT 'Successfully converted futamok.datum...'
+GO
+
+ALTER TABLE szezon
+ALTER COLUMN ev date
+PRINT 'Successfully converted szezon.ev...'
+GO
+
+ALTER TABLE helyezesek
+ALTER COLUMN verseny_ido time(7)
+PRINT 'Successfully converted helyezesek.verseny_ido...'
+GO
+
+/*
 SELECT CONVERT(datetime,versenyzok.szuletesi_datum, 103)
 FROM versenyzok
 PRINT 'Successfully converted versenyzok.szuletesi_datum...'
@@ -254,6 +283,7 @@ FROM futamok
 WHERE futamok.ido !='\N'
 PRINT 'Successfully converted futamok.ido...'
 GO
+*/
 
 PRINT 'Successfully done all tasks...'
 PRINT 'Exiting...'
