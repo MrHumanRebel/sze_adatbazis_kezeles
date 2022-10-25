@@ -31,13 +31,13 @@ GO
 CREATE TABLE dbo.versenyzok
 (
 	 versenyzo_id char(4) NOT NULL,
-	 keresztnev nvarchar(50) NOT NULL,
-	 vezeteknev nvarchar(50) NOT NULL,
-	 orszag nvarchar(56) NOT NULL,
-	 beszelt_nyelv nvarchar(50) NOT NULL,
+	 keresztnev nvarchar(50) NOT NULL CONSTRAINT Only_Alphabets_KNEV CHECK (keresztnev NOT LIKE '%[^A-Z ]%'),
+	 vezeteknev nvarchar(50) NOT NULL CONSTRAINT Only_Alphabets_VNEV CHECK (vezeteknev NOT LIKE '%[^A-Z ]%'),
+	 orszag nvarchar(56) NOT NULL CONSTRAINT Only_Alphabets_ORSZ CHECK (orszag NOT LIKE '%[^A-Z ]%'),
+	 beszelt_nyelv nvarchar(50) NOT NULL CONSTRAINT Only_Alphabets_BNYELV CHECK (beszelt_nyelv NOT LIKE '%[^A-Z ]%'),
 	 konstruktor_id char(3) NOT NULL,
 	 szuletesi_datum nvarchar(50) NOT NULL,
-	 kod char(3),
+	 kod char(3) CONSTRAINT Only_Alphabets_KOD CHECK (keresztnev NOT LIKE '%[^A-Z]%'),
 	 --Add Primary Key
 	 CONSTRAINT PK_versenyzok PRIMARY KEY (versenyzo_id ASC)	 
  )
@@ -48,9 +48,9 @@ GO
 CREATE TABLE dbo.konstruktorok
 (
 	 konstruktor_id char(3) NOT NULL,
-	 nev nvarchar(50) NOT NULL,
-	 csapatvezeto nvarchar(70) NOT NULL,
-	 orszag nvarchar(56) NOT NULL,
+	 nev nvarchar(50) NOT NULL CONSTRAINT Only_Alphabets_NEV CHECK (nev NOT LIKE '%[^A-Z ]%'),
+	 csapatvezeto nvarchar(70) NOT NULL CONSTRAINT Only_Alphabets_CSNEV CHECK (csapatvezeto NOT LIKE '%[^A-Z ]%'),
+	 orszag nvarchar(56) NOT NULL CONSTRAINT Only_Alphabets_KORSZ CHECK (nev NOT LIKE '%[^A-Z ]%'),
 	 --Add Primary Key
 	 CONSTRAINT PK_konstruktorok PRIMARY KEY (konstruktor_id ASC)
  )
@@ -60,9 +60,9 @@ GO
 -- Create Table helyszin
 CREATE TABLE dbo.helyszin(
 	helyszin_id char(3) NOT NULL,
-	palyanev nvarchar(50) NOT NULL,
+	palyanev nvarchar(50) NOT NULL CONSTRAINT Only_Alphabets_PNEV CHECK (palyanev NOT LIKE '%[^A-Z ]%'),
 	telepules nvarchar(50) NOT NULL,
-	orszag nvarchar(56) NOT NULL,
+	orszag nvarchar(56) NOT NULL CONSTRAINT Only_Alphabets_HORSZ CHECK (orszag NOT LIKE '%[^A-Z ]%'),
 	--Add Primary Key
 	CONSTRAINT PK_helyszin PRIMARY KEY (helyszin_id ASC)
  )
