@@ -58,15 +58,15 @@ PRINT 'Successfully created table konstruktorok...'
 GO
 
 -- Create Table helyszin
-CREATE TABLE dbo.helyszin(
+CREATE TABLE dbo.helyszinek(
 	helyszin_id char(3) NOT NULL,
 	palyanev nvarchar(50) NOT NULL CONSTRAINT Only_Alphabets_PNEV CHECK (palyanev NOT LIKE '%[^A-Z ]%'),
 	telepules nvarchar(50) NOT NULL,
 	orszag nvarchar(56) NOT NULL CONSTRAINT Only_Alphabets_HORSZ CHECK (orszag NOT LIKE '%[^A-Z ]%'),
 	--Add Primary Key
-	CONSTRAINT PK_helyszin PRIMARY KEY (helyszin_id ASC)
+	CONSTRAINT PK_helyszinek PRIMARY KEY (helyszin_id ASC)
  )
-PRINT 'Successfully created table helyszin...'
+PRINT 'Successfully created table helyszinek...'
 GO
 
 -- Create Table idojarasi_korulmenyek
@@ -86,7 +86,7 @@ CREATE TABLE dbo.autok(
 	karosszeria_tervezo_id char(3) NOT NULL,
 	motor_tervezo_id char(3) NOT NULL,
 	teljesitmeny char(4) NOT NULL CONSTRAINT Params_Telj CHECK (teljesitmeny >= 100 AND teljesitmeny <= 800),
-	tömeg char(4) NOT NULL CONSTRAINT Params_Tom CHECK (tömeg >= 300 AND tömeg <= 1200),
+	tomeg char(4) NOT NULL CONSTRAINT Params_Tom CHECK (tomeg >= 300 AND tomeg <= 1200),
 	--Add Primary Key
 	CONSTRAINT PK_autok PRIMARY KEY (auto_id ASC)
  )
@@ -94,13 +94,13 @@ PRINT 'Successfully created table autok...'
 GO
 
 -- Create Table szezon
-CREATE TABLE dbo.szezon(
+CREATE TABLE dbo.szezonok(
 	szezon_id char(3) NOT NULL,
 	ev nvarchar(50) NOT NULL,
 	--Add Primary Key
-	CONSTRAINT PK_szezon PRIMARY KEY (szezon_id ASC)
+	CONSTRAINT PK_szezonok PRIMARY KEY (szezon_id ASC)
  )
-PRINT 'Successfully created table szezon...'
+PRINT 'Successfully created table szezonok...'
 GO
 
 -- Create Table futamok
