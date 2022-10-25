@@ -17,6 +17,7 @@ IF  EXISTS (
 		WHERE name = N'Formula_1'
 		
 )
+ALTER DATABASE Formula_1 SET single_user WITH ROLLBACK immediate
 DROP DATABASE Formula_1
 GO
 CREATE DATABASE Formula_1
@@ -235,10 +236,11 @@ GO
 /*DATA CONVERSION FROM VARCHAR TO DATE AND TIME!*/
 
 ALTER TABLE versenyzok
-ALTER COLUMN szuletesi_datum datetime
+ALTER COLUMN szuletesi_datum date
 PRINT 'Successfully converted versenyzok.szuletesi_datum...'
 
 GO
+
 
 ALTER TABLE futamok
 ALTER COLUMN ido time(7)
@@ -247,7 +249,7 @@ PRINT 'Successfully converted futamok.ido...'
 GO
 
 ALTER TABLE futamok
-ALTER COLUMN datum datetime
+ALTER COLUMN datum date
 PRINT 'Successfully converted futamok.datum...'
 GO
 
@@ -280,7 +282,7 @@ PRINT 'Successfully converted helyezesek.verseny_ido...'
 GO
 SELECT CONVERT(time(7),futamok.ido, 114)
 FROM futamok
-WHERE futamok.ido !=''
+WHERE futamok.ido !='\N'
 PRINT 'Successfully converted futamok.ido...'
 GO
 */
