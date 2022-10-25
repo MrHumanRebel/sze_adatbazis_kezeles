@@ -249,7 +249,7 @@ SELECT CONVERT(time(7),helyezesek.verseny_ido, 103)
 FROM helyezesek
 PRINT 'Successfully converted helyezesek.verseny_ido...'
 GO
-SELECT CONVERT(time(7),futamok.ido, 103)
+SELECT CONVERT(time(7),futamok.ido, 114)
 FROM futamok
 WHERE futamok.ido !='\N'
 PRINT 'Successfully converted futamok.ido...'
