@@ -117,6 +117,7 @@ CREATE TABLE dbo.futamok(
 	--Add Foreign Keys
 	ALTER TABLE futamok ADD CONSTRAINT FK_futamok FOREIGN KEY (szezon_id) REFERENCES szezonok(szezon_id);
 	ALTER TABLE futamok ADD CONSTRAINT FK2_futamok FOREIGN KEY (helyszin_id) REFERENCES helyszinek(helyszin_id);
+	ALTER TABLE futamok ADD CONSTRAINT FK3_futamok FOREIGN KEY (idojarasi_korulmeny_id) REFERENCES idojarasi_korulmenyek(idojarasi_korulmeny_id);
 PRINT 'Successfully created table futamok...'
 GO
 
@@ -139,6 +140,7 @@ CREATE TABLE dbo.helyezesek(
 	ALTER TABLE helyezesek ADD CONSTRAINT FK2_helyezesek FOREIGN KEY (futam_id) REFERENCES futamok(futam_id);
 	ALTER TABLE helyezesek ADD CONSTRAINT FK3_helyezesek FOREIGN KEY (auto_id) REFERENCES autok(auto_id);
 	ALTER TABLE helyezesek ADD CONSTRAINT FK4_helyezesek FOREIGN KEY (konstruktor_id) REFERENCES konstruktorok(konstruktor_id);
+	ALTER TABLE helyezesek ADD CONSTRAINT FK5_helyezesek FOREIGN KEY (versenyzo_id) REFERENCES versenyzok(versenyzo_id);
 PRINT 'Successfully created table helyezesek...'
 GO
 
