@@ -37,7 +37,7 @@ CREATE TABLE dbo.versenyzok
 	 beszelt_nyelv nvarchar(50) NOT NULL CONSTRAINT Only_Alphabets_BNYELV CHECK (beszelt_nyelv NOT LIKE '%[^A-Z ]%'),
 	 konstruktor_id char(3) NOT NULL,
 	 szuletesi_datum nvarchar(50) NOT NULL,
-	 kod char(3) CONSTRAINT Only_Alphabets_KOD CHECK (keresztnev NOT LIKE '%[^A-Z]%'),
+	 kod char(3) CONSTRAINT Only_Alphabets_KOD CHECK (kod NOT LIKE '%[^A-Z]%'),
 	 --Add Primary Key
 	 CONSTRAINT PK_versenyzok PRIMARY KEY (versenyzo_id ASC)	 
  )
@@ -50,7 +50,7 @@ CREATE TABLE dbo.konstruktorok
 	 konstruktor_id char(3) NOT NULL,
 	 nev nvarchar(50) NOT NULL CONSTRAINT Only_Alphabets_NEV CHECK (nev NOT LIKE '%[^A-Z ]%'),
 	 csapatvezeto nvarchar(70) NOT NULL CONSTRAINT Only_Alphabets_CSNEV CHECK (csapatvezeto NOT LIKE '%[^A-Z ]%'),
-	 orszag nvarchar(56) NOT NULL CONSTRAINT Only_Alphabets_KORSZ CHECK (nev NOT LIKE '%[^A-Z ]%'),
+	 orszag nvarchar(56) NOT NULL CONSTRAINT Only_Alphabets_KORSZ CHECK (orszag NOT LIKE '%[^A-Z ]%'),
 	 --Add Primary Key
 	 CONSTRAINT PK_konstruktorok PRIMARY KEY (konstruktor_id ASC)
  )
@@ -58,15 +58,15 @@ PRINT 'Successfully created table konstruktorok...'
 GO
 
 -- Create Table helyszin
-CREATE TABLE dbo.helyszinek(
+CREATE TABLE dbo.helyszin(
 	helyszin_id char(3) NOT NULL,
 	palyanev nvarchar(50) NOT NULL CONSTRAINT Only_Alphabets_PNEV CHECK (palyanev NOT LIKE '%[^A-Z ]%'),
 	telepules nvarchar(50) NOT NULL,
 	orszag nvarchar(56) NOT NULL CONSTRAINT Only_Alphabets_HORSZ CHECK (orszag NOT LIKE '%[^A-Z ]%'),
 	--Add Primary Key
-	CONSTRAINT PK_helyszinek PRIMARY KEY (helyszin_id ASC)
+	CONSTRAINT PK_helyszin PRIMARY KEY (helyszin_id ASC)
  )
-PRINT 'Successfully created table helyszinek...'
+PRINT 'Successfully created table helyszin...'
 GO
 
 -- Create Table idojarasi_korulmenyek
@@ -86,7 +86,7 @@ CREATE TABLE dbo.autok(
 	karosszeria_tervezo_id char(3) NOT NULL,
 	motor_tervezo_id char(3) NOT NULL,
 	teljesitmeny char(4) NOT NULL CONSTRAINT Params_Telj CHECK (teljesitmeny >= 100 AND teljesitmeny <= 800),
-	tomeg char(4) NOT NULL CONSTRAINT Params_Tom CHECK (tomeg >= 300 AND tomeg <= 1200),
+	tömeg char(4) NOT NULL CONSTRAINT Params_Tom CHECK (tömeg >= 300 AND tömeg <= 1200),
 	--Add Primary Key
 	CONSTRAINT PK_autok PRIMARY KEY (auto_id ASC)
  )
@@ -94,13 +94,13 @@ PRINT 'Successfully created table autok...'
 GO
 
 -- Create Table szezon
-CREATE TABLE dbo.szezonok(
+CREATE TABLE dbo.szezon(
 	szezon_id char(3) NOT NULL,
 	ev nvarchar(50) NOT NULL,
 	--Add Primary Key
-	CONSTRAINT PK_szezonok PRIMARY KEY (szezon_id ASC)
+	CONSTRAINT PK_szezon PRIMARY KEY (szezon_id ASC)
  )
-PRINT 'Successfully created table szezonok...'
+PRINT 'Successfully created table szezon...'
 GO
 
 -- Create Table futamok
@@ -123,7 +123,7 @@ GO
 CREATE TABLE dbo.helyezesek(
 	helyezes_id char(5) NOT NULL,
 	versenyzo_id char(4) NOT NULL,
-	elert_helyezes char(3) CONSTRAINT Params CHECK (elert_helyezes >= 1 AND elert_helyezes <= 25),
+	elert_helyezes char(3) CONSTRAINT Params_Helyez CHECK (elert_helyezes >= 1 AND elert_helyezes <= 25),
 	pole_poz bit NOT NULL,
 	verseny_ido nvarchar(50),
 	szezon_id char(3) NOT NULL,
