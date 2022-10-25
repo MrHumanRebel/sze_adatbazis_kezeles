@@ -41,771 +41,771 @@ versenyzo_id,keresztnev,vezeteknev,orszag,beszelt_nyelv,konstruktor_id,szuletesi
 40,Patrick,Friesacher,Ausztria,nemet,9,1980-09-26,FRI
 41,Ricardo,Zonta,Brazilia,portugal,56,1976-03-23,ZON
 42,Antônio,Pizzonia,Brazilia,portugal,56,1980-09-11,PIZ
-43,Cristiano,da Matta,Brazilia,portugal,56,1973-09-19,\N
-44,Olivier,Panis,Franciaorszag,francia,4,1966-09-02,\N
-45,Giorgio,Pantano,Olaszorszag,olasz,5,1979-02-04,\N
-46,Gianmaria,Bruni,Olaszorszag,olasz,5,1981-05-30,\N
-47,Zsolt,Baumgartner,Magyarorszag,magyar,96,1981-01-01,\N
-48,Marc,Gené,Spanyolorszag,spanyol,164,1974-03-29,\N
-49,Heinz-Harald,Frentzen,Nemetorszag,nemet,2,1967-05-18,\N
-50,Jos,Verstappen,Hollandia,holland,12,1972-03-04,\N
-51,Justin,Wilson,Egyesult Kiralysag,angol,1,1978-07-31,\N
-52,Ralph,Firman,Irorszag,angol,17,1975-05-20,\N
-53,Nicolas,Kiesa,Dania,dan,121,1978-03-03,\N
-54,Luciano,Burti,Brazilia,portugal,56,1975-03-05,\N
-55,Jean,Alesi,Franciaorszag,francia,4,1964-06-11,\N
-56,Eddie,Irvine,Egyesult Kiralysag,angol,1,1965-11-10,\N
-57,Mika,Häkkinen,Finnorszag,finn,90,1968-09-28,\N
-58,Tarso,Marques,Brazilia,portugal,56,1976-01-19,\N
-59,Enrique,Bernoldi,Brazilia,portugal,56,1978-10-19,\N
-60,Gastón,Mazzacane,Argentina,spanyol,31,1975-05-08,\N
-61,Tomáš,Enge,Csehorszag,cseh,181,1976-09-11,\N
-62,Alex,Yoong,Malajzia,malaj,205,1976-07-20,\N
-63,Mika,Salo,Finnorszag,finn,93,1966-11-30,\N
-64,Pedro,Diniz,Brazilia,portugal,56,1970-05-22,\N
-65,Johnny,Herbert,Egyesult Kiralysag,angol,1,1964-06-25,\N
-66,Allan,McNish,Egyesult Kiralysag,angol,1,1969-12-29,\N
+43,Cristiano,da Matta,Brazilia,portugal,56,1973-09-19,
+44,Olivier,Panis,Franciaorszag,francia,4,1966-09-02,
+45,Giorgio,Pantano,Olaszorszag,olasz,5,1979-02-04,
+46,Gianmaria,Bruni,Olaszorszag,olasz,5,1981-05-30,
+47,Zsolt,Baumgartner,Magyarorszag,magyar,96,1981-01-01,
+48,Marc,Gené,Spanyolorszag,spanyol,164,1974-03-29,
+49,Heinz-Harald,Frentzen,Nemetorszag,nemet,2,1967-05-18,
+50,Jos,Verstappen,Hollandia,holland,12,1972-03-04,
+51,Justin,Wilson,Egyesult Kiralysag,angol,1,1978-07-31,
+52,Ralph,Firman,Irorszag,angol,17,1975-05-20,
+53,Nicolas,Kiesa,Dania,dan,121,1978-03-03,
+54,Luciano,Burti,Brazilia,portugal,56,1975-03-05,
+55,Jean,Alesi,Franciaorszag,francia,4,1964-06-11,
+56,Eddie,Irvine,Egyesult Kiralysag,angol,1,1965-11-10,
+57,Mika,Häkkinen,Finnorszag,finn,90,1968-09-28,
+58,Tarso,Marques,Brazilia,portugal,56,1976-01-19,
+59,Enrique,Bernoldi,Brazilia,portugal,56,1978-10-19,
+60,Gastón,Mazzacane,Argentina,spanyol,31,1975-05-08,
+61,Tomáš,Enge,Csehorszag,cseh,181,1976-09-11,
+62,Alex,Yoong,Malajzia,malaj,205,1976-07-20,
+63,Mika,Salo,Finnorszag,finn,93,1966-11-30,
+64,Pedro,Diniz,Brazilia,portugal,56,1970-05-22,
+65,Johnny,Herbert,Egyesult Kiralysag,angol,1,1964-06-25,
+66,Allan,McNish,Egyesult Kiralysag,angol,1,1969-12-29,
 67,Sébastien,Buemi,Svajc,nemet,15,1988-10-31,BUE
-68,Toranosuke,Takagi,Japan,japan,7,1974-02-12,\N
+68,Toranosuke,Takagi,Japan,japan,7,1974-02-12,
 69,Luca,Badoer,Olaszorszag,olasz,5,1971-01-25,BAD
-70,Alessandro,Zanardi,Olaszorszag,olasz,5,1966-10-23,\N
-71,Damon,Hill,Egyesult Kiralysag,angol,1,1960-09-17,\N
-72,Stéphane,Sarrazin,Franciaorszag,francia,4,1975-11-02,\N
-73,Ricardo,Rosset,Brazilia,portugal,56,1968-07-27,\N
-74,Esteban,Tuero,Argentina,spanyol,3,1978-04-22,\N
-75,Shinji,Nakano,Japan,japan,7,1971-04-01,\N
+70,Alessandro,Zanardi,Olaszorszag,olasz,5,1966-10-23,
+71,Damon,Hill,Egyesult Kiralysag,angol,1,1960-09-17,
+72,Stéphane,Sarrazin,Franciaorszag,francia,4,1975-11-02,
+73,Ricardo,Rosset,Brazilia,portugal,56,1968-07-27,
+74,Esteban,Tuero,Argentina,spanyol,3,1978-04-22,
+75,Shinji,Nakano,Japan,japan,7,1971-04-01,
 76,Jan,Magnussen,Dania,dan,72,1973-07-04,MAG
-77,Gerhard,Berger,Ausztria,nemet,9,1959-08-27,\N
-78,Nicola,Larini,Olaszorszag,olasz,5,1964-03-19,\N
-79,Ukyo,Katayama,Japan,japan,7,1963-05-29,\N
-80,Vincenzo,Sospiri,Olaszorszag,olasz,5,1966-10-07,\N
-81,Gianni,Morbidelli,Olaszorszag,olasz,5,1968-01-13,\N
-82,Norberto,Fontana,Argentina,spanyol,139,1975-01-20,\N
-83,Pedro,Lamy,Portugalia,portugal,52,1972-03-20,\N
-84,Martin,Brundle,Egyesult Kiralysag,angol,1,1959-06-01,\N
-85,Andrea,Montermini,Olaszorszag,olasz,5,1964-05-30,\N
-86,Giovanni,Lavaggi,Olaszorszag,olasz,5,1958-02-18,\N
-87,Mark,Blundell,Egyesult Kiralysag,angol,1,1966-04-08,\N
-88,Aguri,Suzuki,Japan,japan,7,1960-09-08,\N
-89,Taki,Inoue,Japan,japan,7,1963-09-05,\N
-90,Roberto,Moreno,Brazilia,portugal,56,1959-02-11,\N
-91,Karl,Wendlinger,Ausztria,nemet,9,1968-12-20,\N
-92,Bertrand,Gachot,Belgium,flamand,100,1962-12-23,\N
-93,Domenico,Schiattarella,Olaszorszag,olasz,5,1967-11-17,\N
-94,Pierluigi,Martini,Olaszorszag,olasz,5,1961-04-23,\N
-95,Nigel,Mansell,Egyesult Kiralysag,angol,1,1953-08-08,\N
-96,Jean-Christophe,Boullion,Franciaorszag,francia,4,1969-12-27,\N
-97,Massimiliano,Papis,Olaszorszag,olasz,5,1969-10-03,\N
-98,Jean-Denis,Délétraz,Svajc,nemet,15,1963-10-01,\N
-99,Gabriele,Tarquini,Olaszorszag,olasz,5,1962-03-02,\N
-100,Érik,Comas,Franciaorszag,francia,4,1963-09-28,\N
-101,David,Brabham,Ausztralia,angol,69,1965-09-05,\N
-102,Ayrton,Senna,Brazilia,portugal,56,1960-03-21,\N
-103,Éric,Bernard,Franciaorszag,francia,4,1964-08-24,\N
-104,Christian,Fittipaldi,Brazilia,portugal,56,1971-01-18,\N
-105,Michele,Alboreto,Olaszorszag,olasz,5,1956-12-23,\N
-106,Olivier,Beretta,Monaco,francia,166,1969-11-23,\N
-107,Roland,Ratzenberger,Ausztria,nemet,9,1960-07-04,\N
-108,Paul,Belmondo,Franciaorszag,francia,4,1963-04-23,\N
-109,Jyrki,Järvilehto,Finnorszag,finn,36,1966-01-31,\N
-110,Andrea,de Cesaris,Olaszorszag,olasz,5,1959-05-31,\N
-111,Jean-Marc,Gounon,Franciaorszag,francia,4,1963-01-01,\N
-112,Philippe,Alliot,Franciaorszag,francia,4,1954-07-27,\N
-113,Philippe,Adams,Belgium,flamand,100,1969-11-19,\N
-114,Yannick,Dalmas,Franciaorszag,francia,4,1961-07-28,\N
-115,Hideki,Noda,Japan,japan,7,1969-03-07,\N
-116,Franck,Lagorce,Franciaorszag,francia,4,1968-09-01,\N
-117,Alain,Prost,Franciaorszag,francia,4,1955-02-24,\N
-118,Derek,Warwick,Egyesult Kiralysag,angol,1,1954-08-27,\N
-119,Riccardo,Patrese,Olaszorszag,olasz,5,1954-04-17,\N
-120,Fabrizio,Barbazza,Olaszorszag,olasz,5,1963-04-02,\N
-121,Michael,Andretti,Egyesult Allamok,angol,67,1962-10-05,\N
-122,Ivan,Capelli,Olaszorszag,olasz,5,1963-05-24,\N
-123,Thierry,Boutsen,Belgium,flamand,100,1957-07-13,\N
-124,Marco,Apicella,Olaszorszag,olasz,5,1965-10-07,\N
-125,Emanuele,Naspetti,Olaszorszag,olasz,5,1968-02-24,\N
-126,Toshio,Suzuki,Japan,japan,7,1955-03-10,\N
-127,Maurício,Gugelmin,Brazilia,portugal,56,1963-04-20,\N
-128,Eric,van de Poele,Belgium,flamand,100,1961-09-30,\N
-129,Olivier,Grouillard,Franciaorszag,francia,4,1958-09-02,\N
-130,Andrea,Chiesa,Svajc,nemet,15,1964-05-06,\N
-131,Stefano,Modena,Olaszorszag,olasz,5,1963-05-12,\N
-132,Giovanna,Amati,Olaszorszag,olasz,5,1959-07-20,\N
-133,Alex,Caffi,Olaszorszag,olasz,5,1964-03-18,\N
-134,Enrico,Bertaggia,Olaszorszag,olasz,5,1964-09-19,\N
-135,Perry,McCarthy,Egyesult Kiralysag,angol,1,1961-03-03,\N
-136,Jan,Lammers,Hollandia,holland,12,1956-06-02,\N
-137,Nelson,Piquet,Brazilia,portugal,56,1952-08-17,\N
-138,Satoru,Nakajima,Japan,japan,7,1953-02-23,\N
-139,Emanuele,Pirro,Olaszorszag,olasz,5,1962-01-12,\N
-140,Stefan,Johansson,Svedorszag,sved,64,1956-09-08,\N
-141,Julian,Bailey,Egyesult Kiralysag,angol,1,1961-10-09,\N
-142,Pedro,Chaves,Portugalia,portugal,37,1965-02-27,\N
-143,Michael,Bartels,Nemetorszag,nemet,2,1968-03-08,\N
-144,Naoki,Hattori,Japan,japan,7,1966-06-13,\N
-145,Alessandro,Nannini,Olaszorszag,olasz,5,1959-07-07,\N
-146,Bernd,Schneider,Nemetorszag,nemet,2,1964-07-20,\N
-147,Paolo,Barilla,Olaszorszag,olasz,5,1961-04-20,\N
-148,Gregor,Foitek,Svajc,nemet,15,1965-03-27,\N
-149,Claudio,Langes,Olaszorszag,olasz,5,1960-07-20,\N
-150,Gary,Brabham,Ausztralia,angol,69,1961-03-29,\N
-151,Martin,Donnelly,Egyesult Kiralysag,angol,1,1964-03-26,\N
-152,Bruno,Giacomelli,Olaszorszag,olasz,5,1952-09-10,\N
+77,Gerhard,Berger,Ausztria,nemet,9,1959-08-27,
+78,Nicola,Larini,Olaszorszag,olasz,5,1964-03-19,
+79,Ukyo,Katayama,Japan,japan,7,1963-05-29,
+80,Vincenzo,Sospiri,Olaszorszag,olasz,5,1966-10-07,
+81,Gianni,Morbidelli,Olaszorszag,olasz,5,1968-01-13,
+82,Norberto,Fontana,Argentina,spanyol,139,1975-01-20,
+83,Pedro,Lamy,Portugalia,portugal,52,1972-03-20,
+84,Martin,Brundle,Egyesult Kiralysag,angol,1,1959-06-01,
+85,Andrea,Montermini,Olaszorszag,olasz,5,1964-05-30,
+86,Giovanni,Lavaggi,Olaszorszag,olasz,5,1958-02-18,
+87,Mark,Blundell,Egyesult Kiralysag,angol,1,1966-04-08,
+88,Aguri,Suzuki,Japan,japan,7,1960-09-08,
+89,Taki,Inoue,Japan,japan,7,1963-09-05,
+90,Roberto,Moreno,Brazilia,portugal,56,1959-02-11,
+91,Karl,Wendlinger,Ausztria,nemet,9,1968-12-20,
+92,Bertrand,Gachot,Belgium,flamand,100,1962-12-23,
+93,Domenico,Schiattarella,Olaszorszag,olasz,5,1967-11-17,
+94,Pierluigi,Martini,Olaszorszag,olasz,5,1961-04-23,
+95,Nigel,Mansell,Egyesult Kiralysag,angol,1,1953-08-08,
+96,Jean-Christophe,Boullion,Franciaorszag,francia,4,1969-12-27,
+97,Massimiliano,Papis,Olaszorszag,olasz,5,1969-10-03,
+98,Jean-Denis,Délétraz,Svajc,nemet,15,1963-10-01,
+99,Gabriele,Tarquini,Olaszorszag,olasz,5,1962-03-02,
+100,Érik,Comas,Franciaorszag,francia,4,1963-09-28,
+101,David,Brabham,Ausztralia,angol,69,1965-09-05,
+102,Ayrton,Senna,Brazilia,portugal,56,1960-03-21,
+103,Éric,Bernard,Franciaorszag,francia,4,1964-08-24,
+104,Christian,Fittipaldi,Brazilia,portugal,56,1971-01-18,
+105,Michele,Alboreto,Olaszorszag,olasz,5,1956-12-23,
+106,Olivier,Beretta,Monaco,francia,166,1969-11-23,
+107,Roland,Ratzenberger,Ausztria,nemet,9,1960-07-04,
+108,Paul,Belmondo,Franciaorszag,francia,4,1963-04-23,
+109,Jyrki,Järvilehto,Finnorszag,finn,36,1966-01-31,
+110,Andrea,de Cesaris,Olaszorszag,olasz,5,1959-05-31,
+111,Jean-Marc,Gounon,Franciaorszag,francia,4,1963-01-01,
+112,Philippe,Alliot,Franciaorszag,francia,4,1954-07-27,
+113,Philippe,Adams,Belgium,flamand,100,1969-11-19,
+114,Yannick,Dalmas,Franciaorszag,francia,4,1961-07-28,
+115,Hideki,Noda,Japan,japan,7,1969-03-07,
+116,Franck,Lagorce,Franciaorszag,francia,4,1968-09-01,
+117,Alain,Prost,Franciaorszag,francia,4,1955-02-24,
+118,Derek,Warwick,Egyesult Kiralysag,angol,1,1954-08-27,
+119,Riccardo,Patrese,Olaszorszag,olasz,5,1954-04-17,
+120,Fabrizio,Barbazza,Olaszorszag,olasz,5,1963-04-02,
+121,Michael,Andretti,Egyesult Allamok,angol,67,1962-10-05,
+122,Ivan,Capelli,Olaszorszag,olasz,5,1963-05-24,
+123,Thierry,Boutsen,Belgium,flamand,100,1957-07-13,
+124,Marco,Apicella,Olaszorszag,olasz,5,1965-10-07,
+125,Emanuele,Naspetti,Olaszorszag,olasz,5,1968-02-24,
+126,Toshio,Suzuki,Japan,japan,7,1955-03-10,
+127,Maurício,Gugelmin,Brazilia,portugal,56,1963-04-20,
+128,Eric,van de Poele,Belgium,flamand,100,1961-09-30,
+129,Olivier,Grouillard,Franciaorszag,francia,4,1958-09-02,
+130,Andrea,Chiesa,Svajc,nemet,15,1964-05-06,
+131,Stefano,Modena,Olaszorszag,olasz,5,1963-05-12,
+132,Giovanna,Amati,Olaszorszag,olasz,5,1959-07-20,
+133,Alex,Caffi,Olaszorszag,olasz,5,1964-03-18,
+134,Enrico,Bertaggia,Olaszorszag,olasz,5,1964-09-19,
+135,Perry,McCarthy,Egyesult Kiralysag,angol,1,1961-03-03,
+136,Jan,Lammers,Hollandia,holland,12,1956-06-02,
+137,Nelson,Piquet,Brazilia,portugal,56,1952-08-17,
+138,Satoru,Nakajima,Japan,japan,7,1953-02-23,
+139,Emanuele,Pirro,Olaszorszag,olasz,5,1962-01-12,
+140,Stefan,Johansson,Svedorszag,sved,64,1956-09-08,
+141,Julian,Bailey,Egyesult Kiralysag,angol,1,1961-10-09,
+142,Pedro,Chaves,Portugalia,portugal,37,1965-02-27,
+143,Michael,Bartels,Nemetorszag,nemet,2,1968-03-08,
+144,Naoki,Hattori,Japan,japan,7,1966-06-13,
+145,Alessandro,Nannini,Olaszorszag,olasz,5,1959-07-07,
+146,Bernd,Schneider,Nemetorszag,nemet,2,1964-07-20,
+147,Paolo,Barilla,Olaszorszag,olasz,5,1961-04-20,
+148,Gregor,Foitek,Svajc,nemet,15,1965-03-27,
+149,Claudio,Langes,Olaszorszag,olasz,5,1960-07-20,
+150,Gary,Brabham,Ausztralia,angol,69,1961-03-29,
+151,Martin,Donnelly,Egyesult Kiralysag,angol,1,1964-03-26,
+152,Bruno,Giacomelli,Olaszorszag,olasz,5,1952-09-10,
 153,Jaime,Alguersuari,Spanyolorszag,spanyol,164,1990-03-23,ALG
 154,Romain,Grosjean,Franciaorszag,francia,4,1986-04-17,GRO
 155,Kamui,Kobayashi,Japan,japan,7,1986-09-13,KOB
-156,Jonathan,Palmer,Egyesult Kiralysag,angol,1,1956-11-07,\N
-157,Christian,Danner,Nemetorszag,nemet,2,1958-04-04,\N
-158,Eddie,Cheever,Egyesult Allamok,angol,67,1958-01-10,\N
-159,Luis,Pérez-Sala,Spanyolorszag,spanyol,164,1959-05-15,\N
-160,Piercarlo,Ghinzani,Olaszorszag,olasz,5,1952-01-16,\N
-161,Volker,Weidler,Nemetorszag,nemet,2,1962-03-18,\N
-162,Pierre-Henri,Raphanel,Franciaorszag,francia,4,1961-05-27,\N
-163,René,Arnoux,Franciaorszag,francia,4,1948-07-04,\N
-164,Joachim,Winkelhock,Nemetorszag,nemet,2,1960-10-24,\N
-165,Oscar,Larrauri,Argentina,spanyol,143,1954-08-19,\N
-166,Philippe,Streiff,Franciaorszag,francia,4,1955-06-26,\N
-167,Adrián,Campos,Spanyolorszag,spanyol,164,1960-06-17,\N
-168,Jean-Louis,Schlesser,Franciaorszag,francia,4,1948-09-12,\N
-169,Pascal,Fabre,Franciaorszag,francia,4,1960-01-09,\N
-170,Teo,Fabi,Olaszorszag,olasz,5,1955-03-09,\N
-171,Franco,Forini,Svajc,nemet,15,1958-09-22,\N
-172,Jacques,Laffite,Franciaorszag,francia,4,1943-11-21,\N
-173,Elio,de Angelis,Olaszorszag,olasz,5,1958-03-26,\N
-174,Johnny,Dumfries,Egyesult Kiralysag,angol,1,1958-04-26,\N
-175,Patrick,Tambay,Franciaorszag,francia,4,1949-06-25,\N
-176,Marc,Surer,Svajc,nemet,15,1951-09-18,\N
-177,Keke,Rosberg,Finnorszag,finn,1,1948-12-06,\N
-178,Alan,Jones,Ausztralia,angol,69,1946-11-02,\N
-179,Huub,Rothengatter,Hollandia,holland,12,1954-10-08,\N
-180,Allen,Berg,Kanada,angol,59,1961-08-01,\N
-181,Manfred,Winkelhock,Nemetorszag,nemet,2,1951-10-06,\N
-182,Niki,Lauda,Ausztria,nemet,9,1949-02-22,\N
-183,François,Hesnault,Franciaorszag,francia,4,1956-12-30,\N
-184,Mauro,Baldi,Olaszorszag,olasz,5,1954-01-31,\N
-185,Stefan,Bellof,Nemetorszag,nemet,2,1957-11-20,\N
-186,Kenny,Acheson,Egyesult Kiralysag,angol,1,1957-11-27,\N
-187,John,Watson,Egyesult Kiralysag,angol,1,1946-05-04,\N
-188,Johnny,Cecotto,Venezuela,spanyol,158,1956-01-25,\N
-189,Jo,Gartner,Ausztria,nemet,9,1954-01-24,\N
-190,Corrado,Fabi,Olaszorszag,olasz,5,1961-04-12,\N
-191,Mike,Thackwell,Uj-Zeland,angol,171,1961-03-30,\N
-192,Chico,Serra,Brazilia,portugal,56,1957-02-03,\N
-193,Danny,Sullivan,Egyesult Allamok,angol,67,1950-03-09,\N
-194,Eliseo,Salazar,Chile,spanyol,62,1954-11-14,\N
-195,Roberto,Guerrero,Kolumbia,spanyol,210,1958-11-16,\N
-196,Raul,Boesel,Brazilia,portugal,56,1957-12-04,\N
-197,Jean-Pierre,Jarier,Franciaorszag,francia,4,1946-07-10,\N
-198,Jacques,Villeneuve Sr.,Kanada,angol,59,1953-11-04,\N
-199,Carlos,Reutemann,Argentina,spanyol,30,1942-04-12,\N
-200,Jochen,Mass,Nemetorszag,nemet,2,1946-09-30,\N
-201,Slim,Borgudd,Svedorszag,sved,103,1946-11-25,\N
-202,Didier,Pironi,Franciaorszag,francia,4,1952-03-26,\N
-203,Gilles,Villeneuve,Kanada,angol,59,1950-01-18,\N
-204,Riccardo,Paletti,Olaszorszag,olasz,5,1958-06-15,\N
-205,Brian,Henton,Egyesult Kiralysag,angol,1,1946-09-19,\N
-206,Derek,Daly,Irorszag,angol,17,1953-03-11,\N
-207,Mario,Andretti,Egyesult Allamok,angol,67,1940-02-28,\N
-208,Emilio,de Villota,Spanyolorszag,spanyol,164,1946-07-26,\N
-209,Geoff,Lees,Egyesult Kiralysag,angol,1,1951-05-01,\N
-210,Tommy,Byrne,Irorszag,angol,17,1958-05-06,\N
-211,Rupert,Keegan,Egyesult Kiralysag,angol,1,1955-02-26,\N
-212,Hector,Rebaque,Mexiko,spanyol,62,1956-02-05,\N
-213,Beppe,Gabbiani,Olaszorszag,olasz,5,1957-01-02,\N
-214,Kevin,Cogan,Egyesult Allamok,angol,67,1956-03-31,\N
-215,Miguel Ángel,Guerra,Argentina,spanyol,130,1953-08-31,\N
-216,Siegfried,Stohr,Olaszorszag,olasz,5,1952-10-10,\N
-217,Ricardo,Zunino,Argentina,spanyol,22,1949-04-13,\N
-218,Ricardo,Londoño,Kolumbia,spanyol,124,1949-08-08,\N
-219,Jean-Pierre,Jabouille,Franciaorszag,francia,4,1942-10-01,\N
-220,Giorgio,Francia,Olaszorszag,olasz,5,1947-11-08,\N
-221,Patrick,Depailler,Franciaorszag,francia,4,1944-08-09,\N
-222,Jody,Scheckter,Del-Afrika,angol,89,1950-01-29,\N
-223,Clay,Regazzoni,Svajc,nemet,15,1939-09-05,\N
-224,Emerson,Fittipaldi,Brazilia,portugal,56,1946-12-12,\N
-225,Dave,Kennedy,Irorszag,angol,17,1953-01-15,\N
-226,Stephen,South,Egyesult Kiralysag,angol,1,1952-02-19,\N
-227,Tiff,Needell,Egyesult Kiralysag,angol,1,1951-10-29,\N
-228,Desiré,Wilson,Del-Afrika,angol,89,1953-11-26,\N
-229,Harald,Ertl,Ausztria,nemet,9,1948-08-31,\N
-230,Vittorio,Brambilla,Olaszorszag,olasz,5,1937-11-11,\N
-231,James,Hunt,Egyesult Kiralysag,angol,1,1947-08-29,\N
-232,Arturo,Merzario,Olaszorszag,olasz,5,1943-03-11,\N
-233,Hans-Joachim,Stuck,Nemetorszag,nemet,2,1951-01-01,\N
-234,Gianfranco,Brancatelli,Olaszorszag,olasz,5,1950-01-18,\N
-235,Jacky,Ickx,Belgium,flamand,100,1945-01-01,\N
-236,Patrick,Gaillard,Franciaorszag,francia,4,1952-02-12,\N
-237,Alex,Ribeiro,Brazilia,portugal,56,1948-11-07,\N
-238,Ronnie,Peterson,Svedorszag,sved,56,1944-02-14,\N
-239,Brett,Lunger,Egyesult Allamok,angol,67,1945-11-14,\N
-240,Danny,Ongais,Egyesult Allamok,angol,67,1942-05-21,\N
-241,Lamberto,Leoni,Olaszorszag,olasz,5,1953-05-24,\N
-242,Divina,Galica,Egyesult Kiralysag,angol,1,1944-08-13,\N
-243,Rolf,Stommelen,Nemetorszag,nemet,2,1943-07-11,\N
-244,Alberto,Colombo,Olaszorszag,olasz,5,1946-02-23,\N
-245,Tony,Trimmer,Egyesult Kiralysag,angol,1,1943-01-24,\N
-246,Hans,Binder,Ausztria,nemet,9,1948-06-12,\N
-247,Michael,Bleekemolen,Hollandia,holland,12,1949-10-02,\N
-248,Carlo,Franchi,Olaszorszag,olasz,5,1938-01-01,\N
-249,Bobby,Rahal,Egyesult Allamok,angol,67,1953-01-10,\N
-250,Carlos,Pace,Brazilia,portugal,56,1944-10-06,\N
-251,Ian,Scheckter,Del-Afrika,angol,89,1947-08-22,\N
-252,Tom,Pryce,Egyesult Kiralysag,angol,1,1949-06-11,\N
-253,Ingo,Hoffmann,Brazilia,portugal,56,1953-02-28,\N
-254,Renzo,Zorzi,Olaszorszag,olasz,5,1946-12-12,\N
-255,Gunnar,Nilsson,Svedorszag,sved,121,1948-11-20,\N
-256,Larry,Perkins,Ausztralia,angol,69,1950-03-18,\N
-257,Boy,Lunger,Hollandia,holland,12,1949-05-03,\N
-258,Patrick,Nève,Belgium,flamand,100,1949-10-13,\N
-259,David,Purley,Egyesult Kiralysag,angol,1,1945-01-26,\N
-260,Conny,Andersson,Svedorszag,sved,59,1939-12-28,\N
-261,Bernard,de Dryver,Belgium,flamand,100,1952-09-19,\N
-262,Jackie,Oliver,Egyesult Kiralysag,angol,1,1942-08-14,\N
-263,Mikko,Kozarowitzky,Finnorszag,finn,176,1948-05-17,\N
-264,Andy,Sutcliffe,Egyesult Kiralysag,angol,1,1947-05-09,\N
-265,Guy,Edwards,Egyesult Kiralysag,angol,1,1942-12-30,\N
-266,Brian,McGuire,Ausztralia,angol,69,1945-12-13,\N
-267,Vern,Schuppan,Ausztralia,angol,69,1943-03-19,\N
-268,Hans,Heyer,Nemetorszag,nemet,2,1943-03-16,\N
-269,Teddy,Pilette,Belgium,flamand,100,1942-07-26,\N
-270,Ian,Ashley,Egyesult Kiralysag,angol,1,1947-10-26,\N
-271,Loris,Kessel,Svajc,nemet,15,1950-04-01,\N
-272,Kunimitsu,Takahashi,Japan,japan,7,1940-01-29,\N
-273,Kazuyoshi,Hoshino,Japan,japan,7,1947-07-01,\N
-274,Noritake,Takahara,Japan,japan,7,1951-06-06,\N
-275,Lella,Lombardi,Olaszorszag,olasz,5,1941-03-26,\N
-276,Bob,Evans,Egyesult Kiralysag,angol,1,1947-06-11,\N
-277,Michel,Leclère,Franciaorszag,francia,4,1946-03-18,\N
-278,Chris,Amon,Uj-Zeland,angol,91,1943-07-20,\N
-279,Emilio,Zapico,Spanyolorszag,spanyol,164,1944-05-27,\N
-280,Henri,Pescarolo,Franciaorszag,francia,4,1942-09-25,\N
-281,Jac,Nelleman,Dania,dan,61,1944-04-19,\N
-282,Damien,Magee,Egyesult Kiralysag,angol,1,1945-11-17,\N
-283,Mike,Wilds,Egyesult Kiralysag,angol,1,1946-01-07,\N
-284,Alessandro,Pesenti-Rossi,Olaszorszag,olasz,5,1942-08-31,\N
-285,Otto,Stuppacher,Ausztria,nemet,9,1947-03-03,\N
-286,Warwick,Brown,Ausztralia,angol,69,1949-12-24,\N
-287,Masahiro,Hasemi,Japan,japan,7,1945-11-13,\N
-288,Mark,Donohue,Egyesult Allamok,angol,67,1937-03-18,\N
-289,Graham,Hill,Egyesult Kiralysag,angol,1,1929-02-15,\N
-290,Wilson,Fittipaldi,Brazilia,portugal,56,1943-12-25,\N
-291,Guy,Tunmer,Del-Afrika,angol,89,1948-12-01,\N
-292,Eddie,Keizan,Del-Afrika,angol,89,1944-09-12,\N
-293,Dave,Charlton,Del-Afrika,angol,89,1936-10-27,\N
-294,Tony,Brise,Egyesult Kiralysag,angol,1,1952-03-28,\N
-295,Roelof,Wunderink,Hollandia,holland,12,1948-12-12,\N
-296,François,Migault,Franciaorszag,francia,4,1944-12-04,\N
-297,Torsten,Palm,Svedorszag,sved,3,1947-07-23,\N
-298,Gijs,van Lennep,Hollandia,holland,12,1942-03-16,\N
-299,Hiroshi,Fushida,Japan,japan,7,1946-03-10,\N
-300,John,Nicholson,Uj-Zeland,angol,149,1941-10-06,\N
-301,Dave,Morgan,Egyesult Kiralysag,angol,1,1944-08-07,\N
-302,Jim,Crawford,Egyesult Kiralysag,angol,1,1948-02-13,\N
-303,Jo,Vonlanthen,Svajc,nemet,15,1942-05-31,\N
-304,Denny,Hulme,Uj-Zeland,angol,121,1936-06-18,\N
-305,Mike,Hailwood,Egyesult Kiralysag,angol,1,1940-04-02,\N
-306,Jean-Pierre,Beltoise,Franciaorszag,francia,4,1937-04-26,\N
-307,Howden,Ganley,Uj-Zeland,angol,151,1941-12-24,\N
-308,Richard,Robarts,Egyesult Kiralysag,angol,1,1944-09-22,\N
-309,Peter,Revson,Egyesult Allamok,angol,67,1939-02-27,\N
-310,Paddy,Driver,Del-Afrika,angol,89,1934-05-13,\N
-311,Tom,Belsø,Dania,dan,8,1942-08-27,\N
-312,Brian,Redman,Egyesult Kiralysag,angol,1,1937-03-09,\N
-313,Rikky,von Opel,Liechtenstein,nemet,92,1947-10-14,\N
-314,Tim,Schenken,Ausztralia,angol,69,1943-09-26,\N
-315,Gérard,Larrousse,Franciaorszag,francia,4,1940-05-23,\N
-316,Leo,Kinnunen,Finnorszag,finn,206,1943-08-05,\N
-317,Reine,Wisell,Svedorszag,sved,160,1941-09-30,\N
-318,Bertil,Roos,Svedorszag,sved,110,1943-10-12,\N
-319,José,Dolhem,Franciaorszag,francia,4,1944-04-26,\N
-320,Peter,Gethin,Egyesult Kiralysag,angol,1,1940-02-21,\N
-321,Derek,Bell,Egyesult Kiralysag,angol,1,1941-10-31,\N
-322,David,Hobbs,Egyesult Kiralysag,angol,1,1939-06-09,\N
-323,Dieter,Quester,Ausztria,nemet,9,1939-05-30,\N
-324,Helmuth,Koinigg,Ausztria,nemet,9,1948-11-03,\N
-325,Carlo,Facetti,Olaszorszag,olasz,5,1935-06-26,\N
-326,Eppie,Wietzes,Kanada,angol,59,1938-05-28,\N
-327,François,Cevert,Franciaorszag,francia,4,1944-02-25,\N
-328,Jackie,Stewart,Egyesult Kiralysag,angol,1,1939-06-11,\N
-329,Mike,Beuttler,Egyesult Kiralysag,angol,1,1940-04-13,\N
-330,Nanni,Galli,Olaszorszag,olasz,5,1940-10-02,\N
-331,Luiz,Bueno,Brazilia,portugal,56,1937-01-16,\N
-332,George,Follmer,Egyesult Allamok,angol,67,1934-01-27,\N
-333,Andrea,de Adamich,Olaszorszag,olasz,5,1941-10-03,\N
-334,Jackie,Pretorius,Del-Afrika,angol,89,1934-11-22,\N
-335,Roger,Williamson,Egyesult Kiralysag,angol,1,1948-02-02,\N
-336,Graham,McRae,Uj-Zeland,angol,110,1940-03-05,\N
-337,Helmut,Marko,Ausztria,nemet,9,1943-04-27,\N
-338,David,Walker,Ausztralia,angol,69,1941-06-10,\N
-339,Alex,Soler-Roig,Spanyolorszag,spanyol,164,1932-10-29,\N
-340,John,Love,Zimbabwe,angol,93,1924-12-07,\N
-341,John,Surtees,Egyesult Kiralysag,angol,1,1934-02-11,\N
-342,Skip,Barber,Egyesult Allamok,angol,67,1936-11-16,\N
-343,Bill,Brack,Kanada,angol,59,1935-12-26,\N
-344,Sam,Posey,Egyesult Allamok,angol,67,1944-05-26,\N
-345,Pedro,Rodríguez,Mexiko,spanyol,62,1940-01-18,\N
-346,Jo,Siffert,Svajc,nemet,15,1936-07-07,\N
-347,Jo,Bonnier,Svedorszag,sved,193,1930-01-31,\N
-348,François,Mazet,Franciaorszag,francia,4,1943-02-24,\N
-349,Max,Jean,Franciaorszag,francia,4,1943-07-27,\N
-350,Vic,Elford,Egyesult Kiralysag,angol,1,1935-06-10,\N
-351,Silvio,Moser,Svajc,nemet,15,1941-04-24,\N
-352,George,Eaton,Kanada,angol,59,1945-11-12,\N
-353,Pete,Lovely,Egyesult Allamok,angol,67,1926-04-11,\N
-354,Chris,Craft,Egyesult Kiralysag,angol,1,1939-11-17,\N
-355,John,Cannon,Kanada,angol,59,1933-06-21,\N
-356,Jack,Brabham,Ausztralia,angol,69,1926-04-02,\N
-357,John,Miles,Egyesult Kiralysag,angol,1,1943-06-14,\N
-358,Jochen,Rindt,Ausztria,nemet,9,1942-04-18,\N
-359,Johnny,Servoz-Gavin,Franciaorszag,francia,4,1942-01-18,\N
-360,Bruce,McLaren,Uj-Zeland,angol,22,1937-08-30,\N
-361,Piers,Courage,Egyesult Kiralysag,angol,1,1942-05-27,\N
-362,Peter,de Klerk,Del-Afrika,angol,89,1935-03-16,\N
-363,Ignazio,Giunti,Olaszorszag,olasz,5,1941-08-30,\N
-364,Dan,Gurney,Egyesult Allamok,angol,67,1931-04-13,\N
-365,Hubert,Hahne,Nemetorszag,nemet,2,1935-03-28,\N
-366,Gus,Hutchison,Egyesult Allamok,angol,67,1937-04-26,\N
-367,Peter,Westbury,Egyesult Kiralysag,angol,1,1938-05-26,\N
-368,Sam,Tingle,Zimbabwe,angol,93,1921-08-24,\N
-369,Basil,van Rooyen,Del-Afrika,angol,89,1939-04-19,\N
-370,Richard,Attwood,Egyesult Kiralysag,angol,1,1940-04-04,\N
-371,Al,Pease,Kanada,angol,59,1921-10-15,\N
-372,John,Cordts,Kanada,angol,59,1935-07-23,\N
-373,Jim,Clark,Egyesult Kiralysag,angol,1,1936-03-04,\N
-374,Mike,Spence,Egyesult Kiralysag,angol,1,1936-12-30,\N
-375,Ludovico,Scarfiotti,Olaszorszag,olasz,5,1933-10-18,\N
+156,Jonathan,Palmer,Egyesult Kiralysag,angol,1,1956-11-07,
+157,Christian,Danner,Nemetorszag,nemet,2,1958-04-04,
+158,Eddie,Cheever,Egyesult Allamok,angol,67,1958-01-10,
+159,Luis,Pérez-Sala,Spanyolorszag,spanyol,164,1959-05-15,
+160,Piercarlo,Ghinzani,Olaszorszag,olasz,5,1952-01-16,
+161,Volker,Weidler,Nemetorszag,nemet,2,1962-03-18,
+162,Pierre-Henri,Raphanel,Franciaorszag,francia,4,1961-05-27,
+163,René,Arnoux,Franciaorszag,francia,4,1948-07-04,
+164,Joachim,Winkelhock,Nemetorszag,nemet,2,1960-10-24,
+165,Oscar,Larrauri,Argentina,spanyol,143,1954-08-19,
+166,Philippe,Streiff,Franciaorszag,francia,4,1955-06-26,
+167,Adrián,Campos,Spanyolorszag,spanyol,164,1960-06-17,
+168,Jean-Louis,Schlesser,Franciaorszag,francia,4,1948-09-12,
+169,Pascal,Fabre,Franciaorszag,francia,4,1960-01-09,
+170,Teo,Fabi,Olaszorszag,olasz,5,1955-03-09,
+171,Franco,Forini,Svajc,nemet,15,1958-09-22,
+172,Jacques,Laffite,Franciaorszag,francia,4,1943-11-21,
+173,Elio,de Angelis,Olaszorszag,olasz,5,1958-03-26,
+174,Johnny,Dumfries,Egyesult Kiralysag,angol,1,1958-04-26,
+175,Patrick,Tambay,Franciaorszag,francia,4,1949-06-25,
+176,Marc,Surer,Svajc,nemet,15,1951-09-18,
+177,Keke,Rosberg,Finnorszag,finn,1,1948-12-06,
+178,Alan,Jones,Ausztralia,angol,69,1946-11-02,
+179,Huub,Rothengatter,Hollandia,holland,12,1954-10-08,
+180,Allen,Berg,Kanada,angol,59,1961-08-01,
+181,Manfred,Winkelhock,Nemetorszag,nemet,2,1951-10-06,
+182,Niki,Lauda,Ausztria,nemet,9,1949-02-22,
+183,François,Hesnault,Franciaorszag,francia,4,1956-12-30,
+184,Mauro,Baldi,Olaszorszag,olasz,5,1954-01-31,
+185,Stefan,Bellof,Nemetorszag,nemet,2,1957-11-20,
+186,Kenny,Acheson,Egyesult Kiralysag,angol,1,1957-11-27,
+187,John,Watson,Egyesult Kiralysag,angol,1,1946-05-04,
+188,Johnny,Cecotto,Venezuela,spanyol,158,1956-01-25,
+189,Jo,Gartner,Ausztria,nemet,9,1954-01-24,
+190,Corrado,Fabi,Olaszorszag,olasz,5,1961-04-12,
+191,Mike,Thackwell,Uj-Zeland,angol,171,1961-03-30,
+192,Chico,Serra,Brazilia,portugal,56,1957-02-03,
+193,Danny,Sullivan,Egyesult Allamok,angol,67,1950-03-09,
+194,Eliseo,Salazar,Chile,spanyol,62,1954-11-14,
+195,Roberto,Guerrero,Kolumbia,spanyol,210,1958-11-16,
+196,Raul,Boesel,Brazilia,portugal,56,1957-12-04,
+197,Jean-Pierre,Jarier,Franciaorszag,francia,4,1946-07-10,
+198,Jacques,Villeneuve Sr.,Kanada,angol,59,1953-11-04,
+199,Carlos,Reutemann,Argentina,spanyol,30,1942-04-12,
+200,Jochen,Mass,Nemetorszag,nemet,2,1946-09-30,
+201,Slim,Borgudd,Svedorszag,sved,103,1946-11-25,
+202,Didier,Pironi,Franciaorszag,francia,4,1952-03-26,
+203,Gilles,Villeneuve,Kanada,angol,59,1950-01-18,
+204,Riccardo,Paletti,Olaszorszag,olasz,5,1958-06-15,
+205,Brian,Henton,Egyesult Kiralysag,angol,1,1946-09-19,
+206,Derek,Daly,Irorszag,angol,17,1953-03-11,
+207,Mario,Andretti,Egyesult Allamok,angol,67,1940-02-28,
+208,Emilio,de Villota,Spanyolorszag,spanyol,164,1946-07-26,
+209,Geoff,Lees,Egyesult Kiralysag,angol,1,1951-05-01,
+210,Tommy,Byrne,Irorszag,angol,17,1958-05-06,
+211,Rupert,Keegan,Egyesult Kiralysag,angol,1,1955-02-26,
+212,Hector,Rebaque,Mexiko,spanyol,62,1956-02-05,
+213,Beppe,Gabbiani,Olaszorszag,olasz,5,1957-01-02,
+214,Kevin,Cogan,Egyesult Allamok,angol,67,1956-03-31,
+215,Miguel Ángel,Guerra,Argentina,spanyol,130,1953-08-31,
+216,Siegfried,Stohr,Olaszorszag,olasz,5,1952-10-10,
+217,Ricardo,Zunino,Argentina,spanyol,22,1949-04-13,
+218,Ricardo,Londoño,Kolumbia,spanyol,124,1949-08-08,
+219,Jean-Pierre,Jabouille,Franciaorszag,francia,4,1942-10-01,
+220,Giorgio,Francia,Olaszorszag,olasz,5,1947-11-08,
+221,Patrick,Depailler,Franciaorszag,francia,4,1944-08-09,
+222,Jody,Scheckter,Del-Afrika,angol,89,1950-01-29,
+223,Clay,Regazzoni,Svajc,nemet,15,1939-09-05,
+224,Emerson,Fittipaldi,Brazilia,portugal,56,1946-12-12,
+225,Dave,Kennedy,Irorszag,angol,17,1953-01-15,
+226,Stephen,South,Egyesult Kiralysag,angol,1,1952-02-19,
+227,Tiff,Needell,Egyesult Kiralysag,angol,1,1951-10-29,
+228,Desiré,Wilson,Del-Afrika,angol,89,1953-11-26,
+229,Harald,Ertl,Ausztria,nemet,9,1948-08-31,
+230,Vittorio,Brambilla,Olaszorszag,olasz,5,1937-11-11,
+231,James,Hunt,Egyesult Kiralysag,angol,1,1947-08-29,
+232,Arturo,Merzario,Olaszorszag,olasz,5,1943-03-11,
+233,Hans-Joachim,Stuck,Nemetorszag,nemet,2,1951-01-01,
+234,Gianfranco,Brancatelli,Olaszorszag,olasz,5,1950-01-18,
+235,Jacky,Ickx,Belgium,flamand,100,1945-01-01,
+236,Patrick,Gaillard,Franciaorszag,francia,4,1952-02-12,
+237,Alex,Ribeiro,Brazilia,portugal,56,1948-11-07,
+238,Ronnie,Peterson,Svedorszag,sved,56,1944-02-14,
+239,Brett,Lunger,Egyesult Allamok,angol,67,1945-11-14,
+240,Danny,Ongais,Egyesult Allamok,angol,67,1942-05-21,
+241,Lamberto,Leoni,Olaszorszag,olasz,5,1953-05-24,
+242,Divina,Galica,Egyesult Kiralysag,angol,1,1944-08-13,
+243,Rolf,Stommelen,Nemetorszag,nemet,2,1943-07-11,
+244,Alberto,Colombo,Olaszorszag,olasz,5,1946-02-23,
+245,Tony,Trimmer,Egyesult Kiralysag,angol,1,1943-01-24,
+246,Hans,Binder,Ausztria,nemet,9,1948-06-12,
+247,Michael,Bleekemolen,Hollandia,holland,12,1949-10-02,
+248,Carlo,Franchi,Olaszorszag,olasz,5,1938-01-01,
+249,Bobby,Rahal,Egyesult Allamok,angol,67,1953-01-10,
+250,Carlos,Pace,Brazilia,portugal,56,1944-10-06,
+251,Ian,Scheckter,Del-Afrika,angol,89,1947-08-22,
+252,Tom,Pryce,Egyesult Kiralysag,angol,1,1949-06-11,
+253,Ingo,Hoffmann,Brazilia,portugal,56,1953-02-28,
+254,Renzo,Zorzi,Olaszorszag,olasz,5,1946-12-12,
+255,Gunnar,Nilsson,Svedorszag,sved,121,1948-11-20,
+256,Larry,Perkins,Ausztralia,angol,69,1950-03-18,
+257,Boy,Lunger,Hollandia,holland,12,1949-05-03,
+258,Patrick,Nève,Belgium,flamand,100,1949-10-13,
+259,David,Purley,Egyesult Kiralysag,angol,1,1945-01-26,
+260,Conny,Andersson,Svedorszag,sved,59,1939-12-28,
+261,Bernard,de Dryver,Belgium,flamand,100,1952-09-19,
+262,Jackie,Oliver,Egyesult Kiralysag,angol,1,1942-08-14,
+263,Mikko,Kozarowitzky,Finnorszag,finn,176,1948-05-17,
+264,Andy,Sutcliffe,Egyesult Kiralysag,angol,1,1947-05-09,
+265,Guy,Edwards,Egyesult Kiralysag,angol,1,1942-12-30,
+266,Brian,McGuire,Ausztralia,angol,69,1945-12-13,
+267,Vern,Schuppan,Ausztralia,angol,69,1943-03-19,
+268,Hans,Heyer,Nemetorszag,nemet,2,1943-03-16,
+269,Teddy,Pilette,Belgium,flamand,100,1942-07-26,
+270,Ian,Ashley,Egyesult Kiralysag,angol,1,1947-10-26,
+271,Loris,Kessel,Svajc,nemet,15,1950-04-01,
+272,Kunimitsu,Takahashi,Japan,japan,7,1940-01-29,
+273,Kazuyoshi,Hoshino,Japan,japan,7,1947-07-01,
+274,Noritake,Takahara,Japan,japan,7,1951-06-06,
+275,Lella,Lombardi,Olaszorszag,olasz,5,1941-03-26,
+276,Bob,Evans,Egyesult Kiralysag,angol,1,1947-06-11,
+277,Michel,Leclère,Franciaorszag,francia,4,1946-03-18,
+278,Chris,Amon,Uj-Zeland,angol,91,1943-07-20,
+279,Emilio,Zapico,Spanyolorszag,spanyol,164,1944-05-27,
+280,Henri,Pescarolo,Franciaorszag,francia,4,1942-09-25,
+281,Jac,Nelleman,Dania,dan,61,1944-04-19,
+282,Damien,Magee,Egyesult Kiralysag,angol,1,1945-11-17,
+283,Mike,Wilds,Egyesult Kiralysag,angol,1,1946-01-07,
+284,Alessandro,Pesenti-Rossi,Olaszorszag,olasz,5,1942-08-31,
+285,Otto,Stuppacher,Ausztria,nemet,9,1947-03-03,
+286,Warwick,Brown,Ausztralia,angol,69,1949-12-24,
+287,Masahiro,Hasemi,Japan,japan,7,1945-11-13,
+288,Mark,Donohue,Egyesult Allamok,angol,67,1937-03-18,
+289,Graham,Hill,Egyesult Kiralysag,angol,1,1929-02-15,
+290,Wilson,Fittipaldi,Brazilia,portugal,56,1943-12-25,
+291,Guy,Tunmer,Del-Afrika,angol,89,1948-12-01,
+292,Eddie,Keizan,Del-Afrika,angol,89,1944-09-12,
+293,Dave,Charlton,Del-Afrika,angol,89,1936-10-27,
+294,Tony,Brise,Egyesult Kiralysag,angol,1,1952-03-28,
+295,Roelof,Wunderink,Hollandia,holland,12,1948-12-12,
+296,François,Migault,Franciaorszag,francia,4,1944-12-04,
+297,Torsten,Palm,Svedorszag,sved,3,1947-07-23,
+298,Gijs,van Lennep,Hollandia,holland,12,1942-03-16,
+299,Hiroshi,Fushida,Japan,japan,7,1946-03-10,
+300,John,Nicholson,Uj-Zeland,angol,149,1941-10-06,
+301,Dave,Morgan,Egyesult Kiralysag,angol,1,1944-08-07,
+302,Jim,Crawford,Egyesult Kiralysag,angol,1,1948-02-13,
+303,Jo,Vonlanthen,Svajc,nemet,15,1942-05-31,
+304,Denny,Hulme,Uj-Zeland,angol,121,1936-06-18,
+305,Mike,Hailwood,Egyesult Kiralysag,angol,1,1940-04-02,
+306,Jean-Pierre,Beltoise,Franciaorszag,francia,4,1937-04-26,
+307,Howden,Ganley,Uj-Zeland,angol,151,1941-12-24,
+308,Richard,Robarts,Egyesult Kiralysag,angol,1,1944-09-22,
+309,Peter,Revson,Egyesult Allamok,angol,67,1939-02-27,
+310,Paddy,Driver,Del-Afrika,angol,89,1934-05-13,
+311,Tom,Belsø,Dania,dan,8,1942-08-27,
+312,Brian,Redman,Egyesult Kiralysag,angol,1,1937-03-09,
+313,Rikky,von Opel,Liechtenstein,nemet,92,1947-10-14,
+314,Tim,Schenken,Ausztralia,angol,69,1943-09-26,
+315,Gérard,Larrousse,Franciaorszag,francia,4,1940-05-23,
+316,Leo,Kinnunen,Finnorszag,finn,206,1943-08-05,
+317,Reine,Wisell,Svedorszag,sved,160,1941-09-30,
+318,Bertil,Roos,Svedorszag,sved,110,1943-10-12,
+319,José,Dolhem,Franciaorszag,francia,4,1944-04-26,
+320,Peter,Gethin,Egyesult Kiralysag,angol,1,1940-02-21,
+321,Derek,Bell,Egyesult Kiralysag,angol,1,1941-10-31,
+322,David,Hobbs,Egyesult Kiralysag,angol,1,1939-06-09,
+323,Dieter,Quester,Ausztria,nemet,9,1939-05-30,
+324,Helmuth,Koinigg,Ausztria,nemet,9,1948-11-03,
+325,Carlo,Facetti,Olaszorszag,olasz,5,1935-06-26,
+326,Eppie,Wietzes,Kanada,angol,59,1938-05-28,
+327,François,Cevert,Franciaorszag,francia,4,1944-02-25,
+328,Jackie,Stewart,Egyesult Kiralysag,angol,1,1939-06-11,
+329,Mike,Beuttler,Egyesult Kiralysag,angol,1,1940-04-13,
+330,Nanni,Galli,Olaszorszag,olasz,5,1940-10-02,
+331,Luiz,Bueno,Brazilia,portugal,56,1937-01-16,
+332,George,Follmer,Egyesult Allamok,angol,67,1934-01-27,
+333,Andrea,de Adamich,Olaszorszag,olasz,5,1941-10-03,
+334,Jackie,Pretorius,Del-Afrika,angol,89,1934-11-22,
+335,Roger,Williamson,Egyesult Kiralysag,angol,1,1948-02-02,
+336,Graham,McRae,Uj-Zeland,angol,110,1940-03-05,
+337,Helmut,Marko,Ausztria,nemet,9,1943-04-27,
+338,David,Walker,Ausztralia,angol,69,1941-06-10,
+339,Alex,Soler-Roig,Spanyolorszag,spanyol,164,1932-10-29,
+340,John,Love,Zimbabwe,angol,93,1924-12-07,
+341,John,Surtees,Egyesult Kiralysag,angol,1,1934-02-11,
+342,Skip,Barber,Egyesult Allamok,angol,67,1936-11-16,
+343,Bill,Brack,Kanada,angol,59,1935-12-26,
+344,Sam,Posey,Egyesult Allamok,angol,67,1944-05-26,
+345,Pedro,Rodríguez,Mexiko,spanyol,62,1940-01-18,
+346,Jo,Siffert,Svajc,nemet,15,1936-07-07,
+347,Jo,Bonnier,Svedorszag,sved,193,1930-01-31,
+348,François,Mazet,Franciaorszag,francia,4,1943-02-24,
+349,Max,Jean,Franciaorszag,francia,4,1943-07-27,
+350,Vic,Elford,Egyesult Kiralysag,angol,1,1935-06-10,
+351,Silvio,Moser,Svajc,nemet,15,1941-04-24,
+352,George,Eaton,Kanada,angol,59,1945-11-12,
+353,Pete,Lovely,Egyesult Allamok,angol,67,1926-04-11,
+354,Chris,Craft,Egyesult Kiralysag,angol,1,1939-11-17,
+355,John,Cannon,Kanada,angol,59,1933-06-21,
+356,Jack,Brabham,Ausztralia,angol,69,1926-04-02,
+357,John,Miles,Egyesult Kiralysag,angol,1,1943-06-14,
+358,Jochen,Rindt,Ausztria,nemet,9,1942-04-18,
+359,Johnny,Servoz-Gavin,Franciaorszag,francia,4,1942-01-18,
+360,Bruce,McLaren,Uj-Zeland,angol,22,1937-08-30,
+361,Piers,Courage,Egyesult Kiralysag,angol,1,1942-05-27,
+362,Peter,de Klerk,Del-Afrika,angol,89,1935-03-16,
+363,Ignazio,Giunti,Olaszorszag,olasz,5,1941-08-30,
+364,Dan,Gurney,Egyesult Allamok,angol,67,1931-04-13,
+365,Hubert,Hahne,Nemetorszag,nemet,2,1935-03-28,
+366,Gus,Hutchison,Egyesult Allamok,angol,67,1937-04-26,
+367,Peter,Westbury,Egyesult Kiralysag,angol,1,1938-05-26,
+368,Sam,Tingle,Zimbabwe,angol,93,1921-08-24,
+369,Basil,van Rooyen,Del-Afrika,angol,89,1939-04-19,
+370,Richard,Attwood,Egyesult Kiralysag,angol,1,1940-04-04,
+371,Al,Pease,Kanada,angol,59,1921-10-15,
+372,John,Cordts,Kanada,angol,59,1935-07-23,
+373,Jim,Clark,Egyesult Kiralysag,angol,1,1936-03-04,
+374,Mike,Spence,Egyesult Kiralysag,angol,1,1936-12-30,
+375,Ludovico,Scarfiotti,Olaszorszag,olasz,5,1933-10-18,
 376,Lucien,Bianchi,Belgium,flamand,100,1934-11-10,BIA
-377,Jo,Schlesser,Franciaorszag,francia,4,1928-05-18,\N
-378,Robin,Widdows,Egyesult Kiralysag,angol,1,1942-05-27,\N
-379,Kurt,Ahrens,Nemetorszag,nemet,2,1940-04-19,\N
-380,Frank,Gardner,Ausztralia,angol,69,1930-10-01,\N
-381,Bobby,Unser,Egyesult Allamok,angol,67,1934-02-20,\N
-382,Moisés,Solana,Mexiko,spanyol,62,1935-12-26,\N
-383,Bob,Anderson,Egyesult Kiralysag,angol,1,1931-05-19,\N
-384,Luki,Botha,Del-Afrika,angol,89,1930-01-16,\N
-385,Lorenzo,Bandini,Olaszorszag,olasz,5,1935-12-21,\N
-386,Richie,Ginther,Egyesult Allamok,angol,67,1930-08-05,\N
-387,Mike,Parkes,Egyesult Kiralysag,angol,1,1931-09-24,\N
-388,Chris,Irwin,Egyesult Kiralysag,angol,1,1942-06-27,\N
-389,Guy,Ligier,Franciaorszag,francia,4,1930-07-12,\N
-390,Alan,Rees,Egyesult Kiralysag,angol,1,1938-01-12,\N
-391,Brian,Hart,Egyesult Kiralysag,angol,1,1936-09-07,\N
-392,Mike,Fisher,Egyesult Allamok,angol,67,1943-03-13,\N
-393,Tom,Jones,Egyesult Allamok,angol,67,1943-04-26,\N
-394,Giancarlo,Baghetti,Olaszorszag,olasz,5,1934-12-25,\N
-395,Jonathan,Williams,Egyesult Kiralysag,angol,1,1942-10-26,\N
-396,Bob,Bondurant,Egyesult Allamok,angol,67,1933-04-27,\N
-397,Peter,Arundell,Egyesult Kiralysag,angol,1,1933-11-08,\N
-398,Vic,Wilson,Egyesult Kiralysag,angol,1,1931-04-14,\N
-399,John,Taylor,Egyesult Kiralysag,angol,1,1933-03-23,\N
-400,Chris,Lawrence,Egyesult Kiralysag,angol,1,1933-07-27,\N
-401,Trevor,Taylor,Egyesult Kiralysag,angol,1,1936-12-26,\N
-402,Giacomo,Russo,Olaszorszag,olasz,5,1937-10-23,\N
-403,Phil,Hill,Egyesult Allamok,angol,67,1927-04-20,\N
-404,Innes,Ireland,Egyesult Kiralysag,angol,1,1930-06-12,\N
-405,Ronnie,Bucknum,Egyesult Allamok,angol,67,1936-04-05,\N
-406,Paul,Hawkins,Ausztralia,angol,69,1937-10-12,\N
-407,David,Prophet,Egyesult Kiralysag,angol,1,1937-10-09,\N
-408,Tony,Maggs,Del-Afrika,angol,89,1937-02-09,\N
-409,Trevor,Blokdyk,Del-Afrika,angol,89,1935-11-30,\N
-410,Neville,Lederle,Del-Afrika,angol,89,1938-09-25,\N
-411,Doug,Serrurier,Del-Afrika,angol,89,1920-12-09,\N
-412,Brausch,Niemann,Del-Afrika,angol,89,1939-01-07,\N
-413,Ernie,Pieterse,Del-Afrika,angol,89,1938-07-04,\N
-414,Clive,Puzey,Zimbabwe,angol,93,1941-07-11,\N
-415,Ray,Reed,Del-Afrika,angol,89,1932-04-30,\N
-416,David,Clapham,Del-Afrika,angol,89,1931-05-18,\N
-417,Alex,Blignaut,Del-Afrika,angol,89,1932-11-30,\N
-418,Masten,Gregory,Egyesult Allamok,angol,67,1932-02-29,\N
-419,John,Rhodes,Egyesult Kiralysag,angol,1,1927-08-18,\N
-420,Ian,Raby,Egyesult Kiralysag,angol,1,1921-09-22,\N
-421,Alan,Rollinson,Egyesult Kiralysag,angol,1,1943-05-15,\N
-422,Brian,Gubby,Egyesult Kiralysag,angol,1,1934-04-17,\N
-423,Gerhard,Mitter,Nemetorszag,nemet,2,1935-08-30,\N
-424,Roberto,Bussinello,Olaszorszag,olasz,5,1927-10-04,\N
-425,Nino,Vaccarella,Olaszorszag,olasz,5,1933-03-04,\N
-426,Giorgio,Bassi,Olaszorszag,olasz,5,1934-01-20,\N
-427,Maurice,Trintignant,Franciaorszag,francia,4,1917-10-30,\N
-428,Bernard,Collomb,Franciaorszag,francia,4,1930-10-07,\N
-429,André,Pilette,Belgium,flamand,100,1918-10-06,\N
-430,Carel Godin,de Beaufort,Hollandia,holland,12,1934-04-10,\N
-431,Edgar,Barth,Nemetorszag,nemet,2,1917-01-26,\N
-432,Mário de Araújo,Cabral,Portugalia,portugal,109,1934-01-15,\N
-433,Walt,Hansgen,Egyesult Allamok,angol,67,1919-10-28,\N
-434,Hap,Sharp,Egyesult Allamok,angol,67,1928-01-01,\N
-435,Willy,Mairesse,Belgium,flamand,100,1928-10-01,\N
-436,John,Campbell-Jones,Egyesult Kiralysag,angol,1,1930-01-21,\N
-437,Ian,Burgess,Egyesult Kiralysag,angol,1,1930-07-06,\N
-438,Tony,Settember,Egyesult Allamok,angol,67,1926-07-10,\N
-439,Nasif,Estéfano,Argentina,spanyol,110,1932-11-18,\N
-440,Jim,Hall,Egyesult Allamok,angol,67,1935-07-23,\N
-441,Tim,Parnell,Egyesult Kiralysag,angol,1,1932-06-25,\N
-442,Kurt,Kuhnke,Nemetorszag,nemet,2,1910-04-30,\N
-443,Ernesto,Brambilla,Olaszorszag,olasz,5,1934-01-31,\N
-444,Roberto,Lippi,Olaszorszag,olasz,5,1926-10-17,\N
-445,Günther,Seiffert,Nemetorszag,nemet,2,1937-10-18,\N
-446,Carlo,Abate,Olaszorszag,olasz,5,1932-07-10,\N
-447,Gaetano,Starrabba,Olaszorszag,olasz,5,1932-12-03,\N
-448,Peter,Broeker,Kanada,angol,59,1926-05-15,\N
-449,Rodger,Ward,Egyesult Allamok,angol,67,1921-01-10,\N
-450,Ernie,de Vos,Hollandia,holland,12,1941-07-01,\N
-451,Frank,Dochnal,Egyesult Allamok,angol,67,1920-10-08,\N
-452,Thomas,Monarch,Egyesult Allamok,angol,67,1945-09-03,\N
+377,Jo,Schlesser,Franciaorszag,francia,4,1928-05-18,
+378,Robin,Widdows,Egyesult Kiralysag,angol,1,1942-05-27,
+379,Kurt,Ahrens,Nemetorszag,nemet,2,1940-04-19,
+380,Frank,Gardner,Ausztralia,angol,69,1930-10-01,
+381,Bobby,Unser,Egyesult Allamok,angol,67,1934-02-20,
+382,Moisés,Solana,Mexiko,spanyol,62,1935-12-26,
+383,Bob,Anderson,Egyesult Kiralysag,angol,1,1931-05-19,
+384,Luki,Botha,Del-Afrika,angol,89,1930-01-16,
+385,Lorenzo,Bandini,Olaszorszag,olasz,5,1935-12-21,
+386,Richie,Ginther,Egyesult Allamok,angol,67,1930-08-05,
+387,Mike,Parkes,Egyesult Kiralysag,angol,1,1931-09-24,
+388,Chris,Irwin,Egyesult Kiralysag,angol,1,1942-06-27,
+389,Guy,Ligier,Franciaorszag,francia,4,1930-07-12,
+390,Alan,Rees,Egyesult Kiralysag,angol,1,1938-01-12,
+391,Brian,Hart,Egyesult Kiralysag,angol,1,1936-09-07,
+392,Mike,Fisher,Egyesult Allamok,angol,67,1943-03-13,
+393,Tom,Jones,Egyesult Allamok,angol,67,1943-04-26,
+394,Giancarlo,Baghetti,Olaszorszag,olasz,5,1934-12-25,
+395,Jonathan,Williams,Egyesult Kiralysag,angol,1,1942-10-26,
+396,Bob,Bondurant,Egyesult Allamok,angol,67,1933-04-27,
+397,Peter,Arundell,Egyesult Kiralysag,angol,1,1933-11-08,
+398,Vic,Wilson,Egyesult Kiralysag,angol,1,1931-04-14,
+399,John,Taylor,Egyesult Kiralysag,angol,1,1933-03-23,
+400,Chris,Lawrence,Egyesult Kiralysag,angol,1,1933-07-27,
+401,Trevor,Taylor,Egyesult Kiralysag,angol,1,1936-12-26,
+402,Giacomo,Russo,Olaszorszag,olasz,5,1937-10-23,
+403,Phil,Hill,Egyesult Allamok,angol,67,1927-04-20,
+404,Innes,Ireland,Egyesult Kiralysag,angol,1,1930-06-12,
+405,Ronnie,Bucknum,Egyesult Allamok,angol,67,1936-04-05,
+406,Paul,Hawkins,Ausztralia,angol,69,1937-10-12,
+407,David,Prophet,Egyesult Kiralysag,angol,1,1937-10-09,
+408,Tony,Maggs,Del-Afrika,angol,89,1937-02-09,
+409,Trevor,Blokdyk,Del-Afrika,angol,89,1935-11-30,
+410,Neville,Lederle,Del-Afrika,angol,89,1938-09-25,
+411,Doug,Serrurier,Del-Afrika,angol,89,1920-12-09,
+412,Brausch,Niemann,Del-Afrika,angol,89,1939-01-07,
+413,Ernie,Pieterse,Del-Afrika,angol,89,1938-07-04,
+414,Clive,Puzey,Zimbabwe,angol,93,1941-07-11,
+415,Ray,Reed,Del-Afrika,angol,89,1932-04-30,
+416,David,Clapham,Del-Afrika,angol,89,1931-05-18,
+417,Alex,Blignaut,Del-Afrika,angol,89,1932-11-30,
+418,Masten,Gregory,Egyesult Allamok,angol,67,1932-02-29,
+419,John,Rhodes,Egyesult Kiralysag,angol,1,1927-08-18,
+420,Ian,Raby,Egyesult Kiralysag,angol,1,1921-09-22,
+421,Alan,Rollinson,Egyesult Kiralysag,angol,1,1943-05-15,
+422,Brian,Gubby,Egyesult Kiralysag,angol,1,1934-04-17,
+423,Gerhard,Mitter,Nemetorszag,nemet,2,1935-08-30,
+424,Roberto,Bussinello,Olaszorszag,olasz,5,1927-10-04,
+425,Nino,Vaccarella,Olaszorszag,olasz,5,1933-03-04,
+426,Giorgio,Bassi,Olaszorszag,olasz,5,1934-01-20,
+427,Maurice,Trintignant,Franciaorszag,francia,4,1917-10-30,
+428,Bernard,Collomb,Franciaorszag,francia,4,1930-10-07,
+429,André,Pilette,Belgium,flamand,100,1918-10-06,
+430,Carel Godin,de Beaufort,Hollandia,holland,12,1934-04-10,
+431,Edgar,Barth,Nemetorszag,nemet,2,1917-01-26,
+432,Mário de Araújo,Cabral,Portugalia,portugal,109,1934-01-15,
+433,Walt,Hansgen,Egyesult Allamok,angol,67,1919-10-28,
+434,Hap,Sharp,Egyesult Allamok,angol,67,1928-01-01,
+435,Willy,Mairesse,Belgium,flamand,100,1928-10-01,
+436,John,Campbell-Jones,Egyesult Kiralysag,angol,1,1930-01-21,
+437,Ian,Burgess,Egyesult Kiralysag,angol,1,1930-07-06,
+438,Tony,Settember,Egyesult Allamok,angol,67,1926-07-10,
+439,Nasif,Estéfano,Argentina,spanyol,110,1932-11-18,
+440,Jim,Hall,Egyesult Allamok,angol,67,1935-07-23,
+441,Tim,Parnell,Egyesult Kiralysag,angol,1,1932-06-25,
+442,Kurt,Kuhnke,Nemetorszag,nemet,2,1910-04-30,
+443,Ernesto,Brambilla,Olaszorszag,olasz,5,1934-01-31,
+444,Roberto,Lippi,Olaszorszag,olasz,5,1926-10-17,
+445,Günther,Seiffert,Nemetorszag,nemet,2,1937-10-18,
+446,Carlo,Abate,Olaszorszag,olasz,5,1932-07-10,
+447,Gaetano,Starrabba,Olaszorszag,olasz,5,1932-12-03,
+448,Peter,Broeker,Kanada,angol,59,1926-05-15,
+449,Rodger,Ward,Egyesult Allamok,angol,67,1921-01-10,
+450,Ernie,de Vos,Hollandia,holland,12,1941-07-01,
+451,Frank,Dochnal,Egyesult Allamok,angol,67,1920-10-08,
+452,Thomas,Monarch,Egyesult Allamok,angol,67,1945-09-03,
 842,Pierre,Gasly,Franciaorszag,francia,4,1996-02-07,GAS
-453,Jackie,Lewis,Egyesult Kiralysag,angol,1,1936-11-01,\N
-454,Ricardo,Rodríguez,Mexiko,spanyol,62,1942-02-14,\N
-455,Wolfgang,Seidel,Nemetorszag,nemet,2,1926-07-04,\N
-456,Roy,Salvadori,Egyesult Kiralysag,angol,1,1922-05-12,\N
-457,Ben,Pon,Hollandia,holland,12,1936-12-09,\N
-458,Rob,Slotemaker,Hollandia,holland,12,1929-06-13,\N
-459,Tony,Marsh,Egyesult Kiralysag,angol,1,1931-07-20,\N
-460,Gerry,Ashmore,Egyesult Kiralysag,angol,1,1936-07-25,\N
-461,Heinz,Schiller,Svajc,nemet,15,1930-01-25,\N
-462,Colin,Davis,Egyesult Kiralysag,angol,1,1933-07-29,\N
-463,Jay,Chamberlain,Egyesult Allamok,angol,67,1925-12-29,\N
-464,Tony,Shelly,Uj-Zeland,angol,198,1937-02-02,\N
-465,Keith,Greene,Egyesult Kiralysag,angol,1,1938-01-05,\N
-466,Heini,Walter,Svajc,nemet,15,1927-07-28,\N
-467,Ernesto,Prinoth,Olaszorszag,olasz,5,1923-04-15,\N
-468,Roger,Penske,Egyesult Allamok,angol,67,1937-02-20,\N
-469,Rob,Schroeder,Egyesult Kiralysag,angol,1,1926-05-11,\N
-470,Timmy,Mayer,Egyesult Allamok,angol,67,1938-02-22,\N
-471,Bruce,Johnstone,Del-Afrika,angol,89,1937-01-30,\N
-472,Mike,Harris,Del-Afrika,angol,89,1939-05-25,\N
-473,Gary,Hocking,Zimbabwe,angol,93,1937-09-30,\N
-474,Syd,van der Vyver,Del-Afrika,angol,89,1920-06-01,\N
-475,Stirling,Moss,Egyesult Kiralysag,angol,1,1929-09-17,\N
-476,Wolfgang,von Trips,Nemetorszag,nemet,2,1928-05-04,\N
-477,Cliff,Allison,Egyesult Kiralysag,angol,1,1932-02-08,\N
-478,Hans,Herrmann,Nemetorszag,nemet,2,1928-02-23,\N
-479,Tony,Brooks,Egyesult Kiralysag,angol,1,1932-02-25,\N
-480,Michael,May,Svajc,nemet,15,1934-08-18,\N
-481,Henry,Taylor,Egyesult Kiralysag,angol,1,1932-12-16,\N
-482,Olivier,Gendebien,Belgium,flamand,100,1924-01-12,\N
-483,Giorgio,Scarlatti,Olaszorszag,olasz,5,1921-10-02,\N
-484,Brian,Naylor,Egyesult Kiralysag,angol,1,1923-03-24,\N
-485,Juan Manuel,Bordeu,Argentina,spanyol,188,1934-01-28,\N
-486,Jack,Fairman,Egyesult Kiralysag,angol,1,1913-03-15,\N
-487,Massimo,Natili,Olaszorszag,olasz,5,1935-07-28,\N
-488,Peter,Monteverdi,Svajc,nemet,15,1934-06-07,\N
-489,Renato,Pirocchi,Olaszorszag,olasz,5,1933-03-26,\N
-490,Geoff,Duke,Egyesult Kiralysag,angol,1,1923-03-29,\N
-491,Alfonso,Thiele,Olaszorszag,olasz,5,1920-04-05,\N
-492,Menato,Boffa,Olaszorszag,olasz,5,1930-01-04,\N
-493,Peter,Ryan,Kanada,angol,59,1940-06-10,\N
-494,Lloyd,Ruby,Egyesult Allamok,angol,67,1928-01-12,\N
-495,Ken,Miles,Egyesult Kiralysag,angol,1,1918-11-01,\N
-496,Carlos,Menditeguy,Argentina,spanyol,195,1914-08-10,\N
-497,Alberto Rodriguez,Larreta,Argentina,spanyol,208,1934-01-14,\N
-498,José Froilán,González,Argentina,spanyol,44,1922-10-05,\N
-499,Roberto,Bonomi,Argentina,spanyol,213,1919-09-30,\N
-500,Gino,Munaron,Olaszorszag,olasz,5,1928-04-02,\N
-501,Harry,Schell,Egyesult Allamok,angol,67,1921-06-29,\N
-502,Alan,Stacey,Egyesult Kiralysag,angol,1,1933-08-29,\N
-503,Ettore,Chimeri,Venezuela,spanyol,65,1921-06-04,\N
-504,Antonio,Creus,Spanyolorszag,spanyol,164,1924-10-28,\N
-505,Chris,Bristow,Egyesult Kiralysag,angol,1,1937-12-02,\N
-506,Bruce,Halford,Egyesult Kiralysag,angol,1,1931-05-18,\N
-507,Chuck,Daigh,Egyesult Allamok,angol,67,1923-11-29,\N
-508,Lance,Reventlow,Egyesult Allamok,angol,67,1936-02-24,\N
-509,Jim,Rathmann,Egyesult Allamok,angol,67,1928-07-16,\N
-510,Paul,Goldsmith,Egyesult Allamok,angol,67,1925-10-02,\N
-511,Don,Branson,Egyesult Allamok,angol,67,1920-06-02,\N
-512,Johnny,Thomson,Egyesult Allamok,angol,67,1922-04-09,\N
-513,Eddie,Johnson,Egyesult Allamok,angol,67,1919-02-10,\N
-514,Bob,Veith,Egyesult Allamok,angol,67,1926-11-01,\N
-515,Bud,Tingelstad,Egyesult Allamok,angol,67,1928-04-04,\N
-516,Bob,Christie,Egyesult Allamok,angol,67,1924-04-04,\N
-517,Red,Amick,Egyesult Allamok,angol,67,1929-01-19,\N
-518,Duane,Carter,Egyesult Allamok,angol,67,1913-05-05,\N
-519,Bill,Homeier,Egyesult Allamok,angol,67,1918-08-31,\N
-520,Gene,Hartley,Egyesult Allamok,angol,67,1926-01-28,\N
-521,Chuck,Stevenson,Egyesult Allamok,angol,67,1919-10-15,\N
-522,Bobby,Grim,Egyesult Allamok,angol,67,1924-09-04,\N
-523,Shorty,Templeman,Egyesult Allamok,angol,67,1919-08-12,\N
-524,Jim,Hurtubise,Egyesult Allamok,angol,67,1932-12-05,\N
-525,Jimmy,Bryan,Egyesult Allamok,angol,67,1926-01-28,\N
-526,Troy,Ruttman,Egyesult Allamok,angol,67,1930-03-11,\N
-527,Eddie,Sachs,Egyesult Allamok,angol,67,1927-05-28,\N
-528,Don,Freeland,Egyesult Allamok,angol,67,1925-03-25,\N
-529,Tony,Bettenhausen,Egyesult Allamok,angol,67,1916-09-12,\N
-530,Wayne,Weiler,Egyesult Allamok,angol,67,1934-12-09,\N
-531,Anthony,Foyt,Egyesult Allamok,angol,67,1935-01-16,\N
-532,Eddie,Russo,Egyesult Allamok,angol,67,1925-11-19,\N
-533,Johnny,Boyd,Egyesult Allamok,angol,67,1926-08-19,\N
-534,Gene,Force,Egyesult Allamok,angol,67,1916-06-15,\N
-535,Jim,McWithey,Egyesult Allamok,angol,67,1927-07-04,\N
-536,Len,Sutton,Egyesult Allamok,angol,67,1925-08-09,\N
-537,Dick,Rathmann,Egyesult Allamok,angol,67,1924-01-06,\N
-538,Al,Herman,Egyesult Allamok,angol,67,1927-03-15,\N
-539,Dempsey,Wilson,Egyesult Allamok,angol,67,1927-03-11,\N
-540,Mike,Taylor,Egyesult Kiralysag,angol,1,1934-04-24,\N
-541,Ron,Flockhart,Egyesult Kiralysag,angol,1,1923-06-16,\N
-542,David,Piper,Egyesult Kiralysag,angol,1,1930-12-02,\N
-543,Giulio,Cabianca,Olaszorszag,olasz,5,1923-02-19,\N
-544,Piero,Drogo,Olaszorszag,olasz,5,1926-08-08,\N
-545,Fred,Gamble,Egyesult Allamok,angol,67,1932-03-17,\N
-546,Arthur,Owen,Egyesult Kiralysag,angol,1,1915-03-23,\N
-547,Horace,Gould,Egyesult Kiralysag,angol,1,1918-09-20,\N
-548,Bob,Drake,Egyesult Allamok,angol,67,1919-12-14,\N
-549,Ivor,Bueb,Egyesult Kiralysag,angol,1,1923-06-06,\N
-550,Alain,de Changy,Belgium,flamand,100,1922-02-05,\N
-551,Maria,de Filippis,Olaszorszag,olasz,5,1926-11-11,\N
-552,Jean,Lucienbonnet,Franciaorszag,francia,4,1923-01-07,\N
-553,André,Testut,Monaco,francia,86,1926-04-13,\N
-554,Jean,Behra,Franciaorszag,francia,4,1921-02-16,\N
-555,Paul,Russo,Egyesult Allamok,angol,67,1914-04-10,\N
-556,Jimmy,Daywalt,Egyesult Allamok,angol,67,1924-08-28,\N
-557,Chuck,Arnold,Egyesult Allamok,angol,67,1926-05-30,\N
-558,Al,Keller,Egyesult Allamok,angol,67,1920-04-11,\N
-559,Pat,Flaherty,Egyesult Allamok,angol,67,1926-01-06,\N
-560,Bill,Cheesbourg,Egyesult Allamok,angol,67,1927-06-12,\N
-561,Ray,Crawford,Egyesult Allamok,angol,67,1915-10-26,\N
-562,Jack,Turner,Egyesult Allamok,angol,67,1920-02-12,\N
-563,Chuck,Weyant,Egyesult Allamok,angol,67,1923-04-03,\N
-564,Jud,Larson,Egyesult Allamok,angol,67,1923-01-21,\N
-565,Mike,Magill,Egyesult Allamok,angol,67,1920-02-08,\N
-566,Carroll,Shelby,Egyesult Allamok,angol,67,1923-01-11,\N
-567,Fritz,d'Orey,Brazilia,portugal,56,1938-03-25,\N
-568,Azdrubal,Fontes,Uruguay,spanyol,163,1922-12-26,\N
-569,Peter,Ashdown,Egyesult Kiralysag,angol,1,1934-10-16,\N
-570,Bill,Moss,Egyesult Kiralysag,angol,1,1933-09-04,\N
-571,Dennis,Taylor,Egyesult Kiralysag,angol,1,1921-06-12,\N
-572,Harry,Blanchard,Egyesult Allamok,angol,67,1929-06-13,\N
-573,Alessandro,de Tomaso,Argentina,spanyol,69,1928-07-10,\N
-574,George,Constantine,Egyesult Allamok,angol,67,1918-02-22,\N
-575,Bob,Said,Egyesult Allamok,angol,67,1932-05-05,\N
-576,Phil,Cade,Egyesult Allamok,angol,67,1916-06-12,\N
-577,Luigi,Musso,Olaszorszag,olasz,5,1924-07-28,\N
-578,Mike,Hawthorn,Egyesult Kiralysag,angol,1,1929-04-10,\N
-579,Juan,Fangio,Argentina,spanyol,59,1911-06-24,\N
-580,Paco,Godia,Spanyolorszag,spanyol,164,1921-03-21,\N
-581,Peter,Collins,Egyesult Kiralysag,angol,1,1931-11-06,\N
-582,Ken,Kavanagh,Ausztralia,angol,69,1923-12-12,\N
-583,Gerino,Gerini,Olaszorszag,olasz,5,1928-08-10,\N
-584,Bruce,Kessler,Egyesult Allamok,angol,67,1936-03-23,\N
-585,Paul,Emery,Egyesult Kiralysag,angol,1,1916-11-12,\N
-586,Luigi,Piotti,Olaszorszag,olasz,5,1913-10-27,\N
-587,Bernie,Ecclestone,Egyesult Kiralysag,angol,1,1930-10-28,\N
-588,Luigi,Taramazzo,Olaszorszag,olasz,5,1932-05-05,\N
-589,Louis,Chiron,Monaco,francia,206,1931-04-13,\N
-590,Stuart,Lewis-Evans,Egyesult Kiralysag,angol,1,1930-04-20,\N
-591,George,Amick,Egyesult Allamok,angol,67,1924-10-24,\N
-592,Jimmy,Reece,Egyesult Allamok,angol,67,1929-11-17,\N
-593,Johnnie,Parsons,Egyesult Allamok,angol,67,1918-07-04,\N
-594,Johnnie,Tolan,Egyesult Allamok,angol,67,1917-10-22,\N
-595,Billy,Garrett,Egyesult Allamok,angol,67,1933-04-24,\N
-596,Ed,Elisian,Egyesult Allamok,angol,67,1926-12-09,\N
-597,Pat,O'Connor,Egyesult Allamok,angol,67,1928-10-09,\N
-598,Jerry,Unser,Egyesult Allamok,angol,67,1932-11-15,\N
-599,Art,Bisch,Egyesult Allamok,angol,67,1926-11-10,\N
-600,Christian,Goethals,Belgium,flamand,100,1928-08-04,\N
-601,Dick,Gibson,Egyesult Kiralysag,angol,1,1918-04-16,\N
-602,Robert,La Caze,Franciaorszag,francia,4,1917-02-26,\N
-603,André,Guelfi,Franciaorszag,francia,4,1919-05-06,\N
-604,François,Picard,Franciaorszag,francia,4,1921-04-26,\N
-605,Tom,Bridger,Egyesult Kiralysag,angol,1,1934-06-24,\N
-606,Alfonso,de Portago,Spanyolorszag,spanyol,164,1928-10-11,\N
-607,Cesare,Perdisa,Olaszorszag,olasz,5,1932-10-21,\N
-608,Eugenio,Castellotti,Olaszorszag,olasz,5,1930-10-10,\N
-609,André,Simon,Franciaorszag,francia,4,1920-01-05,\N
-610,Les,Leston,Egyesult Kiralysag,angol,1,1920-12-16,\N
-611,Sam,Hanks,Egyesult Allamok,angol,67,1914-07-13,\N
-612,Andy,Linden,Egyesult Allamok,angol,67,1922-04-05,\N
-613,Marshall,Teague,Egyesult Allamok,angol,67,1921-02-22,\N
-614,Don,Edmunds,Egyesult Allamok,angol,67,1930-09-23,\N
-615,Fred,Agabashian,Egyesult Allamok,angol,67,1913-08-21,\N
-616,Elmer,George,Egyesult Allamok,angol,67,1928-07-15,\N
-617,Mike,MacDowel,Egyesult Kiralysag,angol,1,1932-09-13,\N
-618,Herbert,MacKay-Fraser,Egyesult Allamok,angol,67,1927-06-23,\N
-619,Bob,Gerard,Egyesult Kiralysag,angol,1,1914-01-19,\N
-620,Umberto,Maglioli,Olaszorszag,olasz,5,1928-06-05,\N
-621,Paul,England,Ausztralia,angol,69,1929-03-28,\N
-622,Chico,Landi,Brazilia,portugal,56,1907-07-14,\N
-623,Alberto,Uria,Uruguay,spanyol,183,1924-07-11,\N
-624,Hernando,da Silva Ramos,Brazilia,portugal,56,1925-12-07,\N
-625,Élie,Bayol,Franciaorszag,francia,4,1914-02-28,\N
-626,Robert,Manzon,Franciaorszag,francia,4,1917-04-12,\N
-627,Louis,Rosier,Franciaorszag,francia,4,1905-11-05,\N
-628,Bob,Sweikert,Egyesult Allamok,angol,67,1926-05-20,\N
-629,Cliff,Griffith,Egyesult Allamok,angol,67,1916-02-06,\N
-630,Duke,Dinsmore,Egyesult Allamok,angol,67,1913-04-10,\N
-631,Keith,Andrews,Egyesult Allamok,angol,67,1920-06-15,\N
-632,Paul,Frère,Belgium,flamand,100,1917-01-30,\N
-633,Luigi,Villoresi,Olaszorszag,olasz,5,1909-05-16,\N
-634,Piero,Scotti,Olaszorszag,olasz,5,1909-11-11,\N
-635,Colin,Chapman,Egyesult Kiralysag,angol,1,1928-05-19,\N
-636,Desmond,Titterington,Egyesult Kiralysag,angol,1,1928-05-01,\N
-637,Archie,Scott Brown,Egyesult Kiralysag,angol,1,1927-05-13,\N
-638,Ottorino,Volonterio,Svajc,nemet,15,1917-12-07,\N
-639,André,Milhoux,Belgium,flamand,100,1928-12-09,\N
-640,Toulo,de Graffenried,Svajc,nemet,15,1914-05-18,\N
-641,Piero,Taruffi,Olaszorszag,olasz,5,1906-10-12,\N
-642,Nino,Farina,Olaszorszag,olasz,5,1906-10-30,\N
-643,Roberto,Mieres,Argentina,spanyol,205,1924-12-03,\N
-644,Sergio,Mantovani,Olaszorszag,olasz,5,1929-05-22,\N
-645,Clemar,Bucci,Argentina,spanyol,42,1920-09-04,\N
-646,Jesús,Iglesias,Argentina,spanyol,186,1922-02-22,\N
-647,Alberto,Ascari,Olaszorszag,olasz,5,1918-07-13,\N
-648,Karl,Kling,Nemetorszag,nemet,2,1910-09-16,\N
-649,Pablo,Birger,Argentina,spanyol,168,1924-01-07,\N
-650,Jacques,Pollet,Franciaorszag,francia,4,1922-07-02,\N
-651,Lance,Macklin,Egyesult Kiralysag,angol,1,1919-09-02,\N
-652,Ted,Whiteaway,Egyesult Kiralysag,angol,1,1928-11-01,\N
-653,Jimmy,Davies,Egyesult Allamok,angol,67,1929-08-08,\N
-654,Walt,Faulkner,Egyesult Allamok,angol,67,1920-02-16,\N
-655,Cal,Niday,Egyesult Allamok,angol,67,1914-04-29,\N
-656,Art,Cross,Egyesult Allamok,angol,67,1918-01-24,\N
-657,Bill,Vukovich,Egyesult Allamok,angol,67,1918-12-13,\N
-658,Jack,McGrath,Egyesult Allamok,angol,67,1919-10-08,\N
-659,Jerry,Hoyt,Egyesult Allamok,angol,67,1929-01-29,\N
-660,Johnny,Claes,Belgium,flamand,100,1916-08-11,\N
-661,Peter,Walker,Egyesult Kiralysag,angol,1,1912-10-07,\N
-662,Mike,Sparken,Franciaorszag,francia,4,1930-06-16,\N
-663,Ken,Wharton,Egyesult Kiralysag,angol,1,1916-03-21,\N
-664,Kenneth,McAlpine,Egyesult Kiralysag,angol,1,1920-09-21,\N
-665,Leslie,Marr,Egyesult Kiralysag,angol,1,1922-08-14,\N
-666,Tony,Rolt,Egyesult Kiralysag,angol,1,1918-10-16,\N
-667,John,Fitch,Egyesult Allamok,angol,67,1917-08-04,\N
-668,Jean,Lucas,Franciaorszag,francia,4,1917-04-25,\N
-669,Prince,Bira,Thaifold,thai,194,1914-07-15,\N
-670,Onofre,Marimón,Argentina,spanyol,155,1923-12-19,\N
-671,Roger,Loyer,Franciaorszag,francia,4,1907-08-05,\N
-672,Jorge,Daponte,Argentina,spanyol,30,1923-06-05,\N
-673,Mike,Nazaruk,Egyesult Allamok,angol,67,1921-10-02,\N
-674,Larry,Crockett,Egyesult Allamok,angol,67,1926-10-23,\N
-675,Manny,Ayulo,Egyesult Allamok,angol,67,1921-10-20,\N
-676,Frank,Armi,Egyesult Allamok,angol,67,1918-10-12,\N
-677,Travis,Webb,Egyesult Allamok,angol,67,1910-10-08,\N
-678,Len,Duncan,Egyesult Allamok,angol,67,1911-07-25,\N
-679,Ernie,McCoy,Egyesult Allamok,angol,67,1921-02-19,\N
-680,Jacques,Swaters,Egyesult Allamok,angol,67,1926-10-30,\N
-681,Georges,Berger,Belgium,flamand,100,1918-09-14,\N
-682,Don,Beauman,Egyesult Kiralysag,angol,1,1928-07-26,\N
-683,Leslie,Thorne,Egyesult Kiralysag,angol,1,1916-06-23,\N
-684,Bill,Whitehouse,Egyesult Kiralysag,angol,1,1909-04-01,\N
-685,John,Riseley-Prichard,Egyesult Kiralysag,angol,1,1924-01-17,\N
-686,Reg,Parnell,Egyesult Kiralysag,angol,1,1911-07-02,\N
-687,Peter,Whitehead,Egyesult Kiralysag,angol,1,1914-11-12,\N
-688,Eric,Brandon,Egyesult Kiralysag,angol,1,1920-07-18,\N
-689,Alan,Brown,Egyesult Kiralysag,angol,1,1919-11-20,\N
-690,Rodney,Nuckey,Egyesult Kiralysag,angol,1,1929-06-26,\N
-691,Hermann,Lang,Nemetorszag,nemet,2,1909-04-06,\N
-692,Theo,Helfrich,Nemetorszag,nemet,2,1913-05-13,\N
-693,Fred,Wacker,Egyesult Allamok,angol,67,1918-07-10,\N
-694,Giovanni,de Riu,Olaszorszag,olasz,5,1925-03-10,\N
-695,Oscar,Gálvez,Argentina,spanyol,3,1913-08-17,\N
-696,John,Barber,Egyesult Kiralysag,angol,1,1929-07-22,\N
-697,Felice,Bonetto,Olaszorszag,olasz,5,1903-06-09,\N
-698,Adolfo,Cruz,Argentina,spanyol,164,1923-06-28,\N
-699,Duke,Nalon,Egyesult Allamok,angol,67,1913-03-02,\N
-700,Carl,Scarborough,Egyesult Allamok,angol,67,1914-07-03,\N
-701,Bill,Holland,Egyesult Allamok,angol,67,1907-12-18,\N
-702,Bob,Scott,Egyesult Allamok,angol,67,1928-10-04,\N
-703,Arthur,Legat,Belgium,flamand,100,1898-11-01,\N
-704,Yves,Cabantous,Franciaorszag,francia,4,1904-10-08,\N
-705,Tony,Crook,Egyesult Kiralysag,angol,1,1920-02-16,\N
-706,Jimmy,Stewart,Egyesult Kiralysag,angol,1,1931-03-06,\N
-707,Ian,Stewart,Egyesult Kiralysag,angol,1,1929-07-15,\N
-708,Duncan,Hamilton,Egyesult Kiralysag,angol,1,1920-04-30,\N
-709,Ernst,Klodwig,Nemetorszag,nemet,2,1903-05-23,\N
-710,Rudolf,Krause,Nemetorszag,nemet,2,1907-03-30,\N
-711,Oswald,Karch,Nemetorszag,nemet,2,1917-03-06,\N
-712,Willi,Heeks,Nemetorszag,nemet,2,1922-02-13,\N
-713,Theo,Fitzau,Nemetorszag,nemet,2,1923-02-10,\N
-714,Kurt,Adolff,Nemetorszag,nemet,2,1921-11-05,\N
-715,Günther,Bechem,Nemetorszag,nemet,2,1921-12-21,\N
-716,Erwin,Bauer,Nemetorszag,nemet,2,1912-07-17,\N
-717,Hans,von Stuck,Nemetorszag,nemet,2,1900-12-27,\N
-718,Ernst,Loof,Nemetorszag,nemet,2,1907-07-04,\N
-719,Albert,Scherrer,Svajc,nemet,15,1908-02-28,\N
-720,Max,de Terra,Svajc,nemet,15,1918-10-06,\N
-721,Peter,Hirt,Svajc,nemet,15,1910-03-30,\N
-722,Piero,Carini,Olaszorszag,olasz,5,1921-03-06,\N
-723,Rudi,Fischer,Svajc,nemet,15,1912-04-19,\N
-724,Toni,Ulmen,Nemetorszag,nemet,2,1906-01-25,\N
-725,George,Abecassis,Egyesult Kiralysag,angol,1,1913-03-21,\N
-726,George,Connor,Egyesult Allamok,angol,67,1906-08-16,\N
-727,Jim,Rigsby,Egyesult Allamok,angol,67,1923-06-06,\N
-728,Joe,James,Egyesult Allamok,angol,67,1925-05-23,\N
-729,Bill,Schindler,Egyesult Allamok,angol,67,1909-03-06,\N
-730,George,Fonder,Egyesult Allamok,angol,67,1917-06-22,\N
-731,Henry,Banks,Egyesult Allamok,angol,67,1913-06-14,\N
-732,Johnny,McDowell,Egyesult Allamok,angol,67,1915-01-29,\N
-733,Chet,Miller,Egyesult Allamok,angol,67,1902-07-19,\N
-734,Bobby,Ball,Egyesult Allamok,angol,67,1925-08-26,\N
-735,Charles,de Tornaco,Belgium,flamand,100,1927-06-07,\N
-736,Roger,Laurent,Belgium,flamand,100,1913-02-21,\N
-737,Robert,O'Brien,Egyesult Allamok,angol,67,1908-04-11,\N
-738,Tony,Gaze,Ausztralia,angol,69,1920-02-03,\N
-739,Robin,Montgomerie-Charrington,Egyesult Kiralysag,angol,1,1915-06-23,\N
-740,Franco,Comotti,Olaszorszag,olasz,5,1906-07-24,\N
-741,Philippe,Étancelin,Franciaorszag,francia,4,1896-12-28,\N
-742,Dennis,Poore,Egyesult Kiralysag,angol,1,1916-08-19,\N
-743,Eric,Thompson,Egyesult Kiralysag,angol,1,1919-11-04,\N
-744,Ken,Downing,Egyesult Kiralysag,angol,1,1917-12-05,\N
-745,Graham,Whitehead,Egyesult Kiralysag,angol,1,1922-04-15,\N
-746,Gino,Bianco,Brazilia,portugal,56,1916-07-22,\N
-747,David,Murray,Egyesult Kiralysag,angol,1,1909-12-28,\N
-748,Eitel,Cantoni,Uruguay,spanyol,60,1906-10-04,\N
-749,Bill,Aston,Egyesult Kiralysag,angol,1,1900-03-29,\N
-750,Adolf,Brudes,Nemetorszag,nemet,2,1899-10-15,\N
-751,Fritz,Riess,Nemetorszag,nemet,2,1922-07-11,\N
-752,Helmut,Niedermayr,Nemetorszag,nemet,2,1915-11-29,\N
-753,Hans,Klenk,Nemetorszag,nemet,2,1919-10-28,\N
-754,Marcel,Balsa,Franciaorszag,francia,4,1909-01-01,\N
-755,Rudolf,Schoeller,Svajc,nemet,15,1902-04-27,\N
-756,Paul,Pietsch,Nemetorszag,nemet,2,1911-06-20,\N
-757,Josef,Peters,Nemetorszag,nemet,2,1914-09-16,\N
-758,Dries,van der Lof,Hollandia,holland,12,1919-08-23,\N
-759,Jan,Flinterman,Hollandia,holland,12,1919-10-02,\N
-760,Piero,Dusio,Olaszorszag,olasz,5,1899-10-13,\N
-761,Alberto,Crespo,Argentina,spanyol,117,1920-01-16,\N
-762,Franco,Rol,Olaszorszag,olasz,5,1908-06-05,\N
-763,Consalvo,Sanesi,Olaszorszag,olasz,5,1911-03-28,\N
-764,Guy,Mairesse,Franciaorszag,francia,4,1910-08-10,\N
-765,Henri,Louveau,Franciaorszag,francia,4,1910-01-25,\N
-766,Lee,Wallard,Egyesult Allamok,angol,67,1910-09-07,\N
-767,Carl,Forberg,Egyesult Allamok,angol,67,1911-03-04,\N
-768,Mauri,Rose,Egyesult Allamok,angol,67,1906-05-26,\N
-769,Bill,Mackey,Egyesult Allamok,angol,67,1927-12-15,\N
-770,Cecil,Green,Egyesult Allamok,angol,67,1919-09-30,\N
-771,Walt,Brown,Egyesult Allamok,angol,67,1911-12-30,\N
-772,Mack,Hellings,Egyesult Allamok,angol,67,1915-09-14,\N
-773,Pierre,Levegh,Franciaorszag,francia,4,1905-12-22,\N
-774,Eugène,Chaboud,Franciaorszag,francia,4,1907-04-12,\N
-775,Aldo,Gordini,Franciaorszag,francia,4,1921-05-20,\N
-776,Joe,Kelly,Irorszag,angol,17,1913-03-13,\N
-777,Philip,Fotheringham-Parker,Egyesult Kiralysag,angol,1,1907-09-22,\N
-778,Brian,Shawe Taylor,Egyesult Kiralysag,angol,1,1915-01-28,\N
-779,John,James,Egyesult Kiralysag,angol,1,1914-05-10,\N
-780,Toni,Branca,Svajc,nemet,15,1916-09-15,\N
-781,Ken,Richardson,Egyesult Kiralysag,angol,1,1911-08-21,\N
-782,Juan,Jover,Spanyolorszag,spanyol,164,1903-11-23,\N
-783,Georges,Grignard,Franciaorszag,francia,4,1905-07-25,\N
-784,David,Hampshire,Egyesult Kiralysag,angol,1,1917-12-29,\N
-785,Geoff,Crossley,Egyesult Kiralysag,angol,1,1921-05-11,\N
-786,Luigi,Fagioli,Olaszorszag,olasz,5,1898-06-09,\N
-787,Cuth,Harrison,Egyesult Kiralysag,angol,1,1906-07-06,\N
-788,Joe,Fry,Egyesult Kiralysag,angol,1,1915-10-26,\N
-789,Eugène,Martin,Franciaorszag,francia,4,1915-03-24,\N
-790,Leslie,Johnson,Egyesult Kiralysag,angol,1,1912-03-22,\N
-791,Clemente,Biondetti,Olaszorszag,olasz,5,1898-08-18,\N
-792,Alfredo,Pián,Argentina,spanyol,8,1912-10-21,\N
-793,Raymond,Sommer,Franciaorszag,francia,4,1906-08-31,\N
-794,Joie,Chitwood,Egyesult Allamok,angol,67,1912-04-14,\N
-795,Myron,Fohr,Egyesult Allamok,angol,67,1912-06-17,\N
-796,Walt,Ader,Egyesult Allamok,angol,67,1913-12-15,\N
-797,Jackie,Holmes,Egyesult Allamok,angol,67,1920-09-04,\N
-798,Bayliss,Levrett,Egyesult Allamok,angol,67,1914-02-14,\N
-799,Jimmy,Jackson,Egyesult Allamok,angol,67,1910-07-25,\N
-800,Nello,Pagani,Olaszorszag,olasz,5,1911-10-11,\N
-801,Charles,Pozzi,Franciaorszag,francia,4,1909-08-27,\N
-802,Dorino,Serafini,Olaszorszag,olasz,5,1909-07-22,\N
-803,Bill,Cantrell,Egyesult Allamok,angol,67,1908-01-31,\N
-804,Johnny,Mantz,Egyesult Allamok,angol,67,1918-09-18,\N
-805,Danny,Kladis,Egyesult Allamok,angol,67,1917-02-10,\N
-806,Óscar,González,Uruguay,spanyol,129,1923-11-10,\N
+453,Jackie,Lewis,Egyesult Kiralysag,angol,1,1936-11-01,
+454,Ricardo,Rodríguez,Mexiko,spanyol,62,1942-02-14,
+455,Wolfgang,Seidel,Nemetorszag,nemet,2,1926-07-04,
+456,Roy,Salvadori,Egyesult Kiralysag,angol,1,1922-05-12,
+457,Ben,Pon,Hollandia,holland,12,1936-12-09,
+458,Rob,Slotemaker,Hollandia,holland,12,1929-06-13,
+459,Tony,Marsh,Egyesult Kiralysag,angol,1,1931-07-20,
+460,Gerry,Ashmore,Egyesult Kiralysag,angol,1,1936-07-25,
+461,Heinz,Schiller,Svajc,nemet,15,1930-01-25,
+462,Colin,Davis,Egyesult Kiralysag,angol,1,1933-07-29,
+463,Jay,Chamberlain,Egyesult Allamok,angol,67,1925-12-29,
+464,Tony,Shelly,Uj-Zeland,angol,198,1937-02-02,
+465,Keith,Greene,Egyesult Kiralysag,angol,1,1938-01-05,
+466,Heini,Walter,Svajc,nemet,15,1927-07-28,
+467,Ernesto,Prinoth,Olaszorszag,olasz,5,1923-04-15,
+468,Roger,Penske,Egyesult Allamok,angol,67,1937-02-20,
+469,Rob,Schroeder,Egyesult Kiralysag,angol,1,1926-05-11,
+470,Timmy,Mayer,Egyesult Allamok,angol,67,1938-02-22,
+471,Bruce,Johnstone,Del-Afrika,angol,89,1937-01-30,
+472,Mike,Harris,Del-Afrika,angol,89,1939-05-25,
+473,Gary,Hocking,Zimbabwe,angol,93,1937-09-30,
+474,Syd,van der Vyver,Del-Afrika,angol,89,1920-06-01,
+475,Stirling,Moss,Egyesult Kiralysag,angol,1,1929-09-17,
+476,Wolfgang,von Trips,Nemetorszag,nemet,2,1928-05-04,
+477,Cliff,Allison,Egyesult Kiralysag,angol,1,1932-02-08,
+478,Hans,Herrmann,Nemetorszag,nemet,2,1928-02-23,
+479,Tony,Brooks,Egyesult Kiralysag,angol,1,1932-02-25,
+480,Michael,May,Svajc,nemet,15,1934-08-18,
+481,Henry,Taylor,Egyesult Kiralysag,angol,1,1932-12-16,
+482,Olivier,Gendebien,Belgium,flamand,100,1924-01-12,
+483,Giorgio,Scarlatti,Olaszorszag,olasz,5,1921-10-02,
+484,Brian,Naylor,Egyesult Kiralysag,angol,1,1923-03-24,
+485,Juan Manuel,Bordeu,Argentina,spanyol,188,1934-01-28,
+486,Jack,Fairman,Egyesult Kiralysag,angol,1,1913-03-15,
+487,Massimo,Natili,Olaszorszag,olasz,5,1935-07-28,
+488,Peter,Monteverdi,Svajc,nemet,15,1934-06-07,
+489,Renato,Pirocchi,Olaszorszag,olasz,5,1933-03-26,
+490,Geoff,Duke,Egyesult Kiralysag,angol,1,1923-03-29,
+491,Alfonso,Thiele,Olaszorszag,olasz,5,1920-04-05,
+492,Menato,Boffa,Olaszorszag,olasz,5,1930-01-04,
+493,Peter,Ryan,Kanada,angol,59,1940-06-10,
+494,Lloyd,Ruby,Egyesult Allamok,angol,67,1928-01-12,
+495,Ken,Miles,Egyesult Kiralysag,angol,1,1918-11-01,
+496,Carlos,Menditeguy,Argentina,spanyol,195,1914-08-10,
+497,Alberto Rodriguez,Larreta,Argentina,spanyol,208,1934-01-14,
+498,José Froilán,González,Argentina,spanyol,44,1922-10-05,
+499,Roberto,Bonomi,Argentina,spanyol,213,1919-09-30,
+500,Gino,Munaron,Olaszorszag,olasz,5,1928-04-02,
+501,Harry,Schell,Egyesult Allamok,angol,67,1921-06-29,
+502,Alan,Stacey,Egyesult Kiralysag,angol,1,1933-08-29,
+503,Ettore,Chimeri,Venezuela,spanyol,65,1921-06-04,
+504,Antonio,Creus,Spanyolorszag,spanyol,164,1924-10-28,
+505,Chris,Bristow,Egyesult Kiralysag,angol,1,1937-12-02,
+506,Bruce,Halford,Egyesult Kiralysag,angol,1,1931-05-18,
+507,Chuck,Daigh,Egyesult Allamok,angol,67,1923-11-29,
+508,Lance,Reventlow,Egyesult Allamok,angol,67,1936-02-24,
+509,Jim,Rathmann,Egyesult Allamok,angol,67,1928-07-16,
+510,Paul,Goldsmith,Egyesult Allamok,angol,67,1925-10-02,
+511,Don,Branson,Egyesult Allamok,angol,67,1920-06-02,
+512,Johnny,Thomson,Egyesult Allamok,angol,67,1922-04-09,
+513,Eddie,Johnson,Egyesult Allamok,angol,67,1919-02-10,
+514,Bob,Veith,Egyesult Allamok,angol,67,1926-11-01,
+515,Bud,Tingelstad,Egyesult Allamok,angol,67,1928-04-04,
+516,Bob,Christie,Egyesult Allamok,angol,67,1924-04-04,
+517,Red,Amick,Egyesult Allamok,angol,67,1929-01-19,
+518,Duane,Carter,Egyesult Allamok,angol,67,1913-05-05,
+519,Bill,Homeier,Egyesult Allamok,angol,67,1918-08-31,
+520,Gene,Hartley,Egyesult Allamok,angol,67,1926-01-28,
+521,Chuck,Stevenson,Egyesult Allamok,angol,67,1919-10-15,
+522,Bobby,Grim,Egyesult Allamok,angol,67,1924-09-04,
+523,Shorty,Templeman,Egyesult Allamok,angol,67,1919-08-12,
+524,Jim,Hurtubise,Egyesult Allamok,angol,67,1932-12-05,
+525,Jimmy,Bryan,Egyesult Allamok,angol,67,1926-01-28,
+526,Troy,Ruttman,Egyesult Allamok,angol,67,1930-03-11,
+527,Eddie,Sachs,Egyesult Allamok,angol,67,1927-05-28,
+528,Don,Freeland,Egyesult Allamok,angol,67,1925-03-25,
+529,Tony,Bettenhausen,Egyesult Allamok,angol,67,1916-09-12,
+530,Wayne,Weiler,Egyesult Allamok,angol,67,1934-12-09,
+531,Anthony,Foyt,Egyesult Allamok,angol,67,1935-01-16,
+532,Eddie,Russo,Egyesult Allamok,angol,67,1925-11-19,
+533,Johnny,Boyd,Egyesult Allamok,angol,67,1926-08-19,
+534,Gene,Force,Egyesult Allamok,angol,67,1916-06-15,
+535,Jim,McWithey,Egyesult Allamok,angol,67,1927-07-04,
+536,Len,Sutton,Egyesult Allamok,angol,67,1925-08-09,
+537,Dick,Rathmann,Egyesult Allamok,angol,67,1924-01-06,
+538,Al,Herman,Egyesult Allamok,angol,67,1927-03-15,
+539,Dempsey,Wilson,Egyesult Allamok,angol,67,1927-03-11,
+540,Mike,Taylor,Egyesult Kiralysag,angol,1,1934-04-24,
+541,Ron,Flockhart,Egyesult Kiralysag,angol,1,1923-06-16,
+542,David,Piper,Egyesult Kiralysag,angol,1,1930-12-02,
+543,Giulio,Cabianca,Olaszorszag,olasz,5,1923-02-19,
+544,Piero,Drogo,Olaszorszag,olasz,5,1926-08-08,
+545,Fred,Gamble,Egyesult Allamok,angol,67,1932-03-17,
+546,Arthur,Owen,Egyesult Kiralysag,angol,1,1915-03-23,
+547,Horace,Gould,Egyesult Kiralysag,angol,1,1918-09-20,
+548,Bob,Drake,Egyesult Allamok,angol,67,1919-12-14,
+549,Ivor,Bueb,Egyesult Kiralysag,angol,1,1923-06-06,
+550,Alain,de Changy,Belgium,flamand,100,1922-02-05,
+551,Maria,de Filippis,Olaszorszag,olasz,5,1926-11-11,
+552,Jean,Lucienbonnet,Franciaorszag,francia,4,1923-01-07,
+553,André,Testut,Monaco,francia,86,1926-04-13,
+554,Jean,Behra,Franciaorszag,francia,4,1921-02-16,
+555,Paul,Russo,Egyesult Allamok,angol,67,1914-04-10,
+556,Jimmy,Daywalt,Egyesult Allamok,angol,67,1924-08-28,
+557,Chuck,Arnold,Egyesult Allamok,angol,67,1926-05-30,
+558,Al,Keller,Egyesult Allamok,angol,67,1920-04-11,
+559,Pat,Flaherty,Egyesult Allamok,angol,67,1926-01-06,
+560,Bill,Cheesbourg,Egyesult Allamok,angol,67,1927-06-12,
+561,Ray,Crawford,Egyesult Allamok,angol,67,1915-10-26,
+562,Jack,Turner,Egyesult Allamok,angol,67,1920-02-12,
+563,Chuck,Weyant,Egyesult Allamok,angol,67,1923-04-03,
+564,Jud,Larson,Egyesult Allamok,angol,67,1923-01-21,
+565,Mike,Magill,Egyesult Allamok,angol,67,1920-02-08,
+566,Carroll,Shelby,Egyesult Allamok,angol,67,1923-01-11,
+567,Fritz,d'Orey,Brazilia,portugal,56,1938-03-25,
+568,Azdrubal,Fontes,Uruguay,spanyol,163,1922-12-26,
+569,Peter,Ashdown,Egyesult Kiralysag,angol,1,1934-10-16,
+570,Bill,Moss,Egyesult Kiralysag,angol,1,1933-09-04,
+571,Dennis,Taylor,Egyesult Kiralysag,angol,1,1921-06-12,
+572,Harry,Blanchard,Egyesult Allamok,angol,67,1929-06-13,
+573,Alessandro,de Tomaso,Argentina,spanyol,69,1928-07-10,
+574,George,Constantine,Egyesult Allamok,angol,67,1918-02-22,
+575,Bob,Said,Egyesult Allamok,angol,67,1932-05-05,
+576,Phil,Cade,Egyesult Allamok,angol,67,1916-06-12,
+577,Luigi,Musso,Olaszorszag,olasz,5,1924-07-28,
+578,Mike,Hawthorn,Egyesult Kiralysag,angol,1,1929-04-10,
+579,Juan,Fangio,Argentina,spanyol,59,1911-06-24,
+580,Paco,Godia,Spanyolorszag,spanyol,164,1921-03-21,
+581,Peter,Collins,Egyesult Kiralysag,angol,1,1931-11-06,
+582,Ken,Kavanagh,Ausztralia,angol,69,1923-12-12,
+583,Gerino,Gerini,Olaszorszag,olasz,5,1928-08-10,
+584,Bruce,Kessler,Egyesult Allamok,angol,67,1936-03-23,
+585,Paul,Emery,Egyesult Kiralysag,angol,1,1916-11-12,
+586,Luigi,Piotti,Olaszorszag,olasz,5,1913-10-27,
+587,Bernie,Ecclestone,Egyesult Kiralysag,angol,1,1930-10-28,
+588,Luigi,Taramazzo,Olaszorszag,olasz,5,1932-05-05,
+589,Louis,Chiron,Monaco,francia,206,1931-04-13,
+590,Stuart,Lewis-Evans,Egyesult Kiralysag,angol,1,1930-04-20,
+591,George,Amick,Egyesult Allamok,angol,67,1924-10-24,
+592,Jimmy,Reece,Egyesult Allamok,angol,67,1929-11-17,
+593,Johnnie,Parsons,Egyesult Allamok,angol,67,1918-07-04,
+594,Johnnie,Tolan,Egyesult Allamok,angol,67,1917-10-22,
+595,Billy,Garrett,Egyesult Allamok,angol,67,1933-04-24,
+596,Ed,Elisian,Egyesult Allamok,angol,67,1926-12-09,
+597,Pat,O'Connor,Egyesult Allamok,angol,67,1928-10-09,
+598,Jerry,Unser,Egyesult Allamok,angol,67,1932-11-15,
+599,Art,Bisch,Egyesult Allamok,angol,67,1926-11-10,
+600,Christian,Goethals,Belgium,flamand,100,1928-08-04,
+601,Dick,Gibson,Egyesult Kiralysag,angol,1,1918-04-16,
+602,Robert,La Caze,Franciaorszag,francia,4,1917-02-26,
+603,André,Guelfi,Franciaorszag,francia,4,1919-05-06,
+604,François,Picard,Franciaorszag,francia,4,1921-04-26,
+605,Tom,Bridger,Egyesult Kiralysag,angol,1,1934-06-24,
+606,Alfonso,de Portago,Spanyolorszag,spanyol,164,1928-10-11,
+607,Cesare,Perdisa,Olaszorszag,olasz,5,1932-10-21,
+608,Eugenio,Castellotti,Olaszorszag,olasz,5,1930-10-10,
+609,André,Simon,Franciaorszag,francia,4,1920-01-05,
+610,Les,Leston,Egyesult Kiralysag,angol,1,1920-12-16,
+611,Sam,Hanks,Egyesult Allamok,angol,67,1914-07-13,
+612,Andy,Linden,Egyesult Allamok,angol,67,1922-04-05,
+613,Marshall,Teague,Egyesult Allamok,angol,67,1921-02-22,
+614,Don,Edmunds,Egyesult Allamok,angol,67,1930-09-23,
+615,Fred,Agabashian,Egyesult Allamok,angol,67,1913-08-21,
+616,Elmer,George,Egyesult Allamok,angol,67,1928-07-15,
+617,Mike,MacDowel,Egyesult Kiralysag,angol,1,1932-09-13,
+618,Herbert,MacKay-Fraser,Egyesult Allamok,angol,67,1927-06-23,
+619,Bob,Gerard,Egyesult Kiralysag,angol,1,1914-01-19,
+620,Umberto,Maglioli,Olaszorszag,olasz,5,1928-06-05,
+621,Paul,England,Ausztralia,angol,69,1929-03-28,
+622,Chico,Landi,Brazilia,portugal,56,1907-07-14,
+623,Alberto,Uria,Uruguay,spanyol,183,1924-07-11,
+624,Hernando,da Silva Ramos,Brazilia,portugal,56,1925-12-07,
+625,Élie,Bayol,Franciaorszag,francia,4,1914-02-28,
+626,Robert,Manzon,Franciaorszag,francia,4,1917-04-12,
+627,Louis,Rosier,Franciaorszag,francia,4,1905-11-05,
+628,Bob,Sweikert,Egyesult Allamok,angol,67,1926-05-20,
+629,Cliff,Griffith,Egyesult Allamok,angol,67,1916-02-06,
+630,Duke,Dinsmore,Egyesult Allamok,angol,67,1913-04-10,
+631,Keith,Andrews,Egyesult Allamok,angol,67,1920-06-15,
+632,Paul,Frère,Belgium,flamand,100,1917-01-30,
+633,Luigi,Villoresi,Olaszorszag,olasz,5,1909-05-16,
+634,Piero,Scotti,Olaszorszag,olasz,5,1909-11-11,
+635,Colin,Chapman,Egyesult Kiralysag,angol,1,1928-05-19,
+636,Desmond,Titterington,Egyesult Kiralysag,angol,1,1928-05-01,
+637,Archie,Scott Brown,Egyesult Kiralysag,angol,1,1927-05-13,
+638,Ottorino,Volonterio,Svajc,nemet,15,1917-12-07,
+639,André,Milhoux,Belgium,flamand,100,1928-12-09,
+640,Toulo,de Graffenried,Svajc,nemet,15,1914-05-18,
+641,Piero,Taruffi,Olaszorszag,olasz,5,1906-10-12,
+642,Nino,Farina,Olaszorszag,olasz,5,1906-10-30,
+643,Roberto,Mieres,Argentina,spanyol,205,1924-12-03,
+644,Sergio,Mantovani,Olaszorszag,olasz,5,1929-05-22,
+645,Clemar,Bucci,Argentina,spanyol,42,1920-09-04,
+646,Jesús,Iglesias,Argentina,spanyol,186,1922-02-22,
+647,Alberto,Ascari,Olaszorszag,olasz,5,1918-07-13,
+648,Karl,Kling,Nemetorszag,nemet,2,1910-09-16,
+649,Pablo,Birger,Argentina,spanyol,168,1924-01-07,
+650,Jacques,Pollet,Franciaorszag,francia,4,1922-07-02,
+651,Lance,Macklin,Egyesult Kiralysag,angol,1,1919-09-02,
+652,Ted,Whiteaway,Egyesult Kiralysag,angol,1,1928-11-01,
+653,Jimmy,Davies,Egyesult Allamok,angol,67,1929-08-08,
+654,Walt,Faulkner,Egyesult Allamok,angol,67,1920-02-16,
+655,Cal,Niday,Egyesult Allamok,angol,67,1914-04-29,
+656,Art,Cross,Egyesult Allamok,angol,67,1918-01-24,
+657,Bill,Vukovich,Egyesult Allamok,angol,67,1918-12-13,
+658,Jack,McGrath,Egyesult Allamok,angol,67,1919-10-08,
+659,Jerry,Hoyt,Egyesult Allamok,angol,67,1929-01-29,
+660,Johnny,Claes,Belgium,flamand,100,1916-08-11,
+661,Peter,Walker,Egyesult Kiralysag,angol,1,1912-10-07,
+662,Mike,Sparken,Franciaorszag,francia,4,1930-06-16,
+663,Ken,Wharton,Egyesult Kiralysag,angol,1,1916-03-21,
+664,Kenneth,McAlpine,Egyesult Kiralysag,angol,1,1920-09-21,
+665,Leslie,Marr,Egyesult Kiralysag,angol,1,1922-08-14,
+666,Tony,Rolt,Egyesult Kiralysag,angol,1,1918-10-16,
+667,John,Fitch,Egyesult Allamok,angol,67,1917-08-04,
+668,Jean,Lucas,Franciaorszag,francia,4,1917-04-25,
+669,Prince,Bira,Thaifold,thai,194,1914-07-15,
+670,Onofre,Marimón,Argentina,spanyol,155,1923-12-19,
+671,Roger,Loyer,Franciaorszag,francia,4,1907-08-05,
+672,Jorge,Daponte,Argentina,spanyol,30,1923-06-05,
+673,Mike,Nazaruk,Egyesult Allamok,angol,67,1921-10-02,
+674,Larry,Crockett,Egyesult Allamok,angol,67,1926-10-23,
+675,Manny,Ayulo,Egyesult Allamok,angol,67,1921-10-20,
+676,Frank,Armi,Egyesult Allamok,angol,67,1918-10-12,
+677,Travis,Webb,Egyesult Allamok,angol,67,1910-10-08,
+678,Len,Duncan,Egyesult Allamok,angol,67,1911-07-25,
+679,Ernie,McCoy,Egyesult Allamok,angol,67,1921-02-19,
+680,Jacques,Swaters,Egyesult Allamok,angol,67,1926-10-30,
+681,Georges,Berger,Belgium,flamand,100,1918-09-14,
+682,Don,Beauman,Egyesult Kiralysag,angol,1,1928-07-26,
+683,Leslie,Thorne,Egyesult Kiralysag,angol,1,1916-06-23,
+684,Bill,Whitehouse,Egyesult Kiralysag,angol,1,1909-04-01,
+685,John,Riseley-Prichard,Egyesult Kiralysag,angol,1,1924-01-17,
+686,Reg,Parnell,Egyesult Kiralysag,angol,1,1911-07-02,
+687,Peter,Whitehead,Egyesult Kiralysag,angol,1,1914-11-12,
+688,Eric,Brandon,Egyesult Kiralysag,angol,1,1920-07-18,
+689,Alan,Brown,Egyesult Kiralysag,angol,1,1919-11-20,
+690,Rodney,Nuckey,Egyesult Kiralysag,angol,1,1929-06-26,
+691,Hermann,Lang,Nemetorszag,nemet,2,1909-04-06,
+692,Theo,Helfrich,Nemetorszag,nemet,2,1913-05-13,
+693,Fred,Wacker,Egyesult Allamok,angol,67,1918-07-10,
+694,Giovanni,de Riu,Olaszorszag,olasz,5,1925-03-10,
+695,Oscar,Gálvez,Argentina,spanyol,3,1913-08-17,
+696,John,Barber,Egyesult Kiralysag,angol,1,1929-07-22,
+697,Felice,Bonetto,Olaszorszag,olasz,5,1903-06-09,
+698,Adolfo,Cruz,Argentina,spanyol,164,1923-06-28,
+699,Duke,Nalon,Egyesult Allamok,angol,67,1913-03-02,
+700,Carl,Scarborough,Egyesult Allamok,angol,67,1914-07-03,
+701,Bill,Holland,Egyesult Allamok,angol,67,1907-12-18,
+702,Bob,Scott,Egyesult Allamok,angol,67,1928-10-04,
+703,Arthur,Legat,Belgium,flamand,100,1898-11-01,
+704,Yves,Cabantous,Franciaorszag,francia,4,1904-10-08,
+705,Tony,Crook,Egyesult Kiralysag,angol,1,1920-02-16,
+706,Jimmy,Stewart,Egyesult Kiralysag,angol,1,1931-03-06,
+707,Ian,Stewart,Egyesult Kiralysag,angol,1,1929-07-15,
+708,Duncan,Hamilton,Egyesult Kiralysag,angol,1,1920-04-30,
+709,Ernst,Klodwig,Nemetorszag,nemet,2,1903-05-23,
+710,Rudolf,Krause,Nemetorszag,nemet,2,1907-03-30,
+711,Oswald,Karch,Nemetorszag,nemet,2,1917-03-06,
+712,Willi,Heeks,Nemetorszag,nemet,2,1922-02-13,
+713,Theo,Fitzau,Nemetorszag,nemet,2,1923-02-10,
+714,Kurt,Adolff,Nemetorszag,nemet,2,1921-11-05,
+715,Günther,Bechem,Nemetorszag,nemet,2,1921-12-21,
+716,Erwin,Bauer,Nemetorszag,nemet,2,1912-07-17,
+717,Hans,von Stuck,Nemetorszag,nemet,2,1900-12-27,
+718,Ernst,Loof,Nemetorszag,nemet,2,1907-07-04,
+719,Albert,Scherrer,Svajc,nemet,15,1908-02-28,
+720,Max,de Terra,Svajc,nemet,15,1918-10-06,
+721,Peter,Hirt,Svajc,nemet,15,1910-03-30,
+722,Piero,Carini,Olaszorszag,olasz,5,1921-03-06,
+723,Rudi,Fischer,Svajc,nemet,15,1912-04-19,
+724,Toni,Ulmen,Nemetorszag,nemet,2,1906-01-25,
+725,George,Abecassis,Egyesult Kiralysag,angol,1,1913-03-21,
+726,George,Connor,Egyesult Allamok,angol,67,1906-08-16,
+727,Jim,Rigsby,Egyesult Allamok,angol,67,1923-06-06,
+728,Joe,James,Egyesult Allamok,angol,67,1925-05-23,
+729,Bill,Schindler,Egyesult Allamok,angol,67,1909-03-06,
+730,George,Fonder,Egyesult Allamok,angol,67,1917-06-22,
+731,Henry,Banks,Egyesult Allamok,angol,67,1913-06-14,
+732,Johnny,McDowell,Egyesult Allamok,angol,67,1915-01-29,
+733,Chet,Miller,Egyesult Allamok,angol,67,1902-07-19,
+734,Bobby,Ball,Egyesult Allamok,angol,67,1925-08-26,
+735,Charles,de Tornaco,Belgium,flamand,100,1927-06-07,
+736,Roger,Laurent,Belgium,flamand,100,1913-02-21,
+737,Robert,O'Brien,Egyesult Allamok,angol,67,1908-04-11,
+738,Tony,Gaze,Ausztralia,angol,69,1920-02-03,
+739,Robin,Montgomerie-Charrington,Egyesult Kiralysag,angol,1,1915-06-23,
+740,Franco,Comotti,Olaszorszag,olasz,5,1906-07-24,
+741,Philippe,Étancelin,Franciaorszag,francia,4,1896-12-28,
+742,Dennis,Poore,Egyesult Kiralysag,angol,1,1916-08-19,
+743,Eric,Thompson,Egyesult Kiralysag,angol,1,1919-11-04,
+744,Ken,Downing,Egyesult Kiralysag,angol,1,1917-12-05,
+745,Graham,Whitehead,Egyesult Kiralysag,angol,1,1922-04-15,
+746,Gino,Bianco,Brazilia,portugal,56,1916-07-22,
+747,David,Murray,Egyesult Kiralysag,angol,1,1909-12-28,
+748,Eitel,Cantoni,Uruguay,spanyol,60,1906-10-04,
+749,Bill,Aston,Egyesult Kiralysag,angol,1,1900-03-29,
+750,Adolf,Brudes,Nemetorszag,nemet,2,1899-10-15,
+751,Fritz,Riess,Nemetorszag,nemet,2,1922-07-11,
+752,Helmut,Niedermayr,Nemetorszag,nemet,2,1915-11-29,
+753,Hans,Klenk,Nemetorszag,nemet,2,1919-10-28,
+754,Marcel,Balsa,Franciaorszag,francia,4,1909-01-01,
+755,Rudolf,Schoeller,Svajc,nemet,15,1902-04-27,
+756,Paul,Pietsch,Nemetorszag,nemet,2,1911-06-20,
+757,Josef,Peters,Nemetorszag,nemet,2,1914-09-16,
+758,Dries,van der Lof,Hollandia,holland,12,1919-08-23,
+759,Jan,Flinterman,Hollandia,holland,12,1919-10-02,
+760,Piero,Dusio,Olaszorszag,olasz,5,1899-10-13,
+761,Alberto,Crespo,Argentina,spanyol,117,1920-01-16,
+762,Franco,Rol,Olaszorszag,olasz,5,1908-06-05,
+763,Consalvo,Sanesi,Olaszorszag,olasz,5,1911-03-28,
+764,Guy,Mairesse,Franciaorszag,francia,4,1910-08-10,
+765,Henri,Louveau,Franciaorszag,francia,4,1910-01-25,
+766,Lee,Wallard,Egyesult Allamok,angol,67,1910-09-07,
+767,Carl,Forberg,Egyesult Allamok,angol,67,1911-03-04,
+768,Mauri,Rose,Egyesult Allamok,angol,67,1906-05-26,
+769,Bill,Mackey,Egyesult Allamok,angol,67,1927-12-15,
+770,Cecil,Green,Egyesult Allamok,angol,67,1919-09-30,
+771,Walt,Brown,Egyesult Allamok,angol,67,1911-12-30,
+772,Mack,Hellings,Egyesult Allamok,angol,67,1915-09-14,
+773,Pierre,Levegh,Franciaorszag,francia,4,1905-12-22,
+774,Eugène,Chaboud,Franciaorszag,francia,4,1907-04-12,
+775,Aldo,Gordini,Franciaorszag,francia,4,1921-05-20,
+776,Joe,Kelly,Irorszag,angol,17,1913-03-13,
+777,Philip,Fotheringham-Parker,Egyesult Kiralysag,angol,1,1907-09-22,
+778,Brian,Shawe Taylor,Egyesult Kiralysag,angol,1,1915-01-28,
+779,John,James,Egyesult Kiralysag,angol,1,1914-05-10,
+780,Toni,Branca,Svajc,nemet,15,1916-09-15,
+781,Ken,Richardson,Egyesult Kiralysag,angol,1,1911-08-21,
+782,Juan,Jover,Spanyolorszag,spanyol,164,1903-11-23,
+783,Georges,Grignard,Franciaorszag,francia,4,1905-07-25,
+784,David,Hampshire,Egyesult Kiralysag,angol,1,1917-12-29,
+785,Geoff,Crossley,Egyesult Kiralysag,angol,1,1921-05-11,
+786,Luigi,Fagioli,Olaszorszag,olasz,5,1898-06-09,
+787,Cuth,Harrison,Egyesult Kiralysag,angol,1,1906-07-06,
+788,Joe,Fry,Egyesult Kiralysag,angol,1,1915-10-26,
+789,Eugène,Martin,Franciaorszag,francia,4,1915-03-24,
+790,Leslie,Johnson,Egyesult Kiralysag,angol,1,1912-03-22,
+791,Clemente,Biondetti,Olaszorszag,olasz,5,1898-08-18,
+792,Alfredo,Pián,Argentina,spanyol,8,1912-10-21,
+793,Raymond,Sommer,Franciaorszag,francia,4,1906-08-31,
+794,Joie,Chitwood,Egyesult Allamok,angol,67,1912-04-14,
+795,Myron,Fohr,Egyesult Allamok,angol,67,1912-06-17,
+796,Walt,Ader,Egyesult Allamok,angol,67,1913-12-15,
+797,Jackie,Holmes,Egyesult Allamok,angol,67,1920-09-04,
+798,Bayliss,Levrett,Egyesult Allamok,angol,67,1914-02-14,
+799,Jimmy,Jackson,Egyesult Allamok,angol,67,1910-07-25,
+800,Nello,Pagani,Olaszorszag,olasz,5,1911-10-11,
+801,Charles,Pozzi,Franciaorszag,francia,4,1909-08-27,
+802,Dorino,Serafini,Olaszorszag,olasz,5,1909-07-22,
+803,Bill,Cantrell,Egyesult Allamok,angol,67,1908-01-31,
+804,Johnny,Mantz,Egyesult Allamok,angol,67,1918-09-18,
+805,Danny,Kladis,Egyesult Allamok,angol,67,1917-02-10,
+806,Óscar,González,Uruguay,spanyol,129,1923-11-10,
 807,Nico,Hülkenberg,Nemetorszag,nemet,2,1987-08-19,HUL
 808,Vitaly,Petrov,Oroszorszag,orosz,13,1984-09-08,PET
 810,Lucas,di Grassi,Brazilia,portugal,56,1984-08-11,DIG

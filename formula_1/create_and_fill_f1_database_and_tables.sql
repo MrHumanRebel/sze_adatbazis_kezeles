@@ -280,7 +280,7 @@ PRINT 'Successfully converted helyezesek.verseny_ido...'
 GO
 SELECT CONVERT(time(7),futamok.ido, 114)
 FROM futamok
-WHERE futamok.ido !='\N'
+WHERE futamok.ido !=''
 PRINT 'Successfully converted futamok.ido...'
 GO
 */
