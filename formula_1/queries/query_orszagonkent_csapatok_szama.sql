@@ -1,6 +1,6 @@
 /*Országonként hány csapat indul az F1-en?*/
 USE Formula_1
-SELECT DISTINCT COUNT(nev) AS 'Csapatok szama: ', orszag AS 'Orszag neve: '
+SELECT orszag AS 'Orszag neve: ', COUNT(DISTINCT nev) AS 'Csapatok szama: '
 FROM konstruktorok
 GROUP BY orszag
-ORDER BY 1 DESC
+ORDER BY 2 DESC
