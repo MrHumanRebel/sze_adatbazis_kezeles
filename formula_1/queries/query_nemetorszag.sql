@@ -1,5 +1,5 @@
 /*Listázza ki a Németországból származó versenyzőket!*/
 USE Formula_1
-SELECT vezeteknev + ' ' + keresztnev AS 'Nev'
+SELECT keresztnev + ' ' + vezeteknev AS 'Nev'
 FROM versenyzok
 WHERE orszag = 'Nemetorszag'
