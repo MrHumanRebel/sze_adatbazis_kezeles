@@ -5,7 +5,7 @@ ALTER SERVER ROLE [sysadmin] ADD MEMBER [G14\Daniel]
 /*------------------------------------------------------------------------*/
 GO
 IF EXISTS (
-	SELECT  name
+	SELECT name
 		FROM sys.databases
 		WHERE name = N'FolyirNyilv'
 )
