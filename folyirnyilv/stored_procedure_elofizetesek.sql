@@ -1,6 +1,8 @@
 USE FolyirNyilv
 GO
 /*------------------------------------------------------------------------*/
+ALTER SERVER ROLE [sysadmin] ADD MEMBER [G14\Daniel]
+/*------------------------------------------------------------------------*/
 IF EXISTS (SELECT *
 				FROM sys.objects
 				WHERE object_id = OBJECT_ID(N'elofizeto')
