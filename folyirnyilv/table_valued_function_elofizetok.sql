@@ -21,3 +21,4 @@ RETURN
     WHERE ETELEP = @Telep
 );
 GO
+SELECT * FROM elofizetok('Kiskunhalas')
