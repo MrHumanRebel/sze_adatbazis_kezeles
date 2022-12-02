@@ -36,3 +36,15 @@ CREATE TABLE dbo.sample_table(
 	ALTER TABLE sample_table ADD CONSTRAINT FK2_name FOREIGN KEY (current_table_place) REFERENCES other_table_2(reference_table_place);
 PRINT 'Successfully created table sample_table...'
 GO
+
+/*
+CONSTRAINT Only_Alphabets CHECK (sample NOT LIKE '%[^A-Z ]%')
+CONSTRAINT Only_Neptun CHECK (sample LIKE '[A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9]')
+CONSTRAINT Only_1_to_5  CHECK (sample BETWEEN 1 AND 5)
+CONSTRAINT Only_1_to_5  CHECK (sample  >= 1 AND sample <= 5)
+CONSTRAINT Only_in_list CHECK (sample IN 'sample1','sample2','sample3','sample4''))
+CONSTRAINT Only_HU_Postal_Code  CHECK (sample LIKE '[1-9][0-9][0-9][0-9]')
+CONSTRAINT Only_HU_Postal_Code_V2  CHECK (sample LIKE '[1-9][0-9][0-9][0-9]' AND CAST(sample AS smallint) >= 1011)
+CONSTRAINT Only_Given_Chars  CHECK (sample LIKE '[fvs]')
+CONSTRAINT Only_18_years CHECK(DATEDIFF(yy,sample,GETDATE()) >= 18 )
+*/
