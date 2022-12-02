@@ -71,3 +71,66 @@ CREATE TABLE dbo.GYARTOK(
     CONSTRAINT PK_Gyarto PRIMARY KEY (GYARTO_ID ASC)
 	)
 GO
+USE FiktivRakt
+GO
+/*------------------------------------------------------------------------*/
+INSERT INTO UGYFELEK (NEV ,TELEFONSZAM, IRSZAM, TELEPULES, UTCA, HAZSZAM)
+VALUES ('Kis Lajos', '+36201233210', '9500', 'NagyPest', 'Macska utca', '600');
+GO
+INSERT INTO UGYFELEK (NEV ,TELEFONSZAM, IRSZAM, TELEPULES, UTCA, HAZSZAM)
+VALUES ('Nagy Alajos', '+36301233210', '9600', 'KisPest', 'Kutya utca', '800');
+GO
+INSERT INTO UGYFELEK (NEV ,TELEFONSZAM, IRSZAM, TELEPULES, UTCA, HAZSZAM)
+VALUES ('Közepes Blajos', '+36801233210', '9700', 'KözepesPest', 'Nincs utca', '900');
+GO
+/*------------------------------------------------------------------------*/
+INSERT INTO TERMEKEK (NEV, GYARTO_ID, KESZLET, KORNYEZETBARAT, KATEGORIA_ID)
+VALUES ('iPhone 8542GMCSPROMAXUBERKIRLAYPRO', '543', '1', '1', '1');
+GO
+INSERT INTO TERMEKEK (NEV, GYARTO_ID, KESZLET, KORNYEZETBARAT, KATEGORIA_ID)
+VALUES ('iPad PROMAXMINIPROKISNAGY23456', '541', '1', '1', '2');
+GO
+INSERT INTO TERMEKEK (NEV, GYARTO_ID, KESZLET, KORNYEZETBARAT, KATEGORIA_ID)
+VALUES ('iMac PROMAXMINIM2ULTRAMINIPRO', '540', '1', '1', '3');
+GO
+/*------------------------------------------------------------------------*/
+INSERT INTO UGYINTEZO (NEV, CIM, TELEFONSZAM)
+VALUES ('Picike Adél', 'Debrecen, Görény utca 1', '+36991233210');
+GO
+INSERT INTO UGYINTEZO (NEV, CIM, TELEFONSZAM)
+VALUES ('Óriás Ilona', 'Bugyi, Lábszár utca 2', '+36881233210');
+GO
+INSERT INTO UGYINTEZO (NEV, CIM, TELEFONSZAM)
+VALUES ('Közepes Marona', 'Szexárd, Kisegér körút 60', '+36771233210');
+GO
+/*------------------------------------------------------------------------*/
+INSERT INTO MEGRENDELESEK (MEGRENDELES_ID, MEGRENDELES_DATUMA, TERMEK_ID, MENNYISEG, FIZETVE, UGYFEL_ID, UGYINTEZO_ID)
+VALUES ('1','2022-01-01','1','600','1','1','1');
+GO
+INSERT INTO MEGRENDELESEK (MEGRENDELES_ID, MEGRENDELES_DATUMA, TERMEK_ID, MENNYISEG, FIZETVE, UGYFEL_ID, UGYINTEZO_ID)
+VALUES ('2','2021-01-01','2','500','1','2','2');
+GO
+INSERT INTO MEGRENDELESEK (MEGRENDELES_ID, MEGRENDELES_DATUMA, TERMEK_ID, MENNYISEG, FIZETVE, UGYFEL_ID, UGYINTEZO_ID)
+VALUES ('3','2020-01-01','3','400','1','3','3');
+GO
+/*------------------------------------------------------------------------*/
+INSERT INTO KATEGORIAK (KATEGORIA_ID, KATEGORIA_NEV)
+VALUES ('1','Telefonok');
+GO
+INSERT INTO KATEGORIAK (KATEGORIA_ID, KATEGORIA_NEV)
+VALUES ('2','Tabletek');
+GO
+INSERT INTO KATEGORIAK (KATEGORIA_ID, KATEGORIA_NEV)
+VALUES ('3','Gépek');
+GO
+/*------------------------------------------------------------------------*/
+INSERT INTO GYARTOK (GYARTO_ID, GYARTO_NEV, GYARTO_ORSZAG)
+VALUES ('1','Alma','Amerika');
+GO
+INSERT INTO GYARTOK (GYARTO_ID, GYARTO_NEV, GYARTO_ORSZAG)
+VALUES ('2','Apple','USA');
+GO
+INSERT INTO GYARTOK (GYARTO_ID, GYARTO_NEV, GYARTO_ORSZAG)
+VALUES ('3','Apple Inc.','United States of America');
+GO
+/*------------------------------------------------------------------------*/
