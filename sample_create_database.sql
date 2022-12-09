@@ -32,9 +32,11 @@ CREATE TABLE dbo.sample_table(
 	--Add Primary Key
 	CONSTRAINT PK_name PRIMARY KEY (current_table_place ASC)) --Warning! Double brackets!!!
     --Add Foreign Keys
-	ALTER TABLE sample_table ADD CONSTRAINT FK_name FOREIGN KEY (current_table_place) REFERENCES other_table(reference_table_place);
-	ALTER TABLE sample_table ADD CONSTRAINT FK2_name FOREIGN KEY (current_table_place) REFERENCES other_table_2(reference_table_place);
+	ALTER TABLE sample_table ADD CONSTRAINT FK_name FOREIGN KEY (current_table_place) REFERENCES other_table(reference_table_place)
+	ALTER TABLE sample_table ADD CONSTRAINT FK2_name FOREIGN KEY (current_table_place) REFERENCES other_table_2(reference_table_place)
 PRINT 'Successfully created table sample_table...'
+CREATE INDEX Idx_sample
+ON sample_table (orszag)
 GO
 
 /*
@@ -47,4 +49,5 @@ CONSTRAINT Only_HU_Postal_Code  CHECK (sample LIKE '[1-9][0-9][0-9][0-9]')
 CONSTRAINT Only_HU_Postal_Code_V2  CHECK (sample LIKE '[1-9][0-9][0-9][0-9]' AND CAST(sample AS smallint) >= 1011)
 CONSTRAINT Only_Given_Chars  CHECK (sample LIKE '[fvs]')
 CONSTRAINT Only_18_years CHECK(DATEDIFF(yy,sample,GETDATE()) >= 18 )
+CONSTRAINT Only_Quarter_Year CHECK(DATEADD(mm,3,EVDATUM) >= GETDATE() OR DATEADD(mm,6,EVDATUM) >= GETDATE() OR DATEADD(mm,12,EVDATUM) >= GETDATE())
 */
