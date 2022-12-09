@@ -1,7 +1,7 @@
 USE master 
 GO
 
-/*------------------------------------------------------------------------------------------------------------------------------------*/
+/**/
 
 IF  EXISTS (
 	SELECT name 
@@ -20,7 +20,7 @@ GO
 USE Sample_Database
 GO
 
--- Create Table
+ Create Table
 CREATE TABLE dbo.sample_table(
 	id char(4) NOT NULL,
 	nev nvarchar(50) NOT NULL CONSTRAINT Params CHECK(nev IN ('szaraz','esos','viharos','kodos','napos','paras')),
@@ -29,9 +29,9 @@ CREATE TABLE dbo.sample_table(
 	ido time(7),
     teljesitmeny char(4) NOT NULL CONSTRAINT Params_Telj CHECK (teljesitmeny >= 100 AND teljesitmeny <= 800),
         
-	--Add Primary Key
-	CONSTRAINT PK_name PRIMARY KEY (current_table_place ASC)) --Warning! Double brackets!!!
-    --Add Foreign Keys
+	Add Primary Key
+	CONSTRAINT PK_name PRIMARY KEY (current_table_place ASC)) Warning! Double brackets!!!
+    Add Foreign Keys
 	ALTER TABLE sample_table ADD CONSTRAINT FK_name FOREIGN KEY (current_table_place) REFERENCES other_table(reference_table_place)
 	ALTER TABLE sample_table ADD CONSTRAINT FK2_name FOREIGN KEY (current_table_place) REFERENCES other_table_2(reference_table_place)
 PRINT 'Successfully created table sample_table...'
@@ -42,11 +42,13 @@ GO
 /*
 CONSTRAINT Only_Alphabets CHECK (sample NOT LIKE '%[^A-Z ]%')
 CONSTRAINT Only_Neptun CHECK (sample LIKE '[A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9]')
+CONSTRAINT Only_TelNum CHECK (sample like '[+][3][6][237][0][0-9][0-9][0-9][0-9][0-9][0-9][0-9]')
+CONSTRAINT Only_SubjectNum CHECK (sample like '[A-Z][A-Z][0-9][0-9][0-9]')
 CONSTRAINT Only_1_to_5  CHECK (sample BETWEEN 1 AND 5)
 CONSTRAINT Only_1_to_5  CHECK (sample  >= 1 AND sample <= 5)
 CONSTRAINT Only_in_list CHECK (sample IN 'sample1','sample2','sample3','sample4''))
-CONSTRAINT Only_HU_Postal_Code  CHECK (sample LIKE '[1-9][0-9][0-9][0-9]')
-CONSTRAINT Only_HU_Postal_Code_V2  CHECK (sample LIKE '[1-9][0-9][0-9][0-9]' AND CAST(sample AS smallint) >= 1011)
+CONSTRAINT Only_HU_Postal_Code  CHECK (sample LIKE '[1-9][0-9][0-9][0-9]' AND CAST(sample AS smallint) >= 1011 AND CAST(sample AS smallint) <= 9985)
+CONSTRAINT Only_Webpage CHECK(sample LIKE '[www.][a-z0-9-][.][a-z]')
 CONSTRAINT Only_Given_Chars  CHECK (sample LIKE '[fvs]')
 CONSTRAINT Only_18_years CHECK(DATEDIFF(yy,sample,GETDATE()) >= 18 )
 CONSTRAINT Only_Quarter_Year CHECK(DATEADD(mm,3,EVDATUM) >= GETDATE() OR DATEADD(mm,6,EVDATUM) >= GETDATE() OR DATEADD(mm,12,EVDATUM) >= GETDATE())
