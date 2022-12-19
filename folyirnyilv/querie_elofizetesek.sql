@@ -7,4 +7,4 @@ FROM ETORZS INNER JOIN FTORZS INNER JOIN ELOFIZ
 ON EKOD = ELOFIZ.EKOD 
 ON FTORZS.FAZON = ELOFIZ.FAZON
 /*------------------------------------------------------------------------*/
-GO
+GO 
