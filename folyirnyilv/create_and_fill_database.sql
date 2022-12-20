@@ -72,11 +72,11 @@ VALUES ('Nagyatádi István', '1959-09-01', '9170', 'Középkunhalas', 'Óriás 
 GO
 /*------------------------------------------------------------------------*/
 INSERT INTO ELOFIZ (EKOD, EVDATUM, FAZON, EFIZDB)
-VALUES ('10', '2022-12-01', '1', '10')
+VALUES ('11', '2022-12-01', '1', '10')
 GO
 INSERT INTO ELOFIZ (EKOD, EVDATUM, FAZON, EFIZDB)
-VALUES ('20', '2024-12-01', '2', '20')
+VALUES ('21', '2024-12-01', '2', '20')
 GO
 INSERT INTO ELOFIZ (EKOD, EVDATUM, FAZON, EFIZDB)
-VALUES ('30', '2032-12-01', '3', '600')
+VALUES ('31', '2032-12-01', '3', '600')
 GO
