@@ -6,7 +6,6 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/MrHumanRebel/sze_adatbazis_kezeles)
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/MrHumanRebel/sze_adatbazis_kezeles)
-![Lines of code](https://img.shields.io/tokei/lines/github/MrHumanRebel/sze_adatbazis_kezeles)
 ![GitHub](https://img.shields.io/github/license/MrHumanRebel/sze_adatbazis_kezeles)
 
 ![GitHub all releases](https://img.shields.io/github/downloads/MrHumanRebel/sze_adatbazis_kezeles/total)
